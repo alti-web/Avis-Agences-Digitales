@@ -4,8 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://alti-web.github.io',
-  base: '/Avis-Agences-Digitales',
+  site: 'https://avis-agences-digitales.vercel.app',
   trailingSlash: 'never',
   integrations: [sitemap()],
   vite: {
