@@ -1,0 +1,69 @@
+{
+  "nom": "Agence Girondine",
+  "slug": "agence-girondine",
+  "ville": "Bordeaux",
+  "siteWeb": "https://www.agence-girondine.fr",
+  "specialites": ["SEO", "Content marketing"],
+  "description": "L'Agence Girondine est une agence de marketing digital fondée en 2017, installée dans le quartier des Chartrons à Bordeaux. Spécialisée en référencement naturel et en content marketing, elle accompagne les entreprises de toutes tailles dans l'amélioration de leur visibilité en ligne. L'équipe, composée de consultants SEO certifiés, de rédacteurs web spécialisés et de stratèges de contenu, met son expertise au service de secteurs variés : vins et spiritueux, tourisme, immobilier, santé et services aux entreprises.\n\nLa philosophie de l'Agence Girondine repose sur une approche data-driven du référencement naturel. Chaque stratégie SEO est élaborée à partir d'une analyse approfondie du marché, de la concurrence et des intentions de recherche des utilisateurs. L'agence utilise des outils reconnus tels que Semrush, Ahrefs et Google Search Console pour construire des plans d'action sur mesure. Le content marketing occupe une place centrale dans leur offre : création de blogs d'entreprise, rédaction d'articles optimisés, conception de livres blancs et mise en place de stratégies éditoriales complètes.\n\nL'Agence Girondine se distingue par sa transparence et son engagement sur les résultats. Chaque client bénéficie de reportings mensuels détaillés présentant l'évolution des positions, du trafic organique et des conversions. L'agence propose également des formations SEO destinées aux équipes internes de ses clients, afin de leur permettre de gagner en autonomie sur les bonnes pratiques du référencement.\n\nParmi les succès notables de l'agence, on peut citer le positionnement en première page Google de plusieurs domaines viticoles bordelais sur des requêtes très concurrentielles, ainsi que le triplement du trafic organique d'un réseau d'agences immobilières en moins d'un an. L'Agence Girondine est membre du réseau SEO Camp et participe activement aux événements de la communauté SEO française. Son ancrage local et sa connaissance fine du tissu économique bordelais en font un partenaire de choix pour les entreprises de Nouvelle-Aquitaine.",
+  "noteGlobale": 4.1,
+  "avis": [
+    {
+      "auteur": "Thomas Beaumont",
+      "date": "2025-10-20",
+      "note": 5,
+      "texte": "L'Agence Girondine a transformé notre stratégie de contenu. En six mois, notre blog génère désormais plus de 15 000 visites organiques mensuelles contre 2 000 auparavant. Les articles sont bien écrits, pertinents et parfaitement optimisés. Le reporting mensuel est clair et permet de suivre les progrès en toute transparence. Une collaboration que je recommande vivement."
+    },
+    {
+      "auteur": "Nathalie Pujol",
+      "date": "2025-08-05",
+      "note": 4,
+      "texte": "Nous avons fait appel à l'Agence Girondine pour améliorer le référencement de notre site de chambres d'hôtes. Les résultats sont encourageants avec une progression constante de nos positions sur les mots-clés ciblés. L'équipe est à l'écoute et pédagogue. Le seul point négatif est que les premiers résultats ont mis un peu plus de temps que prévu à arriver."
+    },
+    {
+      "auteur": "Philippe Dassault",
+      "date": "2025-05-17",
+      "note": 3,
+      "texte": "Prestation correcte mais sans plus. Le travail de rédaction est de bonne qualité, cependant nous aurions aimé plus de proactivité dans les propositions de sujets. Le suivi est régulier mais parfois un peu formaté. Les résultats SEO sont là, mais la progression est lente. À voir sur le long terme."
+    },
+    {
+      "auteur": "Caroline Mercier",
+      "date": "2025-03-10",
+      "note": 4,
+      "texte": "Bonne agence SEO à Bordeaux. Nous travaillons avec eux depuis un an pour le référencement de notre site e-commerce de produits régionaux. Les optimisations techniques ont été bien menées et notre trafic a progressé de 40 %. L'équipe est compétente et les échanges sont agréables. Bon rapport qualité-prix."
+    },
+    {
+      "auteur": "Laurent Vigier",
+      "date": "2024-12-02",
+      "note": 5,
+      "texte": "Excellente agence pour le content marketing. L'Agence Girondine a mis en place une stratégie éditoriale complète pour notre domaine viticole. Les contenus sont de grande qualité, bien documentés et parfaitement adaptés à notre cible internationale. Nos pages se positionnent sur des requêtes très concurrentielles. Très satisfait de cette collaboration."
+    },
+    {
+      "auteur": "Émilie Forestier",
+      "date": "2024-09-18",
+      "note": 4,
+      "texte": "Nous avons sollicité l'Agence Girondine pour un audit SEO complet suivi d'un accompagnement mensuel. L'audit était très détaillé avec des recommandations claires et priorisées. La mise en oeuvre est bien suivie et les résultats progressent mois après mois. Équipe professionnelle et disponible."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels services SEO propose l'Agence Girondine ?",
+      "reponse": "L'Agence Girondine propose des audits SEO techniques et sémantiques, l'optimisation on-page et off-page, la recherche de mots-clés, le netlinking, le SEO local et le suivi de positionnement. L'agence intervient aussi bien sur des sites vitrines que sur des sites e-commerce."
+    },
+    {
+      "question": "En combien de temps peut-on voir les premiers résultats SEO ?",
+      "reponse": "Le référencement naturel est un travail de fond qui nécessite généralement 3 à 6 mois pour produire des résultats significatifs. Les premiers gains de positionnement peuvent apparaître dès le deuxième mois, mais une stratégie SEO performante se construit sur le moyen et long terme."
+    },
+    {
+      "question": "L'Agence Girondine propose-t-elle des formations SEO ?",
+      "reponse": "Oui, l'agence propose des formations SEO personnalisées destinées aux équipes marketing et communication de ses clients. Ces formations couvrent les fondamentaux du référencement naturel, la rédaction web optimisée, l'utilisation des outils d'analyse et les bonnes pratiques techniques."
+    },
+    {
+      "question": "Comment l'Agence Girondine mesure-t-elle les résultats de ses actions ?",
+      "reponse": "L'agence fournit des reportings mensuels détaillés incluant l'évolution des positions sur les mots-clés ciblés, le trafic organique, les taux de conversion et d'autres KPI pertinents. Les données proviennent d'outils professionnels comme Google Analytics, Search Console, Semrush et Ahrefs."
+    },
+    {
+      "question": "Quel budget faut-il prévoir pour une prestation SEO avec l'Agence Girondine ?",
+      "reponse": "Les tarifs varient en fonction de l'ampleur du projet et des objectifs fixés. Un audit SEO ponctuel est proposé à partir de 1 500 euros, tandis qu'un accompagnement mensuel démarre généralement autour de 800 euros par mois. Chaque devis est personnalisé après une analyse préalable des besoins."
+    }
+  ]
+}

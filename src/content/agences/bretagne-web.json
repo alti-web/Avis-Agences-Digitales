@@ -1,0 +1,69 @@
+{
+  "nom": "Bretagne Web",
+  "slug": "bretagne-web",
+  "ville": "Rennes",
+  "siteWeb": "https://www.bretagne-web.fr",
+  "specialites": ["SEO", "Développement web"],
+  "description": "Bretagne Web est une agence digitale rennaise fondee en 2013, specialisee dans le referencement naturel et le developpement web. Reconnue comme l'une des meilleures agences SEO de l'Ouest, Bretagne Web accompagne les entreprises bretonnes et nationales dans leur quete de visibilite en ligne. L'equipe de seize collaborateurs combine expertise technique et vision strategique pour delivrer des resultats mesurables et durables.\n\nLe referencement naturel est la specialite phare de Bretagne Web. L'agence a developpe au fil des annees une methodologie SEO eprouvee, fondee sur trois piliers : l'excellence technique, la qualite du contenu et la puissance du netlinking. L'audit SEO initial est particulierement approfondi, couvrant plus de 200 points de controle techniques, semantiques et concurrentiels. Cette analyse exhaustive permet de definir une feuille de route precise et priorisee pour chaque client.\n\nLa production de contenu SEO est un point fort de l'agence. Bretagne Web dispose d'une equipe editoriale interne composee de redacteurs web specialises dans differents secteurs d'activite. Les contenus produits sont a la fois optimises pour les moteurs de recherche et engageants pour les lecteurs, un equilibre essentiel pour un referencement performant et durable. L'agence produit chaque mois plusieurs dizaines d'articles, de pages piliers et de contenus optimises pour ses clients.\n\nEn developpement web, Bretagne Web se distingue par son approche SEO-first. Chaque site est concu des le depart pour offrir les meilleures conditions de referencement : architecture optimisee, temps de chargement reduit, balisage semantique soigne et compatibilite mobile exemplaire. L'agence travaille avec WordPress, Next.js et Symfony selon les besoins des projets, en privilegiant toujours la performance et la maintenabilite du code.\n\nBasee dans le quartier de la gare de Rennes, Bretagne Web beneficie d'un positionnement strategique au coeur de l'ecosysteme tech rennais en pleine expansion. L'agence est membre actif de la French Tech Rennes Saint-Malo et participe regulierement a des evenements de la communaute numerique bretonne. Cette implication contribue a sa notoriete et lui permet de rester a la pointe des tendances du secteur. Avec un taux de satisfaction client de 92% et plus de 250 projets realises, Bretagne Web confirme annee apres annee son statut d'agence de reference dans l'Ouest de la France.",
+  "noteGlobale": 4.5,
+  "avis": [
+    {
+      "auteur": "Guillaume Le Bras",
+      "date": "2025-12-08",
+      "note": 5,
+      "texte": "Bretagne Web est tout simplement la meilleure agence SEO avec laquelle nous avons travaille. En un an, notre trafic organique a ete multiplie par quatre et nous generons desormais 60% de nos leads via le referencement naturel. L'equipe est experte, methodique et transparente. Un investissement extremement rentable."
+    },
+    {
+      "auteur": "Sandrine Jegou",
+      "date": "2025-09-30",
+      "note": 5,
+      "texte": "Nous avons confie la creation de notre site et son referencement a Bretagne Web. Le resultat est remarquable : site rapide, bien concu et deja bien positionne sur Google deux mois apres sa mise en ligne. L'approche SEO-first fait vraiment la difference. Equipe professionnelle et tres agreable."
+    },
+    {
+      "auteur": "Pierre-Yves Corre",
+      "date": "2025-07-15",
+      "note": 4,
+      "texte": "Bonne agence pour le developpement web. Ils ont cree notre site corporate sur WordPress avec un soin particulier apporte au SEO technique. Le site est rapide et bien structure. Les contenus rediges par leur equipe editoriale sont de qualite. Je mets quatre etoiles car le budget etait un peu au-dessus du marche."
+    },
+    {
+      "auteur": "Morgane Kervaon",
+      "date": "2025-04-22",
+      "note": 5,
+      "texte": "Troisieme annee de collaboration avec Bretagne Web pour notre strategie SEO et les resultats ne cessent de progresser. Nous dominons desormais notre secteur sur les requetes les plus strategiques. Les rapports sont detailles et l'equipe toujours force de proposition. Une agence d'exception."
+    },
+    {
+      "auteur": "Yannick Guyader",
+      "date": "2025-02-10",
+      "note": 4,
+      "texte": "Bretagne Web a realise l'audit SEO de notre site et mis en place un plan de correction technique. Les ameliorations ont ete visibles rapidement avec une hausse des positions sur plusieurs mots-cles strategiques. L'equipe technique est solide et les recommandations sont toujours bien argumentees. Satisfait du resultat."
+    },
+    {
+      "auteur": "Elodie Maheo",
+      "date": "2024-11-25",
+      "note": 4,
+      "texte": "Nous avons fait appel a Bretagne Web pour la refonte de notre blog professionnel avec une strategie de contenu SEO. Les articles produits sont pertinents et bien optimises. Notre blog genere maintenant un trafic regulier et qualifie. L'equipe editoriale a bien compris notre secteur d'activite. Tres bonne prestation."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Qu'est-ce que l'approche SEO-first de Bretagne Web ?",
+      "reponse": "L'approche SEO-first signifie que le referencement naturel est pris en compte des la conception du site web, et non apres sa mise en ligne. L'architecture du site, le choix des technologies, la structure des URLs, le balisage et les performances sont optimises pour le SEO des le depart. Cette approche permet d'obtenir des resultats plus rapides et plus solides."
+    },
+    {
+      "question": "Bretagne Web produit-elle du contenu redactionnel ?",
+      "reponse": "Oui, l'agence dispose d'une equipe editoriale interne composee de redacteurs web specialises. Ils produisent des articles de blog, des pages piliers, des fiches produits et tout type de contenu optimise pour le SEO. Chaque contenu est valide par le client avant publication et repond a une strategie editoriale definie en amont."
+    },
+    {
+      "question": "En combien de temps peut-on voir des resultats en SEO ?",
+      "reponse": "Les premiers resultats significatifs apparaissent generalement entre 3 et 6 mois apres le debut de l'accompagnement, selon le niveau de concurrence du secteur. Les resultats continuent de progresser au fil des mois avec un effet cumule. Bretagne Web fournit des objectifs chiffres et un calendrier previsionnel des le debut de la mission."
+    },
+    {
+      "question": "Quelles technologies de developpement l'agence utilise-t-elle ?",
+      "reponse": "Bretagne Web travaille principalement avec WordPress pour les sites vitrine et blogs, Next.js pour les projets necessitant des performances avancees, et Symfony pour les applications web complexes. Le choix technologique est toujours guide par les besoins du projet et les objectifs SEO du client."
+    },
+    {
+      "question": "Bretagne Web intervient-elle en dehors de la Bretagne ?",
+      "reponse": "Oui, bien que basee a Rennes, l'agence travaille avec des clients dans toute la France. Environ 40% de sa clientele est situee hors Bretagne. Les outils de communication et de gestion de projet permettent un suivi a distance aussi efficace qu'en presentiel. Des reunions en visioconference sont organisees regulierement."
+    }
+  ]
+}

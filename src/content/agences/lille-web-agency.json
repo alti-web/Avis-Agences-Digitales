@@ -1,0 +1,69 @@
+{
+  "nom": "Lille Web Agency",
+  "slug": "lille-web-agency",
+  "ville": "Lille",
+  "siteWeb": "https://www.lille-web-agency.fr",
+  "specialites": ["Marketing digital", "Publicité en ligne", "SEO"],
+  "description": "Lille Web Agency est une agence de marketing digital fondée en 2018, située en plein centre de Lille, à proximité de la Grand Place. Spécialisée dans la publicité en ligne, le marketing digital et le référencement naturel, elle aide les entreprises à développer leur présence en ligne et à générer des leads qualifiés. L'agence se positionne comme un partenaire stratégique pour les entreprises souhaitant maximiser leur retour sur investissement publicitaire tout en construisant une visibilité organique durable.\n\nL'équipe de Lille Web Agency regroupe des experts en Google Ads, Meta Ads, LinkedIn Ads et en programmatique, ainsi que des consultants SEO et des analystes data. Cette pluridisciplinarité permet à l'agence de proposer des stratégies d'acquisition complètes, combinant leviers payants et organiques pour atteindre les objectifs commerciaux de ses clients. L'agence gère des budgets publicitaires allant de quelques centaines à plusieurs dizaines de milliers d'euros mensuels, avec une attention constante portée à l'optimisation des coûts d'acquisition.\n\nLille Web Agency a développé une expertise particulière dans les secteurs du B2B, de l'enseignement supérieur et du retail. L'agence a notamment accompagné plusieurs écoles de commerce dans leurs campagnes de recrutement digital, avec des résultats significatifs en termes de volume de candidatures et de coût par lead. Dans le secteur retail, l'agence conçoit des stratégies omnicanales intégrant le drive-to-store et le remarketing dynamique.\n\nLa transparence est au coeur des valeurs de l'agence. Chaque client dispose d'un accès complet à ses comptes publicitaires et reçoit des rapports hebdomadaires détaillés. Lille Web Agency propose également des ateliers de formation pour permettre à ses clients de mieux comprendre les mécaniques du marketing digital. Certifiée Google Partner et Meta Business Partner, l'agence fait partie des acteurs reconnus du marketing digital dans la région lilloise, même si elle est encore jeune par rapport à certains concurrents plus établis.",
+  "noteGlobale": 3.9,
+  "avis": [
+    {
+      "auteur": "Vincent Dhalluin",
+      "date": "2025-11-08",
+      "note": 4,
+      "texte": "Lille Web Agency gère nos campagnes Google Ads depuis un an. Les résultats sont satisfaisants avec un coût par acquisition qui a baissé de 25 %. L'équipe est réactive et les optimisations sont régulières. Le reporting hebdomadaire est un vrai plus pour suivre l'évolution des performances en temps réel. Bonne agence dans l'ensemble."
+    },
+    {
+      "auteur": "Amandine Caron",
+      "date": "2025-08-22",
+      "note": 3,
+      "texte": "Expérience mitigée avec Lille Web Agency. Les campagnes publicitaires ont bien fonctionné au départ, mais les performances se sont essoufflées au bout de quelques mois sans renouvellement significatif des créas. Le SEO progresse lentement. L'équipe est sympathique mais manque parfois de proactivité dans les recommandations stratégiques."
+    },
+    {
+      "auteur": "Guillaume Watteau",
+      "date": "2025-05-15",
+      "note": 5,
+      "texte": "Très bonne agence pour le marketing digital B2B. Lille Web Agency a mis en place nos campagnes LinkedIn Ads et le résultat est impressionnant : plus de 200 leads qualifiés en trois mois avec un coût par lead inférieur à nos objectifs. L'équipe comprend bien les enjeux du B2B et sait cibler les bons décideurs. Je recommande vivement pour les entreprises en B2B."
+    },
+    {
+      "auteur": "Marie-Charlotte Bonduel",
+      "date": "2025-02-10",
+      "note": 4,
+      "texte": "Nous avons travaillé avec Lille Web Agency pour une campagne de recrutement d'étudiants via Meta Ads. Les résultats étaient au rendez-vous avec un volume de candidatures en hausse de 45 %. L'agence a bien su adapter les messages publicitaires à notre cible jeune. Le suivi était professionnel même si les délais de réponse pouvaient parfois être longs."
+    },
+    {
+      "auteur": "Romain Delattre",
+      "date": "2024-10-30",
+      "note": 3,
+      "texte": "Prestation SEO correcte mais pas exceptionnelle. L'audit initial était détaillé, mais la mise en oeuvre des recommandations a pris du temps. Après six mois, les résultats commencent à se voir mais restent modestes. L'agence semble plus à l'aise sur les campagnes payantes que sur le référencement naturel. À considérer principalement pour du SEA."
+    },
+    {
+      "auteur": "Céline Werquin",
+      "date": "2024-07-15",
+      "note": 4,
+      "texte": "Lille Web Agency nous accompagne sur une stratégie drive-to-store pour nos magasins dans le Nord. Les campagnes sont bien ciblées géographiquement et nous constatons une augmentation de la fréquentation en boutique. Le tableau de bord personnalisé est pratique pour suivre les résultats. Bon rapport qualité-prix pour une agence locale."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels canaux publicitaires Lille Web Agency gère-t-elle ?",
+      "reponse": "L'agence gère les campagnes sur l'ensemble des plateformes publicitaires majeures : Google Ads (Search, Display, Shopping, YouTube), Meta Ads (Facebook et Instagram), LinkedIn Ads, TikTok Ads et le programmatique. Le choix des canaux est adapté à la cible et aux objectifs de chaque client."
+    },
+    {
+      "question": "Quel budget minimum faut-il pour lancer des campagnes publicitaires ?",
+      "reponse": "Lille Web Agency recommande un budget publicitaire minimum de 1 000 euros par mois pour obtenir des résultats significatifs sur un canal. Les frais de gestion de l'agence sont calculés en pourcentage du budget média ou sous forme de forfait mensuel, selon la formule la plus avantageuse pour le client."
+    },
+    {
+      "question": "Lille Web Agency peut-elle gérer à la fois le SEO et le SEA ?",
+      "reponse": "Oui, l'agence propose des stratégies intégrées combinant référencement naturel et payant. Cette approche permet de maximiser la visibilité sur les moteurs de recherche tout en optimisant le budget global d'acquisition. Les équipes SEO et SEA travaillent en synergie pour éviter la cannibalisation entre les deux canaux."
+    },
+    {
+      "question": "Comment Lille Web Agency mesure-t-elle le retour sur investissement ?",
+      "reponse": "L'agence met en place un tracking avancé via Google Analytics, Google Tag Manager et les pixels de conversion des plateformes publicitaires. Chaque action est mesurée : formulaires remplis, appels téléphoniques, achats en ligne, visites en magasin. Des reportings hebdomadaires et mensuels permettent de suivre les KPI et le ROI en temps réel."
+    },
+    {
+      "question": "Lille Web Agency est-elle certifiée par Google et Meta ?",
+      "reponse": "Oui, Lille Web Agency est certifiée Google Partner et Meta Business Partner. Ces certifications attestent de la maîtrise des plateformes publicitaires par l'équipe, du respect des bonnes pratiques et de la capacité à gérer des budgets publicitaires conséquents avec des résultats conformes aux standards de performance exigés."
+    }
+  ]
+}

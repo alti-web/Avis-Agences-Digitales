@@ -1,0 +1,63 @@
+{
+  "nom": "Riviera Digital",
+  "slug": "riviera-digital",
+  "ville": "Nice",
+  "siteWeb": "https://www.riviera-digital.fr",
+  "specialites": ["Marketing digital", "Publicité en ligne"],
+  "description": "Riviera Digital est une agence de marketing digital basee a Nice, specialisee dans la publicite en ligne et les strategies d'acquisition payante. Creee en 2019 par deux anciens consultants Google, l'agence met son expertise des plateformes publicitaires au service des entreprises souhaitant accelerer leur croissance en ligne. Avec une equipe de huit personnes, Riviera Digital se positionne comme un partenaire agile et oriente resultats.\n\nL'expertise principale de l'agence reside dans la gestion de campagnes publicitaires sur Google Ads, Meta Ads (Facebook et Instagram), LinkedIn Ads et TikTok Ads. Les consultants de Riviera Digital sont certifies sur l'ensemble de ces plateformes et suivent en permanence les evolutions des algorithmes et des formats publicitaires. Chaque campagne est concue avec une approche data-driven, en s'appuyant sur des outils d'analyse avances pour optimiser les performances en temps reel.\n\nAu-dela de la gestion operationnelle des campagnes, Riviera Digital propose un accompagnement strategique complet. L'agence aide ses clients a definir leurs objectifs, identifier leurs audiences cibles, elaborer des messages percutants et mettre en place des tunnels de conversion efficaces. Cette vision globale du marketing digital permet d'obtenir des resultats superieurs a la simple gestion de campagnes isolees.\n\nRiviera Digital s'est egalement specialisee dans le marketing d'influence et le social media management. L'agence dispose d'un reseau d'influenceurs locaux et nationaux qu'elle active pour des campagnes de notoriete ou de lancement de produits. La gestion des reseaux sociaux comprend la creation de contenus, la planification editoriale et l'animation de communaute.\n\nL'agence se distingue par sa transparence totale sur les budgets publicitaires et les resultats obtenus. Chaque client a acces a un tableau de bord en temps reel presentant les indicateurs cles de performance de ses campagnes. Les reportings hebdomadaires et mensuels permettent un pilotage fin des investissements publicitaires. Riviera Digital travaille sans engagement de duree, convaincue que la qualite de ses resultats suffit a fideliser ses clients. L'agence affiche neanmoins un taux de retention client de 75%, ce qui temoigne de la satisfaction globale de sa clientele composee principalement de PME et de commerces de la region PACA.",
+  "noteGlobale": 3.7,
+  "avis": [
+    {
+      "auteur": "Stephane Blanc",
+      "date": "2025-10-05",
+      "note": 4,
+      "texte": "Riviera Digital gere nos campagnes Google Ads depuis six mois. Les resultats sont corrects et l'equipe est reactive. Le tableau de bord en temps reel est un vrai plus pour suivre les performances. J'apprecie la transparence sur les depenses publicitaires. Bon prestataire dans l'ensemble."
+    },
+    {
+      "auteur": "Aurelie Ferrand",
+      "date": "2025-08-22",
+      "note": 3,
+      "texte": "Experience mitigee avec Riviera Digital. Les campagnes Facebook ont mis du temps a donner des resultats et le budget a ete consomme rapidement au debut sans retour significatif. L'equipe a fini par trouver les bons reglages mais cela a pris deux mois. Les resultats sont maintenant corrects mais le demarrage a ete frustrant."
+    },
+    {
+      "auteur": "Nicolas Vidal",
+      "date": "2025-05-30",
+      "note": 4,
+      "texte": "Bonne agence pour la publicite en ligne. Ils ont lance nos campagnes LinkedIn Ads pour du recrutement et nous avons recu des candidatures qualifiees rapidement. L'approche est professionnelle et les conseils strategiques pertinents. Je recommande pour les campagnes B2B."
+    },
+    {
+      "auteur": "Camille Renaud",
+      "date": "2025-03-12",
+      "note": 3,
+      "texte": "Nous avons travaille avec Riviera Digital pour une campagne d'influence sur Instagram. Le concept etait bon mais l'execution a manque de rigueur. Certains influenceurs n'ont pas respecte le brief et le suivi aurait pu etre meilleur. Le bilan reste positif en termes de visibilite mais en dessous de nos attentes initiales."
+    },
+    {
+      "auteur": "Pascal Olivieri",
+      "date": "2024-12-18",
+      "note": 4,
+      "texte": "Riviera Digital a pris en main nos campagnes Google Ads apres une mauvaise experience avec une autre agence. Ils ont restructure nos campagnes, ameliore nos annonces et reduit notre cout par clic de 30%. Le rapport qualite-prix est bon et la communication est transparente. Satisfait."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelles plateformes publicitaires Riviera Digital gere-t-elle ?",
+      "reponse": "L'agence gere des campagnes sur Google Ads (Search, Display, Shopping, YouTube), Meta Ads (Facebook et Instagram), LinkedIn Ads et TikTok Ads. Les consultants sont certifies sur l'ensemble de ces plateformes et recommandent les canaux les plus adaptes en fonction des objectifs et de la cible de chaque client."
+    },
+    {
+      "question": "Quel budget publicitaire minimum faut-il prevoir ?",
+      "reponse": "Riviera Digital recommande un budget publicitaire minimum de 1 500 euros par mois pour obtenir des resultats significatifs sur une plateforme. Ce budget s'ajoute aux honoraires de gestion de l'agence. Pour des campagnes multi-plateformes, un budget de 3 000 euros minimum est conseille."
+    },
+    {
+      "question": "Riviera Digital propose-t-elle des contrats avec engagement ?",
+      "reponse": "Non, l'agence travaille sans engagement de duree. Les clients peuvent arreter la collaboration a tout moment avec un preavis d'un mois. Cette politique est un choix delibere : Riviera Digital est convaincue que la qualite de ses resultats est le meilleur argument de fidelisation."
+    },
+    {
+      "question": "Comment sont mesures les resultats des campagnes ?",
+      "reponse": "Chaque client dispose d'un tableau de bord en temps reel affichant les indicateurs cles : impressions, clics, cout par clic, conversions, cout par acquisition et retour sur investissement. Des reportings detailles sont envoyes chaque semaine et chaque mois, accompagnes de recommandations d'optimisation."
+    },
+    {
+      "question": "L'agence peut-elle creer les visuels pour les campagnes publicitaires ?",
+      "reponse": "Oui, Riviera Digital dispose d'un graphiste interne capable de creer les visuels et les videos courtes necessaires aux campagnes publicitaires. Ce service est inclus dans les forfaits de gestion ou peut etre facture separement selon le volume de creations necessaires."
+    }
+  ]
+}

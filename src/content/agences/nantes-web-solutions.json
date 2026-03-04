@@ -1,0 +1,69 @@
+{
+  "nom": "Nantes Web Solutions",
+  "slug": "nantes-web-solutions",
+  "ville": "Nantes",
+  "siteWeb": "https://www.nantes-web-solutions.fr",
+  "specialites": ["Développement web", "SEO", "E-commerce"],
+  "description": "Nantes Web Solutions est une agence digitale nantaise fondée en 2013, spécialisée dans le développement web, le référencement naturel et la création de solutions e-commerce. Implantée sur l'Île de Nantes dans le quartier de la création numérique, l'agence bénéficie d'un environnement propice à l'innovation et à la collaboration avec les acteurs de la tech nantaise. Avec plus de dix ans d'expérience, l'équipe de vingt-cinq collaborateurs a mené à bien plus de trois cents projets pour des clients de tous secteurs.\n\nL'agence se distingue par son approche technique rigoureuse et sa capacité à gérer des projets complexes. Ses développeurs maîtrisent un large éventail de technologies : PHP avec Symfony et Laravel, JavaScript avec React et Node.js, ainsi que les principales plateformes e-commerce comme Shopify, PrestaShop et Magento. Nantes Web Solutions est particulièrement reconnue pour ses compétences en développement d'applications métier sur mesure, intégrant des problématiques de flux de données, d'API et d'interopérabilité avec les systèmes existants.\n\nLe pôle SEO de l'agence travaille en étroite collaboration avec les équipes de développement pour garantir que chaque site livré soit nativement optimisé pour les moteurs de recherche. Cette synergie entre technique et référencement constitue un avantage concurrentiel majeur. Les consultants SEO de Nantes Web Solutions interviennent dès la phase de conception pour définir l'architecture de l'information, optimiser le maillage interne et mettre en place les fondations techniques indispensables à un bon positionnement.\n\nDans le domaine e-commerce, l'agence a accompagné de nombreux commerçants nantais et ligériens dans leur passage au numérique, avec des résultats concrets en termes de chiffre d'affaires en ligne. Nantes Web Solutions propose un accompagnement global incluant la stratégie digitale, la création du site, l'optimisation des conversions et le marketing post-lancement. L'agence est membre de La Cantine Numérique et participe régulièrement au Web2day, le festival numérique de référence à Nantes.",
+  "noteGlobale": 4.3,
+  "avis": [
+    {
+      "auteur": "Arnaud Guérin",
+      "date": "2025-11-25",
+      "note": 5,
+      "texte": "Nantes Web Solutions a développé notre application métier de gestion de flotte et le résultat est remarquable. L'équipe technique a parfaitement compris nos contraintes fonctionnelles et a su proposer une architecture robuste et évolutive. Le projet a été livré dans les délais avec un niveau de qualité élevé. Le support post-livraison est exemplaire. Une agence de confiance."
+    },
+    {
+      "auteur": "Valérie Joubert",
+      "date": "2025-09-08",
+      "note": 4,
+      "texte": "Très satisfaite de la refonte de notre site e-commerce par Nantes Web Solutions. La migration vers Shopify s'est déroulée sans perte de données ni de positionnement SEO. Le nouveau site est plus rapide, plus ergonomique et nos ventes en ligne ont progressé de 35 %. L'équipe est professionnelle et à l'écoute des retours."
+    },
+    {
+      "auteur": "Baptiste Moreau",
+      "date": "2025-06-12",
+      "note": 4,
+      "texte": "Bon travail sur le SEO de notre site de services aux entreprises. L'audit technique a permis d'identifier et de corriger de nombreux problèmes qui freinaient notre référencement. En quatre mois, notre visibilité organique a progressé de manière significative. Les consultants sont compétents et pédagogues dans leurs explications."
+    },
+    {
+      "auteur": "Céline Dupont",
+      "date": "2025-02-20",
+      "note": 5,
+      "texte": "Nous avons choisi Nantes Web Solutions pour la création de notre marketplace de produits artisanaux. Le défi technique était important avec la gestion multi-vendeurs et les paiements fractionnés. L'agence a livré une plateforme stable et performante qui compte aujourd'hui plus de cent artisans. Un vrai partenariat sur le long terme."
+    },
+    {
+      "auteur": "Pierre-Yves Lemaître",
+      "date": "2024-10-15",
+      "note": 4,
+      "texte": "Nantes Web Solutions nous accompagne depuis deux ans sur le développement et le référencement de notre site institutionnel. L'agence est fiable et les résultats sont constants. Les mises à jour sont régulières et la sécurité du site est bien gérée. Peut-être un manque de créativité dans les propositions graphiques, mais la technique est irréprochable."
+    },
+    {
+      "auteur": "Hélène Raimbault",
+      "date": "2024-06-30",
+      "note": 4,
+      "texte": "Collaboration fructueuse pour le développement de notre site vitrine avec catalogue produits. L'intégration avec notre PIM a été bien gérée et le site reflète parfaitement notre image de marque. Le référencement local mis en place nous permet de ressortir sur les recherches pertinentes à Nantes et en Loire-Atlantique."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelles technologies de développement web Nantes Web Solutions utilise-t-elle ?",
+      "reponse": "L'agence maîtrise un large panel de technologies : PHP avec les frameworks Symfony et Laravel, JavaScript avec React, Vue.js et Node.js, ainsi que les CMS WordPress et les plateformes e-commerce Shopify, PrestaShop et Magento. Le choix technologique est déterminé en fonction des besoins spécifiques de chaque projet."
+    },
+    {
+      "question": "Nantes Web Solutions peut-elle développer des applications web sur mesure ?",
+      "reponse": "Oui, le développement d'applications métier sur mesure est l'une des spécialités de l'agence. L'équipe conçoit des solutions adaptées aux processus spécifiques de chaque client, avec des fonctionnalités de gestion de données, de reporting, d'intégration API et d'automatisation des workflows."
+    },
+    {
+      "question": "Comment Nantes Web Solutions intègre-t-elle le SEO dans ses projets de développement ?",
+      "reponse": "Le SEO est pris en compte dès la phase de conception du projet. Les consultants SEO collaborent avec les développeurs pour définir l'architecture du site, optimiser la structure des URLs, mettre en place le balisage sémantique et assurer des temps de chargement optimaux. Cette approche SEO-by-design garantit un site nativement optimisé."
+    },
+    {
+      "question": "Quel est le coût moyen d'un projet e-commerce chez Nantes Web Solutions ?",
+      "reponse": "Le coût varie selon la complexité du projet. Un site e-commerce standard sous Shopify est proposé à partir de 8 000 euros, tandis qu'un projet sur mesure avec des intégrations spécifiques peut aller de 20 000 à 80 000 euros. Chaque projet fait l'objet d'un devis détaillé après analyse des besoins."
+    },
+    {
+      "question": "Nantes Web Solutions assure-t-elle la maintenance des sites après livraison ?",
+      "reponse": "Oui, l'agence propose plusieurs formules de maintenance adaptées aux besoins de chaque client : maintenance corrective pour les bugs, maintenance évolutive pour les nouvelles fonctionnalités, maintenance préventive pour les mises à jour de sécurité et le monitoring. Un support technique est disponible avec des délais d'intervention garantis."
+    }
+  ]
+}

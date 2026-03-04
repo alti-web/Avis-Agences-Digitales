@@ -1,0 +1,75 @@
+{
+  "nom": "PixelCraft Studio",
+  "slug": "pixelcraft-studio",
+  "ville": "Paris",
+  "siteWeb": "https://www.pixelcraft-studio.fr",
+  "specialites": ["Webdesign", "UX/UI", "Développement web"],
+  "description": "PixelCraft Studio est une agence créative spécialisée en webdesign, UX/UI et développement web, installée dans le quartier du Marais à Paris depuis 2014. Fondée par une designer et un développeur passionnés par l'innovation numérique, l'agence a su se démarquer par son approche centrée sur l'utilisateur et son exigence esthétique. Avec une équipe de dix-huit créatifs, designers et développeurs, PixelCraft Studio accompagne les marques dans la conception d'expériences digitales mémorables et performantes.\n\nL'agence place le design au coeur de chaque projet. Chaque interface est pensée pour être intuitive, accessible et visuellement impactante. Le processus de conception débute par une phase de recherche utilisateur approfondie, incluant des entretiens, des tests d'utilisabilité et l'analyse de données comportementales. Cette méthodologie permet de créer des parcours utilisateurs fluides et des interfaces qui répondent véritablement aux attentes des visiteurs.\n\nSur le plan technique, PixelCraft Studio maîtrise les technologies front-end et back-end les plus avancées. L'agence développe des sites et applications web en utilisant des frameworks modernes comme Vue.js, Nuxt, Svelte et Astro, tout en garantissant des performances optimales et une compatibilité parfaite sur tous les appareils. Chaque projet fait l'objet de tests rigoureux sur différents navigateurs et terminaux pour assurer une expérience homogène.\n\nPixelCraft Studio a collaboré avec des entreprises variées, des startups innovantes aux grandes maisons de luxe, en passant par des institutions culturelles et des acteurs du secteur tech. L'agence est régulièrement distinguée dans les concours de design web et a reçu plusieurs prix pour ses réalisations. Sa capacité à allier créativité, technique et stratégie en fait un acteur incontournable du paysage digital parisien. L'engagement de l'équipe envers l'excellence et l'innovation se reflète dans chaque projet livré, avec une attention particulière portée aux détails et à la qualité du code produit.",
+  "noteGlobale": 4.6,
+  "avis": [
+    {
+      "auteur": "Léa Fontaine",
+      "date": "2025-12-02",
+      "note": 5,
+      "texte": "PixelCraft Studio a réalisé la refonte complète de notre site institutionnel et le résultat est absolument magnifique. Le design est élégant, moderne et parfaitement aligné avec notre identité de marque. L'expérience utilisateur est fluide sur tous les supports. L'équipe créative a fait un travail remarquable. Bravo !"
+    },
+    {
+      "auteur": "Vincent Roux",
+      "date": "2025-10-15",
+      "note": 5,
+      "texte": "Nous avons fait appel à PixelCraft Studio pour concevoir l'interface de notre application SaaS. Le travail d'UX/UI est exceptionnel : chaque écran a été pensé en détail pour faciliter la prise en main par nos utilisateurs. Les retours de nos clients sont très positifs depuis la nouvelle version."
+    },
+    {
+      "auteur": "Camille Perrin",
+      "date": "2025-08-20",
+      "note": 4,
+      "texte": "Très bonne agence de webdesign. Le rendu visuel de notre site est superbe et les animations sont fluides et bien dosées. Le développement a pris un peu plus de temps que prévu, mais la qualité finale justifie ce délai. Bonne communication tout au long du projet."
+    },
+    {
+      "auteur": "Olivier Garnier",
+      "date": "2025-06-08",
+      "note": 5,
+      "texte": "PixelCraft Studio est sans doute la meilleure agence de design web avec laquelle nous ayons travaillé. Leur processus de recherche utilisateur est rigoureux et les résultats se voient dans le produit final. Notre taux de conversion a augmenté de 28 % après la refonte. Je recommande sans hésitation."
+    },
+    {
+      "auteur": "Margaux Delacroix",
+      "date": "2025-03-25",
+      "note": 5,
+      "texte": "Collaboration parfaite du début à la fin. L'équipe de PixelCraft Studio est créative, professionnelle et passionnée. Ils ont su transformer notre brief en une expérience digitale qui dépasse nos attentes. Le site est rapide, beau et parfaitement responsive."
+    },
+    {
+      "auteur": "Nicolas Blanc",
+      "date": "2025-01-14",
+      "note": 4,
+      "texte": "Agence très compétente en UX/UI design. La phase de recherche utilisateur nous a permis de mieux comprendre nos propres clients. Le site livré est de grande qualité et les performances techniques sont excellentes. Tarifs un peu élevés mais le résultat en vaut la peine."
+    },
+    {
+      "auteur": "Audrey Vasseur",
+      "date": "2024-10-30",
+      "note": 5,
+      "texte": "Nous sommes ravis du travail de PixelCraft Studio sur notre plateforme e-commerce. Le design est sophistiqué, l'ergonomie est pensée pour la conversion et le développement est solide. L'équipe est à l'écoute et fait preuve d'une grande créativité à chaque étape du projet."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelle est la méthodologie de design de PixelCraft Studio ?",
+      "reponse": "L'agence suit une méthodologie de design centrée sur l'utilisateur (UCD). Chaque projet commence par une phase de recherche incluant des entretiens utilisateurs, l'analyse de données et des benchmarks concurrentiels. Viennent ensuite la conception de wireframes, le prototypage interactif, les tests d'utilisabilité et enfin la création des maquettes finales avant le développement."
+    },
+    {
+      "question": "PixelCraft Studio réalise-t-elle des audits UX de sites existants ?",
+      "reponse": "Oui, l'agence propose des audits UX complets permettant d'identifier les points de friction dans le parcours utilisateur d'un site ou d'une application existante. L'audit comprend une analyse heuristique, des tests utilisateurs et des recommandations concrètes d'amélioration priorisées selon leur impact potentiel."
+    },
+    {
+      "question": "Quelles technologies de développement PixelCraft Studio utilise-t-elle ?",
+      "reponse": "L'agence maîtrise un large éventail de technologies front-end et back-end : Vue.js, Nuxt, React, Svelte, Astro pour le front-end, et Node.js, Python et PHP pour le back-end. Le choix technologique est adapté aux besoins spécifiques de chaque projet, en privilégiant toujours la performance et la maintenabilité."
+    },
+    {
+      "question": "Quel est le délai moyen pour un projet de refonte de site web ?",
+      "reponse": "Le délai varie selon la complexité du projet. Une refonte de site vitrine prend généralement entre deux et trois mois, tandis qu'une refonte de plateforme e-commerce ou d'application web peut nécessiter quatre à six mois. Ce délai inclut les phases de recherche, de design, de développement et de recettage."
+    },
+    {
+      "question": "PixelCraft Studio propose-t-elle des services de direction artistique ?",
+      "reponse": "Oui, l'agence propose des services de direction artistique digitale incluant la création d'identités visuelles, de chartes graphiques web, de systèmes de design (design systems) et de guidelines pour assurer la cohérence visuelle sur l'ensemble des supports numériques d'une marque."
+    }
+  ]
+}

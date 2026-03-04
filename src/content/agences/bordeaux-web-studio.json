@@ -1,0 +1,63 @@
+{
+  "nom": "Bordeaux Web Studio",
+  "slug": "bordeaux-web-studio",
+  "ville": "Bordeaux",
+  "siteWeb": "https://www.bordeaux-web-studio.fr",
+  "specialites": ["Webdesign", "UX/UI", "Développement web"],
+  "description": "Bordeaux Web Studio est une agence digitale implantée au coeur de Bordeaux depuis 2015, spécialisée dans la conception de sites web sur mesure et l'optimisation de l'expérience utilisateur. Fondée par deux passionnés du numérique issus de grandes écoles de design et d'ingénierie, l'agence s'est rapidement imposée comme une référence locale dans le webdesign et le développement front-end. Leur approche repose sur une méthodologie centrée utilisateur, où chaque projet débute par une phase approfondie de recherche et d'analyse des besoins. L'équipe, composée de designers UI/UX, de développeurs front-end et back-end ainsi que de chefs de projet expérimentés, accompagne ses clients de la conception à la mise en production.\n\nBordeaux Web Studio travaille aussi bien avec des startups en pleine croissance qu'avec des PME et des grands comptes de la région Nouvelle-Aquitaine. Parmi leurs réalisations notables, on retrouve la refonte complète de sites e-commerce, la création d'applications web métier et le développement d'interfaces innovantes pour des secteurs variés comme le vin, le tourisme et la santé. Leur philosophie : allier esthétique et performance technique pour offrir des solutions digitales qui convertissent réellement.\n\nL'agence se distingue par sa maîtrise des technologies modernes telles que React, Vue.js, et les architectures headless, tout en accordant une importance particulière à l'accessibilité et au responsive design. Chaque projet est pensé pour être évolutif, maintenable et optimisé pour le référencement naturel. Le studio propose également des audits UX complets permettant d'identifier les points de friction dans les parcours utilisateurs existants et de proposer des améliorations concrètes.\n\nAvec un taux de satisfaction client supérieur à 95 % et de nombreuses recommandations, Bordeaux Web Studio s'est forgé une solide réputation dans l'écosystème numérique bordelais. L'agence participe régulièrement aux événements tech de la région et intervient dans des conférences sur les bonnes pratiques du design web.",
+  "noteGlobale": 4.5,
+  "avis": [
+    {
+      "auteur": "Sophie Delacroix",
+      "date": "2025-11-15",
+      "note": 5,
+      "texte": "Nous avons confié la refonte de notre site vitrine à Bordeaux Web Studio et le résultat dépasse nos attentes. L'équipe a su comprendre notre univers de marque dès le premier rendez-vous. Le design est élégant, moderne et parfaitement adapté à notre cible. Le site charge rapidement et nos conversions ont augmenté de 30 % en trois mois. Un grand bravo à toute l'équipe pour leur professionnalisme et leur réactivité."
+    },
+    {
+      "auteur": "Marc Duvernoy",
+      "date": "2025-09-22",
+      "note": 4,
+      "texte": "Très bon travail sur notre application web. L'interface est intuitive et nos utilisateurs ont adopté l'outil très rapidement. Seul petit bémol : les délais ont été légèrement dépassés sur la phase de développement, mais la qualité finale compense largement. Je recommande cette agence pour tout projet nécessitant une expertise UX solide."
+    },
+    {
+      "auteur": "Claire Fontaine",
+      "date": "2025-07-08",
+      "note": 5,
+      "texte": "Excellente expérience avec Bordeaux Web Studio pour la création de notre site e-commerce dans le secteur viticole. Ils ont une vraie compréhension des enjeux du digital et une capacité à traduire nos besoins en solutions concrètes. Le suivi de projet est rigoureux et la communication fluide. Nous continuons à travailler avec eux pour les évolutions du site."
+    },
+    {
+      "auteur": "Julien Maréchal",
+      "date": "2025-04-12",
+      "note": 4,
+      "texte": "Bonne collaboration sur un projet de refonte UX. L'audit initial était très détaillé et les recommandations pertinentes. La mise en oeuvre a été soignée, même si certains ajustements ont nécessité plusieurs allers-retours. Le résultat final est cependant très satisfaisant et nos métriques d'engagement sont en nette hausse."
+    },
+    {
+      "auteur": "Isabelle Renaud",
+      "date": "2025-01-28",
+      "note": 5,
+      "texte": "Agence au top ! Nous cherchions un partenaire capable de concevoir un site à la fois beau et performant pour notre cabinet d'architecture. Bordeaux Web Studio a relevé le défi avec brio. Le design met parfaitement en valeur nos projets et le site est optimisé pour le SEO. Nous avons triplé notre trafic organique en six mois."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels types de projets Bordeaux Web Studio prend-il en charge ?",
+      "reponse": "Bordeaux Web Studio accompagne ses clients sur la création de sites vitrines, de sites e-commerce, d'applications web métier et de refontes UX/UI. L'agence intervient également pour des audits d'expérience utilisateur et des missions de conseil en stratégie digitale."
+    },
+    {
+      "question": "Quelles technologies utilise Bordeaux Web Studio ?",
+      "reponse": "L'agence maîtrise les technologies front-end modernes comme React, Vue.js et Next.js, ainsi que les CMS headless tels que Strapi et Contentful. Côté back-end, l'équipe travaille principalement avec Node.js et PHP/Laravel selon les besoins du projet."
+    },
+    {
+      "question": "Quel est le délai moyen pour la création d'un site web ?",
+      "reponse": "Le délai varie en fonction de la complexité du projet. Un site vitrine est généralement livré en 6 à 8 semaines, tandis qu'un site e-commerce ou une application web peut nécessiter 3 à 5 mois de développement. Chaque projet fait l'objet d'un planning détaillé dès le démarrage."
+    },
+    {
+      "question": "Bordeaux Web Studio propose-t-il un accompagnement après la mise en ligne ?",
+      "reponse": "Oui, l'agence propose des contrats de maintenance et d'évolution incluant les mises à jour de sécurité, le monitoring des performances, les corrections de bugs et l'ajout de nouvelles fonctionnalités. Un support technique réactif est disponible pour tous les clients sous contrat."
+    },
+    {
+      "question": "Comment se déroule un projet type avec Bordeaux Web Studio ?",
+      "reponse": "Chaque projet suit une méthodologie structurée : brief et cadrage des besoins, phase de recherche utilisateur, conception UX (wireframes et prototypes), design UI, développement, recette et mise en production. Des points d'étape réguliers assurent une transparence totale tout au long du processus."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "nom": "WebLyon Agency",
+  "slug": "weblyon-agency",
+  "ville": "Lyon",
+  "siteWeb": "https://www.weblyon-agency.fr",
+  "specialites": ["Marketing digital", "Webdesign"],
+  "description": "WebLyon Agency est une agence créative spécialisée en marketing digital et webdesign, installée dans le quartier de la Confluence à Lyon depuis 2017. Portée par une équipe de passionnés du design et de la communication numérique, l'agence aide les marques à se démarquer dans un environnement digital de plus en plus concurrentiel.\n\nL'approche de WebLyon Agency repose sur une conviction forte : un design soigné et une stratégie marketing cohérente sont indissociables. C'est pourquoi l'agence propose un accompagnement global, de la conception de l'identité visuelle jusqu'au déploiement de campagnes digitales performantes. Chaque projet démarre par une phase d'immersion approfondie dans l'univers du client pour saisir ses valeurs, ses cibles et ses objectifs commerciaux.\n\nEn webdesign, WebLyon Agency conçoit des interfaces élégantes, modernes et centrées sur l'expérience utilisateur. L'équipe de designers maîtrise les dernières tendances en matière d'UX/UI et utilise des outils comme Figma et Adobe XD pour créer des maquettes interactives qui permettent aux clients de se projeter concrètement dans le résultat final avant le moindre développement.\n\nSur le volet marketing digital, l'agence déploie des stratégies multicanales intégrant les réseaux sociaux, l'emailing, le content marketing et la publicité en ligne. WebLyon Agency se distingue par sa capacité à produire des contenus créatifs et engageants, qu'il s'agisse de visuels pour les réseaux sociaux, de vidéos promotionnelles ou de newsletters percutantes. L'agence travaille avec des outils d'automatisation marketing comme HubSpot et Mailchimp pour optimiser les parcours clients.\n\nWebLyon Agency compte parmi ses clients des startups innovantes, des commerces de proximité et des acteurs culturels de la métropole lyonnaise. L'agence a notamment accompagné le lancement digital de plusieurs restaurants étoilés et de boutiques de créateurs dans le Vieux Lyon, contribuant à renforcer leur visibilité en ligne et à développer leur communauté sur les réseaux sociaux.\n\nL'agence organise régulièrement des ateliers gratuits destinés aux entrepreneurs lyonnais pour les sensibiliser aux enjeux du marketing digital. Cette démarche pédagogique témoigne de l'engagement de WebLyon Agency en faveur du tissu économique local et de sa volonté de démocratiser l'accès aux bonnes pratiques du numérique.",
+  "noteGlobale": 4.1,
+  "avis": [
+    {
+      "auteur": "Caroline Mercier",
+      "date": "2025-10-28",
+      "note": 5,
+      "texte": "WebLyon Agency a complètement transformé notre image de marque. Le nouveau design de notre site est magnifique et nos clients nous le disent régulièrement. La stratégie sur les réseaux sociaux mise en place par l'équipe a boosté notre visibilité de manière spectaculaire. Une agence créative et à l'écoute que je recommande sans hésitation."
+    },
+    {
+      "auteur": "Julien Moreau",
+      "date": "2025-08-14",
+      "note": 4,
+      "texte": "Très satisfait du travail de webdesign réalisé par WebLyon Agency pour notre site vitrine. L'équipe est créative et force de proposition. Le résultat est moderne et professionnel. La partie marketing digital mériterait peut-être un peu plus de suivi dans la durée, mais globalement c'est du très bon travail."
+    },
+    {
+      "auteur": "Nathalie Perrin",
+      "date": "2025-06-02",
+      "note": 3,
+      "texte": "Le design livré par WebLyon Agency est esthétiquement réussi, mais nous avons rencontré quelques soucis d'ergonomie sur mobile qui ont nécessité des allers-retours supplémentaires. La communication a parfois manqué de réactivité sur certaines demandes. Le résultat final est satisfaisant mais le processus aurait pu être plus fluide."
+    },
+    {
+      "auteur": "Marc Vidal",
+      "date": "2025-03-20",
+      "note": 4,
+      "texte": "Nous avons fait appel à WebLyon Agency pour une campagne marketing sur Instagram et Facebook. Les visuels créés étaient de grande qualité et les performances de la campagne ont dépassé nos objectifs. L'équipe est dynamique et apporte de bonnes idées. Nous renouvellerons sûrement l'expérience pour nos prochains lancements."
+    },
+    {
+      "auteur": "Émilie Roux",
+      "date": "2025-01-08",
+      "note": 5,
+      "texte": "Agence au top pour tout ce qui touche au branding et à la communication digitale. WebLyon Agency a su capter l'essence de notre marque et la retranscrire dans un univers visuel cohérent et impactant. Le travail sur notre charte graphique et notre site web est remarquable. Merci à toute l'équipe pour leur professionnalisme."
+    },
+    {
+      "auteur": "David Leclerc",
+      "date": "2024-11-15",
+      "note": 3,
+      "texte": "Prestation correcte mais sans plus. Le design proposé manquait un peu d'originalité par rapport à ce que nous attendions. Il a fallu plusieurs itérations pour arriver à un résultat qui nous convenait. Le rapport qualité-prix reste raisonnable pour la région lyonnaise."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels services de marketing digital propose WebLyon Agency ?",
+      "reponse": "WebLyon Agency propose une gamme complète de services en marketing digital : gestion des réseaux sociaux, création de contenu, campagnes publicitaires sur Facebook, Instagram et Google Ads, emailing et newsletters, stratégie de content marketing et accompagnement en branding digital. L'agence adapte ses prestations aux objectifs et au budget de chaque client."
+    },
+    {
+      "question": "WebLyon Agency peut-elle refondre un site existant ?",
+      "reponse": "Oui, la refonte de sites web est l'une des prestations phares de WebLyon Agency. L'agence réalise un audit complet du site existant, identifie les axes d'amélioration en termes de design et d'ergonomie, puis propose une nouvelle direction créative validée par le client avant le lancement du développement."
+    },
+    {
+      "question": "Quel est le processus de création chez WebLyon Agency ?",
+      "reponse": "Le processus se déroule en quatre étapes : une phase de découverte et de brief créatif, une phase de conception avec présentation de maquettes interactives sur Figma, une phase de développement et d'intégration, et enfin une phase de tests et de mise en ligne. Le client est impliqué à chaque étape avec des points de validation réguliers."
+    },
+    {
+      "question": "Combien coûte la création d'un site vitrine chez WebLyon Agency ?",
+      "reponse": "Le tarif pour un site vitrine chez WebLyon Agency se situe généralement entre 3 000 et 8 000 euros HT selon le nombre de pages, la complexité du design et les fonctionnalités souhaitées. Un devis détaillé et personnalisé est systématiquement établi après le premier échange avec le client."
+    },
+    {
+      "question": "WebLyon Agency gère-t-elle les réseaux sociaux de ses clients ?",
+      "reponse": "Oui, WebLyon Agency propose des forfaits de community management incluant la création de contenus visuels, la rédaction des publications, la planification éditoriale et le suivi des performances. L'agence gère principalement les comptes Instagram, Facebook, LinkedIn et TikTok pour ses clients."
+    }
+  ]
+}

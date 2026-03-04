@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const breadcrumbs = [
+  { label: 'Accueil', href: '/' },
+  { label: 'À propos' },
+];
+---
+<BaseLayout
+  title="À propos — Avis Agences Digitales"
+  description="Découvrez la mission d'Avis-Agences-Digitales.fr : aider les entreprises françaises à choisir leur agence web grâce à des avis clients vérifiés."
+  breadcrumbs={breadcrumbs}
+>
+  <section class="py-8 md:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-2xl md:text-4xl font-extrabold mb-8">À propos d'Avis Agences Digitales</h1>
+
+      <div class="space-y-6 text-gray-600 leading-relaxed">
+        <h2 class="text-xl font-bold text-gray-900 mt-8">Notre mission</h2>
+        <p>
+          Avis-Agences-Digitales.fr est né d'un constat simple : choisir une agence web en France est un parcours semé d'embûches. Face à la multitude d'offres disponibles, les entreprises manquent souvent d'informations fiables pour prendre une décision éclairée.
+        </p>
+        <p>
+          Notre mission est de combler ce vide en proposant une plateforme indépendante et transparente où les clients peuvent partager leur expérience avec les agences web et SEO françaises. Nous croyons que les retours d'expérience authentiques sont le meilleur guide pour choisir le bon partenaire digital.
+        </p>
+
+        <h2 class="text-xl font-bold text-gray-900 mt-8">Nos valeurs</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
+          <div class="bg-gray-50 rounded-lg p-6">
+            <h3 class="font-semibold text-gray-900 mb-2">Transparence</h3>
+            <p class="text-sm">Tous les avis publiés sont vérifiés et reflètent des expériences réelles. Notre méthodologie de notation est publique et accessible à tous.</p>
+          </div>
+          <div class="bg-gray-50 rounded-lg p-6">
+            <h3 class="font-semibold text-gray-900 mb-2">Indépendance</h3>
+            <p class="text-sm">Nous ne sommes affiliés à aucune agence. Nos évaluations sont impartiales et basées uniquement sur les retours clients et des critères objectifs.</p>
+          </div>
+          <div class="bg-gray-50 rounded-lg p-6">
+            <h3 class="font-semibold text-gray-900 mb-2">Qualité</h3>
+            <p class="text-sm">Nous sélectionnons rigoureusement les agences référencées et vérifions chaque avis publié pour garantir la fiabilité de nos informations.</p>
+          </div>
+          <div class="bg-gray-50 rounded-lg p-6">
+            <h3 class="font-semibold text-gray-900 mb-2">Accessibilité</h3>
+            <p class="text-sm">Notre plateforme est gratuite et accessible à tous. Nous souhaitons démocratiser l'accès à l'information pour aider chaque entreprise dans son choix.</p>
+          </div>
+        </div>
+
+        <h2 class="text-xl font-bold text-gray-900 mt-8">Notre équipe</h2>
+        <p>
+          Notre équipe est composée de professionnels du digital passionnés par l'écosystème web français. Forts de plusieurs années d'expérience dans le secteur, nous connaissons les problématiques auxquelles font face les entreprises lors du choix de leur prestataire web.
+        </p>
+        <p>
+          Nous mettons cette expertise au service de notre communauté pour vous proposer des analyses pertinentes, des guides pratiques et un annuaire de qualité.
+        </p>
+
+        <h2 class="text-xl font-bold text-gray-900 mt-8">Comment contribuer ?</h2>
+        <p>
+          Vous avez travaillé avec une agence web et souhaitez partager votre expérience ? <a href="/contact" class="text-primary hover:underline font-medium">Contactez-nous</a> pour soumettre votre avis. Chaque retour d'expérience contribue à enrichir notre plateforme et à aider d'autres entreprises dans leur choix.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

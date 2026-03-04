@@ -1,0 +1,41 @@
+---
+import StarRating from './StarRating.astro';
+
+interface Props {
+  nom: string;
+  slug: string;
+  ville: string;
+  specialites: string[];
+  noteGlobale: number;
+  nombreAvis: number;
+  description?: string;
+}
+
+const { nom, slug, ville, specialites, noteGlobale, nombreAvis, description } = Astro.props;
+---
+<a href={`/avis/${slug}`} class="block bg-white rounded-xl border border-gray-200 hover:border-primary hover:shadow-lg transition-all duration-200 p-6 group">
+  <div class="flex items-start justify-between mb-3">
+    <div>
+      <h3 class="text-lg font-semibold text-gray-900 group-hover:text-primary transition-colors">{nom}</h3>
+      <p class="text-sm text-gray-500 mt-1">
+        <svg class="w-4 h-4 inline-block mr-1 -mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+        {ville}
+      </p>
+    </div>
+    <div class="text-right">
+      <StarRating note={noteGlobale} size="sm" />
+      <p class="text-xs text-gray-500 mt-1">{nombreAvis} avis</p>
+    </div>
+  </div>
+  {description && (
+    <p class="text-sm text-gray-600 mb-3 line-clamp-2">{description.substring(0, 150)}...</p>
+  )}
+  <div class="flex flex-wrap gap-2">
+    {specialites.slice(0, 3).map((spec) => (
+      <span class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full">{spec}</span>
+    ))}
+  </div>
+</a>

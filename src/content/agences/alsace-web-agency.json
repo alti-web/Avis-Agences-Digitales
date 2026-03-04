@@ -1,0 +1,63 @@
+{
+  "nom": "Alsace Web Agency",
+  "slug": "alsace-web-agency",
+  "ville": "Strasbourg",
+  "siteWeb": "https://www.alsace-web-agency.fr",
+  "specialites": ["Développement web", "SEO", "E-commerce"],
+  "description": "Alsace Web Agency est une agence digitale strasbourgeoise fondee en 2011, specialisee dans le developpement web, le referencement naturel et le e-commerce. Forte de treize annees d'experience, l'agence s'est bati une solide reputation dans le Grand Est grace a un savoir-faire technique reconnu et un accompagnement client de qualite. L'equipe de vingt collaborateurs reunit des profils complementaires : developpeurs, integrateurs, experts SEO, chefs de projet et consultants e-commerce.\n\nLe developpement web est la competence historique d'Alsace Web Agency. L'agence maitrise un large eventail de technologies, des CMS traditionnels comme WordPress et Drupal aux frameworks modernes comme Symfony, Laravel et React. Cette polyvalence technique permet de repondre a des besoins varies : sites vitrine, applications web complexes, extranets, plateformes collaboratives et solutions metier sur mesure. Chaque projet beneficie d'une architecture logicielle robuste et de bonnes pratiques de developpement.\n\nEn SEO, Alsace Web Agency applique une methodologie rigoureuse qui couvre l'ensemble des leviers du referencement naturel. L'audit technique constitue la premiere etape, suivi de l'optimisation on-site, la strategie de contenu et le netlinking. L'agence s'appuie sur des outils professionnels comme Semrush, Ahrefs et Screaming Frog pour analyser finement la situation de chaque client et definir un plan d'action sur mesure. Les resultats sont suivis mensuellement avec des rapports detailles.\n\nLe pole e-commerce d'Alsace Web Agency accompagne les commercants et les marques dans le lancement ou l'optimisation de leur boutique en ligne. L'agence travaille principalement avec PrestaShop et WooCommerce, deux solutions eprouvees qu'elle maitrise parfaitement. L'accompagnement va au-dela de la simple creation technique : conseil en strategie commerciale, optimisation du tunnel de conversion, integration avec les outils de gestion (ERP, CRM) et formation des equipes.\n\nLa position geographique de Strasbourg, au carrefour de l'Europe, a naturellement conduit Alsace Web Agency a developper une expertise dans les projets internationaux et multilingues. L'agence accompagne plusieurs clients dans leur developpement sur les marches allemand, suisse et luxembourgeois, avec des strategies de referencement adaptees a chaque pays. Cette dimension transfrontaliere est un atout distinctif qui seduit les entreprises alsaciennes tournees vers l'export.",
+  "noteGlobale": 4.3,
+  "avis": [
+    {
+      "auteur": "Markus Weber",
+      "date": "2025-11-18",
+      "note": 5,
+      "texte": "Alsace Web Agency a developpe notre site e-commerce bilingue francais-allemand avec une maitrise impressionnante des enjeux techniques et SEO lies au multilinguisme. Le site est performant, bien reference dans les deux pays et nos ventes transfrontalieres ont decolle. Une agence qui comprend les specificites du marche alsacien."
+    },
+    {
+      "auteur": "Catherine Muller",
+      "date": "2025-09-03",
+      "note": 4,
+      "texte": "Tres bonne agence pour le referencement naturel. Notre site est passe de la page 3 a la premiere page de Google sur nos mots-cles principaux en huit mois. L'equipe SEO est competente et pedagogique, elle prend le temps d'expliquer ses actions. Les rapports mensuels sont complets et transparents."
+    },
+    {
+      "auteur": "Frederic Koenig",
+      "date": "2025-06-21",
+      "note": 5,
+      "texte": "Deuxieme projet avec Alsace Web Agency et toujours aussi satisfait. Cette fois, ils ont developpe un extranet pour notre reseau de distributeurs. L'application est stable, intuitive et les delais ont ete respectes. L'equipe technique est vraiment solide et le chef de projet tres organise. Je recommande vivement."
+    },
+    {
+      "auteur": "Anne-Sophie Dietrich",
+      "date": "2025-04-09",
+      "note": 4,
+      "texte": "Nous avons confie la refonte de notre boutique PrestaShop a Alsace Web Agency. Le resultat est professionnel et le site est beaucoup plus rapide qu'avant. L'integration avec notre ERP a ete bien geree. Un petit retard sur le planning initial mais rien de dramatique. Globalement tres satisfaite."
+    },
+    {
+      "auteur": "Thomas Schneider",
+      "date": "2025-01-27",
+      "note": 4,
+      "texte": "Agence serieuse et fiable. Ils ont cree notre site vitrine WordPress avec un design sobre et elegant. Le referencement local a ete travaille des le depart et nous sommes bien positionnes sur Google Maps. Le support apres livraison est reactif. Bon rapport qualite-prix pour Strasbourg."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Alsace Web Agency peut-elle creer des sites multilingues ?",
+      "reponse": "Oui, c'est meme l'une de ses specialites. Grace a sa position a Strasbourg, l'agence a developpe une expertise dans la creation de sites multilingues, notamment francais-allemand. Elle maitrise les aspects techniques (hreflang, structure URL) et SEO du multilinguisme pour garantir un bon referencement dans chaque pays cible."
+    },
+    {
+      "question": "Quelles solutions e-commerce Alsace Web Agency recommande-t-elle ?",
+      "reponse": "L'agence travaille principalement avec PrestaShop et WooCommerce. PrestaShop est recommande pour les catalogues volumineux et les besoins fonctionnels avances, tandis que WooCommerce convient parfaitement aux boutiques de taille moyenne integrees a un site WordPress. Le choix est toujours adapte au contexte du client."
+    },
+    {
+      "question": "L'agence propose-t-elle des audits SEO ?",
+      "reponse": "Oui, Alsace Web Agency propose des audits SEO complets couvrant l'aspect technique, le contenu, le netlinking et la concurrence. L'audit donne lieu a un rapport detaille avec des recommandations priorisees. Il peut etre realise de maniere independante ou comme premiere etape d'un accompagnement SEO mensuel."
+    },
+    {
+      "question": "Quels sont les delais habituels pour un projet web ?",
+      "reponse": "Un site vitrine est generalement livre en 6 a 8 semaines, un site e-commerce en 10 a 14 semaines et une application web sur mesure en 3 a 6 mois. Ces delais varient selon la complexite du projet et la reactivite du client. Un retroplanning detaille est etabli en debut de collaboration."
+    },
+    {
+      "question": "Alsace Web Agency peut-elle integrer un site avec un ERP ou un CRM ?",
+      "reponse": "Oui, l'agence a une forte experience dans l'integration de sites web et e-commerce avec des solutions de gestion comme Sage, EBP, Odoo ou Salesforce. Ces integrations permettent d'automatiser les flux de donnees entre le site et les outils metier, reduisant les saisies manuelles et les risques d'erreur."
+    }
+  ]
+}

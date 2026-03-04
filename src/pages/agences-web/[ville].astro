@@ -1,0 +1,72 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AgencyCard from '../../components/AgencyCard.astro';
+import { getCollection } from 'astro:content';
+
+const villeTextes: Record<string, string> = {
+  paris: "Paris, capitale de la France et centre névralgique de l'économie numérique, abrite un écosystème digital parmi les plus dynamiques d'Europe. Les agences web parisiennes se distinguent par leur capacité à combiner créativité et expertise technique pour répondre aux besoins des entreprises de toutes tailles. Que vous soyez une startup du Marais, une PME de La Défense ou une grande entreprise des Champs-Élysées, vous trouverez à Paris des agences capables de porter vos projets web les plus ambitieux. Le marché parisien est particulièrement compétitif, ce qui pousse les agences à maintenir un niveau d'excellence constant. Les spécialités les plus demandées incluent le développement sur mesure, le SEO technique, le webdesign UX/UI et les stratégies de marketing digital multi-canal.",
+  lyon: "Lyon, deuxième ville de France et pôle économique majeur de la région Auvergne-Rhône-Alpes, dispose d'un tissu d'agences web particulièrement riche et diversifié. La métropole lyonnaise a su développer un écosystème numérique performant, porté par des formations d'excellence et un réseau entrepreneurial actif. Les agences web lyonnaises sont reconnues pour leur approche pragmatique et orientée résultats, combinant savoir-faire technique et compréhension fine des enjeux business de leurs clients. Que vous recherchiez une expertise en développement web, en référencement naturel ou en stratégie digitale, Lyon offre un panel complet de compétences pour accompagner la transformation numérique de votre entreprise.",
+  marseille: "Marseille, deuxième ville de France par sa population et porte d'entrée de la Méditerranée, voit son écosystème digital se développer rapidement. Les agences web marseillaises apportent une énergie et une créativité uniques, nourries par la diversité culturelle de la cité phocéenne. Le marché digital marseillais est en pleine expansion, attirant de plus en plus de talents et d'entreprises innovantes. Les agences locales se distinguent par leur capacité à accompagner aussi bien les commerces de proximité que les entreprises tournées vers l'international, avec une expertise particulière en référencement local et en développement e-commerce.",
+  bordeaux: "Bordeaux, métropole dynamique du Sud-Ouest, s'est imposée comme un pôle majeur du numérique en France. La ville attire de nombreux talents du digital grâce à sa qualité de vie exceptionnelle et son écosystème entrepreneurial en plein essor. Les agences web bordelaises allient créativité, innovation et proximité client pour proposer des solutions digitales sur mesure. Le secteur du vin, du tourisme et de la gastronomie, très présent localement, a contribué à développer des expertises spécifiques en e-commerce et en stratégie de marque digitale.",
+  lille: "Lille, capitale des Hauts-de-France et carrefour européen, dispose d'un écosystème numérique dynamique et en constante évolution. La métropole lilloise, portée par ses grandes écoles et ses pôles de compétitivité, forme chaque année de nombreux talents du digital. Les agences web lilloises se caractérisent par leur esprit d'innovation et leur approche collaborative. Leur positionnement géographique stratégique, à proximité de Paris, de Londres et de Bruxelles, en fait des partenaires de choix pour les entreprises à dimension internationale.",
+  nantes: "Nantes, labellisée French Tech et reconnue comme l'une des villes les plus innovantes de France, possède un écosystème digital particulièrement mature. La métropole nantaise a su créer un environnement favorable à l'émergence d'agences web de qualité, portées par une communauté tech active et des événements comme le Web2Day. Les agences nantaises se distinguent par leur approche centrée sur l'utilisateur et leur engagement en faveur d'un numérique responsable et accessible.",
+  toulouse: "Toulouse, ville de l'aérospatiale et de l'innovation technologique, dispose d'un écosystème digital en pleine croissance. La Ville Rose, forte de ses pôles universitaires et de recherche, forme des talents du numérique de haut niveau. Les agences web toulousaines bénéficient de cette culture de l'excellence technique et proposent des solutions digitales innovantes. Le tissu économique local, mêlant grandes entreprises industrielles et startups ambitieuses, offre un terrain fertile pour le développement d'expertises variées.",
+  nice: "Nice, joyau de la Côte d'Azur et pôle technologique reconnu, accueille un écosystème digital en plein développement. La ville bénéficie de la présence de Sophia Antipolis, première technopole d'Europe, qui irrigue le territoire en compétences numériques de pointe. Les agences web niçoises combinent expertise technique et sensibilité créative, portées par l'environnement inspirant de la Riviera. Le tourisme, le luxe et l'événementiel, secteurs clés de l'économie locale, ont forgé des compétences spécifiques en design et en stratégie digitale.",
+  strasbourg: "Strasbourg, capitale européenne et métropole au carrefour de la France et de l'Allemagne, dispose d'un écosystème numérique unique enrichi par sa dimension internationale. Les agences web strasbourgeoises se distinguent par leur ouverture multiculturelle et leur capacité à travailler avec des clients de part et d'autre du Rhin. Le secteur digital alsacien est en pleine expansion, soutenu par des formations de qualité et un réseau entrepreneurial dynamique. Les spécialités les plus développées incluent le développement web multilingue, le e-commerce transfrontalier et le SEO international.",
+  rennes: "Rennes, métropole bretonne et pôle d'excellence numérique, figure parmi les villes françaises les plus dynamiques en matière de digital. La ville, portée par son pôle universitaire et ses grandes écoles d'ingénieurs, forme chaque année un vivier de talents reconnu. Les agences web rennaises se caractérisent par leur expertise technique solide et leur approche innovante. L'écosystème local, qui compte plusieurs startups à succès et des entreprises du numérique de premier plan, crée un environnement stimulant pour le développement de services web de qualité.",
+  grenoble: "Grenoble, capitale des Alpes et ville d'innovation par excellence, possède un écosystème numérique dynamique nourri par ses pôles de recherche et ses universités de renom. La ville, berceau de nombreuses innovations technologiques, a vu émerger des agences web combinant rigueur scientifique et créativité digitale. Les agences grenobloises se distinguent par leur expertise technique pointue et leur capacité à accompagner des projets complexes. Le tissu économique local, mêlant industries high-tech, startups innovantes et PME ambitieuses, offre un terreau fertile pour des prestations digitales de haut niveau.",
+};
+
+export async function getStaticPaths() {
+  const agences = await getCollection('agences');
+  const villes = [...new Set(agences.map(a => a.data.ville))];
+  return villes.map(ville => ({
+    params: { ville: ville.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '') },
+    props: { ville, agencesVille: agences.filter(a => a.data.ville === ville).map(a => a.data) },
+  }));
+}
+
+const { ville, agencesVille } = Astro.props;
+const agencesSorted = agencesVille.sort((a, b) => b.noteGlobale - a.noteGlobale);
+const villeSlug = ville.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const texteVille = villeTextes[villeSlug] || '';
+
+const breadcrumbs = [
+  { label: 'Accueil', href: '/' },
+  { label: `Agences web ${ville}` },
+];
+---
+<BaseLayout
+  title={`Meilleures agences web à ${ville} — Avis et comparatif`}
+  description={`Découvrez les meilleures agences web à ${ville}. Comparez les avis clients, les notes et les spécialités des ${agencesSorted.length} agences référencées.`}
+  breadcrumbs={breadcrumbs}
+>
+  <section class="py-8 md:py-12">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-2xl md:text-4xl font-extrabold mb-6">
+        Meilleures agences web à {ville} — Avis et comparatif
+      </h1>
+      {texteVille && (
+        <p class="text-gray-600 leading-relaxed mb-8">{texteVille}</p>
+      )}
+    </div>
+  </section>
+
+  <section class="pb-12">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="space-y-6">
+        {agencesSorted.map(agence => (
+          <AgencyCard
+            nom={agence.nom}
+            slug={agence.slug}
+            ville={agence.ville}
+            specialites={agence.specialites}
+            noteGlobale={agence.noteGlobale}
+            nombreAvis={agence.avis.length}
+            description={agence.description}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

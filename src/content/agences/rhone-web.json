@@ -1,0 +1,69 @@
+{
+  "nom": "Rhône Web",
+  "slug": "rhone-web",
+  "ville": "Lyon",
+  "siteWeb": "https://www.rhone-web.fr",
+  "specialites": ["SEO", "E-commerce", "Développement web"],
+  "description": "Rhône Web est une agence digitale lyonnaise fondée en 2013 par deux anciens consultants en stratégie numérique. Implantée dans le 6e arrondissement de Lyon, à proximité du parc de la Tête d'Or, l'agence s'est imposée comme une référence régionale dans le domaine du e-commerce et du référencement naturel. Sa triple expertise en SEO, développement web et e-commerce en fait un partenaire privilégié pour les entreprises souhaitant vendre en ligne de manière performante.\n\nL'agence compte aujourd'hui une quinzaine de collaborateurs aux profils complémentaires : développeurs full-stack, consultants SEO, chefs de projet e-commerce et intégrateurs front-end. Cette équipe pluridisciplinaire permet à Rhône Web de prendre en charge des projets e-commerce de A à Z, depuis l'étude de marché jusqu'au suivi des performances post-lancement.\n\nRhône Web a développé une expertise particulière sur les plateformes Shopify, WooCommerce et PrestaShop. L'agence conseille ses clients sur le choix de la solution la plus adaptée à leurs besoins et à leur budget, puis assure le développement, la personnalisation et l'optimisation de la boutique en ligne. Chaque projet e-commerce intègre dès le départ une stratégie SEO solide pour maximiser la visibilité organique du catalogue produits.\n\nEn matière de référencement naturel, Rhône Web se distingue par une approche data-driven. L'agence s'appuie sur des analyses sémantiques poussées, des audits techniques rigoureux et une veille permanente des algorithmes de Google pour élaborer des stratégies SEO performantes et durables. Les consultants de l'agence sont certifiés Google Analytics et maîtrisent les outils de référence du marché.\n\nParmi les réalisations marquantes de Rhône Web, on peut citer la création de la boutique en ligne d'un torréfacteur artisanal lyonnais, devenue en deux ans l'un des principaux sites de vente de café de spécialité en France, ainsi que l'accompagnement SEO d'un réseau de franchises de restauration ayant permis de tripler le nombre de réservations en ligne.\n\nRhône Web attache une grande importance à la formation continue de ses équipes. Les collaborateurs participent régulièrement à des conférences spécialisées comme le SEO Camp et le PrestaShop Day, et l'agence finance des certifications professionnelles pour garantir un niveau d'expertise toujours à la pointe du marché. Cette exigence de qualité se reflète dans la satisfaction élevée de ses clients et dans la durée de ses collaborations.",
+  "noteGlobale": 4.4,
+  "avis": [
+    {
+      "auteur": "Stéphane Martin",
+      "date": "2025-12-05",
+      "note": 5,
+      "texte": "Rhône Web a créé notre boutique en ligne sur Shopify et les résultats sont exceptionnels. Le site est rapide, bien conçu et parfaitement référencé. Nos ventes en ligne ont augmenté de 60 % en seulement trois mois après le lancement. L'équipe est professionnelle, réactive et toujours de bon conseil. C'est un véritable partenaire pour notre croissance."
+    },
+    {
+      "auteur": "Isabelle Faure",
+      "date": "2025-09-18",
+      "note": 5,
+      "texte": "Nous travaillons avec Rhône Web depuis plus de deux ans sur le SEO de notre site e-commerce. Les résultats sont constants et mesurables mois après mois. L'équipe prend le temps d'expliquer les actions mises en place et les résultats obtenus. Un accompagnement sérieux et transparent que je recommande à toutes les entreprises qui veulent développer leur visibilité en ligne."
+    },
+    {
+      "auteur": "François Durand",
+      "date": "2025-07-22",
+      "note": 4,
+      "texte": "Très bonne prestation pour la migration de notre site PrestaShop vers WooCommerce. Le projet était complexe avec un catalogue de plus de 2 000 produits, mais Rhône Web a géré la transition sans perte de données ni de positionnement SEO. Quelques ajustements ont été nécessaires après la mise en ligne, mais rien de majeur."
+    },
+    {
+      "auteur": "Aurélie Blanc",
+      "date": "2025-04-10",
+      "note": 4,
+      "texte": "Agence compétente et fiable pour le développement web. Rhône Web a réalisé notre site vitrine avec une qualité de code irréprochable et un design épuré qui correspond parfaitement à notre image de marque. Le SEO intégré dès la conception est un vrai plus. Seul petit regret, le planning initial a glissé de deux semaines."
+    },
+    {
+      "auteur": "Christophe Lemaire",
+      "date": "2025-01-30",
+      "note": 5,
+      "texte": "Rhône Web est sans conteste la meilleure agence avec laquelle j'ai travaillé pour un projet e-commerce. Leur maîtrise de Shopify est impressionnante et leur expertise SEO a fait la différence dès les premiers mois. Le retour sur investissement est largement positif. Je les recommande les yeux fermés à tout commerçant souhaitant se lancer en ligne."
+    },
+    {
+      "auteur": "Valérie Girard",
+      "date": "2024-10-14",
+      "note": 3,
+      "texte": "La qualité technique du site livré par Rhône Web est bonne, mais j'ai trouvé que le suivi de projet manquait parfois de rigueur. Certaines demandes de modifications ont pris plus de temps que prévu à être traitées. Le résultat final est satisfaisant néanmoins et le référencement fonctionne bien."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelle plateforme e-commerce Rhône Web recommande-t-elle ?",
+      "reponse": "Le choix de la plateforme dépend du projet. Rhône Web recommande Shopify pour les projets nécessitant une mise en ligne rapide et une gestion simplifiée, WooCommerce pour les projets WordPress nécessitant une grande flexibilité, et PrestaShop pour les catalogues volumineux nécessitant des fonctionnalités avancées. Un audit préalable permet de déterminer la solution la plus adaptée."
+    },
+    {
+      "question": "Combien de temps faut-il pour créer une boutique en ligne avec Rhône Web ?",
+      "reponse": "La durée de création d'une boutique en ligne varie selon la complexité du projet. Un site e-commerce standard avec un catalogue de taille moyenne est généralement livré en 6 à 10 semaines. Les projets plus complexes impliquant des développements sur mesure ou des intégrations spécifiques peuvent nécessiter 3 à 5 mois de travail."
+    },
+    {
+      "question": "Rhône Web propose-t-elle des audits SEO ?",
+      "reponse": "Oui, l'audit SEO est l'une des prestations fondamentales de Rhône Web. L'audit comprend une analyse technique complète du site, un audit sémantique des contenus, une étude de la concurrence et un plan d'actions priorisé. L'agence propose des audits ponctuels ou un suivi SEO mensuel avec reporting détaillé."
+    },
+    {
+      "question": "Rhône Web assure-t-elle la maintenance des sites e-commerce ?",
+      "reponse": "Oui, Rhône Web propose des contrats de maintenance adaptés aux sites e-commerce incluant les mises à jour de sécurité, la surveillance des performances, la sauvegarde régulière des données, le support technique et la résolution rapide des incidents. Ces contrats garantissent le bon fonctionnement continu de la boutique en ligne."
+    },
+    {
+      "question": "Quels sont les tarifs de Rhône Web pour un projet e-commerce ?",
+      "reponse": "Les tarifs de Rhône Web pour un projet e-commerce démarrent à partir de 5 000 euros HT pour une boutique Shopify standard et peuvent atteindre 25 000 euros HT ou plus pour des projets complexes sur mesure. Chaque projet fait l'objet d'un devis gratuit et détaillé après une phase de cadrage avec le client."
+    }
+  ]
+}

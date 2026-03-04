@@ -1,0 +1,63 @@
+{
+  "nom": "MarseilleWeb",
+  "slug": "marseille-web",
+  "ville": "Marseille",
+  "siteWeb": "https://www.marseille-web.fr",
+  "specialites": ["Développement web", "Webdesign"],
+  "description": "MarseilleWeb est une agence digitale implantée dans le quartier du Panier, au coeur du centre historique de Marseille, depuis 2016. Spécialisée dans le développement web et le webdesign, l'agence se positionne comme un acteur incontournable du paysage numérique marseillais en combinant créativité visuelle et solidité technique dans chacun de ses projets.\n\nL'équipe de MarseilleWeb rassemble des développeurs, des designers et des chefs de projet partageant une même passion pour la création digitale. L'agence cultive un esprit d'atelier où chaque projet est traité comme une oeuvre unique, avec une attention particulière portée aux détails visuels et à la qualité du code. Cette philosophie artisanale se traduit par des réalisations sur mesure qui se démarquent des solutions standardisées proposées par certaines agences.\n\nEn développement web, MarseilleWeb maîtrise un large éventail de technologies : PHP, JavaScript, Python, ainsi que les frameworks modernes comme Laravel, Astro et Nuxt.js. L'agence développe des sites vitrine, des applications web, des intranets et des plateformes collaboratives pour des clients variés, des startups aux collectivités territoriales en passant par les associations culturelles de la cité phocéenne.\n\nLe webdesign constitue le second pilier d'expertise de MarseilleWeb. L'agence conçoit des interfaces utilisateur intuitives et esthétiques en s'appuyant sur les principes du design thinking et les meilleures pratiques en matière d'accessibilité numérique. Chaque projet de design débute par une phase de recherche utilisateur permettant de comprendre les besoins et les comportements des cibles visées.\n\nMarseilleWeb a notamment réalisé le site web du festival des arts numériques de Marseille, une plateforme interactive saluée pour son design innovant et son ergonomie exemplaire. L'agence a également conçu le portail numérique d'un office de tourisme de la région PACA, intégrant une cartographie interactive et un système de réservation en temps réel.\n\nFidèle à l'esprit méditerranéen, MarseilleWeb accorde une grande importance aux relations humaines. L'agence organise des rencontres régulières avec ses clients pour maintenir une collaboration étroite et transparente tout au long des projets. Cette proximité relationnelle, associée à une expertise technique reconnue, fait de MarseilleWeb un partenaire de confiance pour toute entreprise cherchant à renforcer sa présence digitale à Marseille et dans toute la région Sud.",
+  "noteGlobale": 4.0,
+  "avis": [
+    {
+      "auteur": "Antoine Rossi",
+      "date": "2025-10-12",
+      "note": 5,
+      "texte": "MarseilleWeb a développé notre site vitrine et le résultat est superbe. Le design est moderne, élégant et reflète parfaitement l'identité de notre entreprise. L'équipe a été très à l'écoute de nos besoins et a su proposer des solutions créatives auxquelles nous n'avions pas pensé. La livraison a été réalisée dans les délais prévus. Très satisfait."
+    },
+    {
+      "auteur": "Sandra Colombo",
+      "date": "2025-07-25",
+      "note": 4,
+      "texte": "Nous avons fait appel à MarseilleWeb pour la refonte de notre site associatif. Le nouveau design est beaucoup plus professionnel et l'ergonomie a été nettement améliorée. La navigation est fluide et nos adhérents trouvent facilement les informations. Le budget a été respecté, ce qui est appréciable pour une association."
+    },
+    {
+      "auteur": "Pierre-Antoine Levy",
+      "date": "2025-05-08",
+      "note": 3,
+      "texte": "Le travail de design est de qualité chez MarseilleWeb, mais j'ai trouvé que le développement technique présentait quelques lacunes. Nous avons rencontré des bugs après la mise en ligne qui ont nécessité plusieurs interventions correctives. Le support a été réactif pour résoudre ces problèmes, mais cela aurait dû être détecté en phase de recette."
+    },
+    {
+      "auteur": "Camille Nguyen",
+      "date": "2025-02-14",
+      "note": 4,
+      "texte": "Belle prestation de MarseilleWeb pour la création de notre application web interne. L'interface est intuitive et nos collaborateurs l'ont adoptée rapidement. L'agence a bien compris nos contraintes métier et a proposé des solutions pragmatiques. Bon rapport qualité-prix pour une agence marseillaise de cette qualité."
+    },
+    {
+      "auteur": "Rachid Benali",
+      "date": "2024-12-03",
+      "note": 4,
+      "texte": "MarseilleWeb a réalisé le site web de notre restaurant et nous en sommes très contents. Le design met bien en valeur nos plats et l'ambiance de notre établissement. La mise en place du module de réservation en ligne fonctionne parfaitement. Nos clients nous complimentent régulièrement sur le site. Merci à toute l'équipe."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelles technologies de développement utilise MarseilleWeb ?",
+      "reponse": "MarseilleWeb maîtrise un large éventail de technologies web : PHP avec Laravel, JavaScript avec Vue.js et Nuxt.js, Python avec Django, ainsi que les outils front-end modernes comme Astro et Tailwind CSS. Le choix de la technologie est déterminé en fonction des besoins spécifiques de chaque projet et des contraintes techniques du client."
+    },
+    {
+      "question": "MarseilleWeb réalise-t-elle des sites accessibles aux personnes handicapées ?",
+      "reponse": "Oui, l'accessibilité numérique est une préoccupation majeure de MarseilleWeb. L'agence conçoit ses sites en conformité avec les normes WCAG 2.1 et le référentiel RGAA. Chaque projet intègre des tests d'accessibilité automatisés et manuels pour garantir une expérience inclusive à tous les utilisateurs, y compris les personnes en situation de handicap."
+    },
+    {
+      "question": "Quel est le budget minimum pour un projet avec MarseilleWeb ?",
+      "reponse": "MarseilleWeb accepte des projets à partir de 2 500 euros HT pour un site vitrine simple. Les projets plus complexes comme les applications web ou les plateformes sur mesure se situent généralement entre 8 000 et 30 000 euros HT. Un premier échange gratuit permet d'établir un devis précis en fonction des besoins exprimés."
+    },
+    {
+      "question": "MarseilleWeb peut-elle intervenir en dehors de Marseille ?",
+      "reponse": "Oui, bien que l'agence soit basée à Marseille, MarseilleWeb accompagne des clients dans toute la région PACA et au-delà. Les outils de collaboration à distance permettent de travailler efficacement avec des clients éloignés. L'agence se déplace également pour les réunions de cadrage et les présentations importantes."
+    },
+    {
+      "question": "MarseilleWeb propose-t-elle des formations en webdesign ?",
+      "reponse": "Oui, MarseilleWeb propose des formations sur mesure en webdesign, UX design et utilisation des outils de création comme Figma. Ces formations s'adressent aussi bien aux équipes internes des entreprises qu'aux indépendants souhaitant monter en compétences. Les sessions peuvent être organisées en présentiel dans les locaux de l'agence ou en visioconférence."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "nom": "Occitanie Digital",
+  "slug": "occitanie-digital",
+  "ville": "Toulouse",
+  "siteWeb": "https://www.occitanie-digital.fr",
+  "specialites": ["E-commerce", "Webdesign"],
+  "description": "Occitanie Digital est une agence web creative basee a Toulouse, specialisee dans la conception de sites e-commerce performants et le webdesign haut de gamme. Fondee en 2017 par deux anciens directeurs artistiques issus du monde de la publicite, l'agence place l'esthetique et l'experience utilisateur au coeur de chaque projet. Avec une equipe de dix personnes, Occitanie Digital a su se faire un nom dans l'ecosysteme numerique toulousain grace a des realisations visuellement marquantes et commercialement efficaces.\n\nL'expertise e-commerce de l'agence couvre l'ensemble de la chaine de valeur : de la conception de l'interface utilisateur a l'integration des systemes de paiement, en passant par la gestion des catalogues produits et l'optimisation du tunnel de conversion. Occitanie Digital travaille principalement avec Shopify, WooCommerce et PrestaShop, en choisissant la plateforme la plus adaptee aux objectifs et au volume d'activite de chaque client.\n\nLe webdesign constitue le second pilier de l'agence. Chaque creation est le fruit d'un processus creatif structure, allant du brief initial aux maquettes detaillees, en passant par la recherche d'inspiration et la definition d'une direction artistique. Les designers d'Occitanie Digital maitrisent Figma et Adobe Creative Suite et s'attachent a creer des interfaces a la fois modernes, intuitives et fideles a l'identite de marque de leurs clients.\n\nL'agence se distingue egalement par son approche centree sur la conversion. Chaque element de design est pense pour guider l'utilisateur vers l'action souhaitee, qu'il s'agisse d'un achat, d'une prise de contact ou d'une inscription. Les tests A/B et l'analyse des parcours utilisateurs font partie integrante de la methodologie de travail d'Occitanie Digital.\n\nBasee dans le quartier des Carmes a Toulouse, l'agence accueille regulierement ses clients dans ses locaux pour des ateliers de co-creation et des sessions de formation. Cette proximite relationnelle est un element cle de la satisfaction client et contribue a la reussite des projets. Occitanie Digital a deja accompagne plus de 120 marques et commercants dans leur developpement en ligne, avec un chiffre d'affaires moyen de ses clients en hausse de 40% apres refonte de leur boutique en ligne.",
+  "noteGlobale": 4.0,
+  "avis": [
+    {
+      "auteur": "Isabelle Pujol",
+      "date": "2025-10-20",
+      "note": 5,
+      "texte": "Occitanie Digital a completement transforme notre boutique en ligne. Le design est magnifique et nos clients nous le disent regulierement. Le taux de conversion a augmente de maniere significative depuis la refonte. L'equipe est passionnee et cela se ressent dans la qualite du travail livre. Merci a toute l'equipe !"
+    },
+    {
+      "auteur": "Romain Castaing",
+      "date": "2025-08-14",
+      "note": 3,
+      "texte": "Le design est indeniablement reussi, mais j'ai trouve le processus un peu long. Plusieurs allers-retours ont ete necessaires avant d'arriver au resultat final. Le budget a egalement ete revu a la hausse en cours de projet. Le resultat est la, mais l'experience projet pourrait etre amelioree."
+    },
+    {
+      "auteur": "Nathalie Rouquet",
+      "date": "2025-06-03",
+      "note": 4,
+      "texte": "Tres bonne agence pour la creation de notre site e-commerce sur Shopify. L'integration du catalogue produits a ete bien geree et la formation pour la gestion quotidienne de la boutique etait complete. Le site est rapide et bien optimise pour le mobile. Je recommande."
+    },
+    {
+      "auteur": "Laurent Dupuy",
+      "date": "2025-03-18",
+      "note": 4,
+      "texte": "Nous avons fait appel a Occitanie Digital pour la refonte graphique de notre site vitrine. Le resultat est elegant et professionnel, parfaitement en phase avec notre positionnement premium. L'equipe creative a bien compris notre univers de marque. Seul point : le SAV pourrait etre plus reactif apres la livraison."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelles plateformes e-commerce Occitanie Digital utilise-t-elle ?",
+      "reponse": "L'agence travaille principalement avec Shopify, WooCommerce et PrestaShop. Le choix de la plateforme est determine lors de la phase d'analyse en fonction du volume de produits, du budget, des fonctionnalites necessaires et des perspectives de croissance du client. Chaque solution a ses avantages specifiques."
+    },
+    {
+      "question": "Occitanie Digital propose-t-elle des formations pour gerer son site e-commerce ?",
+      "reponse": "Oui, chaque livraison de site e-commerce s'accompagne d'une formation complete a la gestion quotidienne de la boutique : ajout de produits, gestion des commandes, suivi des stocks et parametrage des promotions. Des sessions de formation complementaires peuvent egalement etre organisees a la demande."
+    },
+    {
+      "question": "Quel est le budget moyen pour un site e-commerce chez Occitanie Digital ?",
+      "reponse": "Le budget varie selon l'ampleur du projet. Une boutique en ligne standard avec un catalogue de moins de 100 produits demarre aux alentours de 6 000 euros. Pour des projets plus complexes avec des fonctionnalites sur mesure, le budget peut atteindre 20 000 a 35 000 euros. Un devis precis est etabli apres etude du cahier des charges."
+    },
+    {
+      "question": "Comment se deroule le processus de creation graphique ?",
+      "reponse": "Le processus debute par un brief creatif approfondi pour comprendre l'univers de marque du client. S'ensuivent la creation de moodboards, puis de maquettes sur Figma. Le client valide chaque etape avant le passage au developpement. En general, deux a trois allers-retours sont prevus pour affiner le design."
+    },
+    {
+      "question": "Occitanie Digital assure-t-elle la maintenance des sites apres la livraison ?",
+      "reponse": "Oui, l'agence propose des contrats de maintenance mensuelle incluant les mises a jour de securite, les sauvegardes regulieres, le monitoring des performances et le support technique. Plusieurs formules sont disponibles en fonction du niveau de service souhaite, a partir de 150 euros par mois."
+    }
+  ]
+}

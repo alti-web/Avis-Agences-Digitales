@@ -1,0 +1,63 @@
+{
+  "nom": "Strasbourg Digital",
+  "slug": "strasbourg-digital",
+  "ville": "Strasbourg",
+  "siteWeb": "https://www.strasbourg-digital.fr",
+  "specialites": ["Webdesign", "UX/UI", "Marketing digital"],
+  "description": "Strasbourg Digital est une agence creative fondee en 2016, specialisee dans le webdesign, l'UX/UI design et le marketing digital. Installee dans le quartier europeen de Strasbourg, l'agence cultive une approche resolument centree sur l'utilisateur. Son equipe de douze personnes, composee de designers, de developpeurs front-end et de specialistes en marketing, met son savoir-faire au service d'entreprises de toutes tailles, des startups aux grands groupes du Grand Est.\n\nL'UX/UI design est le coeur de metier de Strasbourg Digital. L'agence applique une demarche de design thinking rigoureuse, partant de la recherche utilisateur pour aboutir a des interfaces intuitives et engageantes. Chaque projet debute par une phase de decouverte incluant des interviews utilisateurs, l'analyse des parcours existants et la definition de personas. Cette approche methodique permet de concevoir des interfaces qui repondent reellement aux attentes des utilisateurs finaux.\n\nLe webdesign propose par l'agence va bien au-dela de la simple esthetique. Les designers de Strasbourg Digital creent des systemes de design coherents et evolutifs, avec des composants reutilisables et des guidelines precises. Cette approche systematique garantit une experience visuelle harmonieuse sur l'ensemble des supports digitaux du client : site web, application mobile, emailings et supports de communication.\n\nEn marketing digital, Strasbourg Digital propose une offre complete couvrant la strategie de contenu, la gestion des reseaux sociaux, l'email marketing et l'analyse de donnees. L'agence se differencie par sa capacite a aligner la strategie marketing avec l'experience utilisateur, creant ainsi des parcours client fluides et performants. Les campagnes sont concues pour generer de l'engagement et de la conversion, en s'appuyant sur des contenus de qualite et des mecaniques d'interaction innovantes.\n\nStrasbourg Digital organise regulierement des ateliers UX et des meetups design dans ses locaux, contribuant activement a la vie de la communaute tech strasbourgeoise. L'agence accueille egalement des stagiaires et alternants issus des ecoles de design locales, participant ainsi a la formation de la prochaine generation de designers. Cette implication dans l'ecosysteme local renforce sa visibilite et lui permet de recruter les meilleurs talents de la region. Avec un portefeuille de plus de 150 projets realises, Strasbourg Digital s'impose comme une reference en design digital dans le Grand Est.",
+  "noteGlobale": 4.1,
+  "avis": [
+    {
+      "auteur": "Julie Hartmann",
+      "date": "2025-11-02",
+      "note": 5,
+      "texte": "Strasbourg Digital a completement repense l'experience utilisateur de notre application mobile. Le travail de recherche utilisateur en amont a permis d'identifier des points de friction que nous n'avions pas detectes. Le resultat est spectaculaire : le taux de retention a augmente de 40% et les avis sur les stores sont passes de 3.2 a 4.6 etoiles."
+    },
+    {
+      "auteur": "Eric Zimmermann",
+      "date": "2025-08-17",
+      "note": 4,
+      "texte": "Bonne agence pour le webdesign. Ils ont cree notre nouveau site corporate avec un design moderne et elegant. Le systeme de design livre est bien structure et facilite les evolutions futures. L'equipe est creative et force de proposition. Seul regret : les tarifs sont un peu eleves par rapport au marche local."
+    },
+    {
+      "auteur": "Lucile Braun",
+      "date": "2025-06-10",
+      "note": 4,
+      "texte": "Nous avons fait appel a Strasbourg Digital pour notre strategie de contenu et la gestion de nos reseaux sociaux. Les publications sont qualitatives et notre communaute a grandi de maniere significative. L'equipe marketing est proactive et apporte regulierement de nouvelles idees. Collaboration agreable et professionnelle."
+    },
+    {
+      "auteur": "Christophe Wagner",
+      "date": "2025-03-25",
+      "note": 3,
+      "texte": "Le design livre est de bonne qualite mais le processus de validation a ete laborieux. Trop d'allers-retours et des incomprehensions sur certains points du brief. Le projet a finalement abouti a un bon resultat, mais j'attendais un peu plus de fluidite dans la collaboration. A ameliorer cote gestion de projet."
+    },
+    {
+      "auteur": "Marianne Fischer",
+      "date": "2025-01-08",
+      "note": 5,
+      "texte": "Excellente experience avec Strasbourg Digital pour la refonte UX de notre plateforme B2B. L'equipe a mene des tests utilisateurs tres instructifs et propose des solutions pragmatiques qui ont nettement ameliore l'ergonomie de notre outil. Le taux de conversion a bondi de 25%. Je recommande chaleureusement cette agence."
+    }
+  ],
+  "faq": [
+    {
+      "question": "En quoi consiste l'approche UX de Strasbourg Digital ?",
+      "reponse": "L'approche UX de l'agence repose sur la methodologie du design thinking. Elle comprend une phase de recherche utilisateur (interviews, tests, analytics), la definition de personas et parcours, la conception de wireframes et prototypes, puis des tests utilisateurs pour valider les solutions. Cette demarche iterative garantit des interfaces reellement adaptees aux besoins des utilisateurs."
+    },
+    {
+      "question": "Strasbourg Digital peut-elle intervenir uniquement sur la partie design ?",
+      "reponse": "Oui, l'agence propose des prestations de design pur : audit UX, creation de maquettes, systeme de design, prototypage interactif. Les livrables peuvent ensuite etre developpes en interne ou par un partenaire technique. Strasbourg Digital fournit des fichiers Figma complets avec specifications pour les developpeurs."
+    },
+    {
+      "question": "Quels sont les tarifs de Strasbourg Digital pour le marketing digital ?",
+      "reponse": "Les forfaits de marketing digital demarrent a 800 euros par mois pour la gestion d'un reseau social et la creation de contenu. Un accompagnement complet incluant strategie de contenu, gestion multi-reseaux, email marketing et reporting demarre a 2 000 euros par mois. Un devis personnalise est etabli selon vos besoins."
+    },
+    {
+      "question": "Strasbourg Digital organise-t-elle des ateliers ou formations ?",
+      "reponse": "Oui, l'agence organise regulierement des ateliers UX et des formations en webdesign dans ses locaux. Elle propose egalement des formations sur mesure pour les equipes de ses clients, couvrant des sujets comme les bases de l'UX, la prise en main de Figma ou les bonnes pratiques de design system."
+    },
+    {
+      "question": "Combien de temps dure un projet de refonte UX/UI ?",
+      "reponse": "Un projet de refonte UX/UI complet dure generalement entre 8 et 16 semaines, selon la complexite de l'interface et le nombre d'ecrans concernes. La phase de recherche utilisateur prend 2 a 3 semaines, la conception 4 a 8 semaines et les tests utilisateurs 2 a 3 semaines. Un planning precis est etabli en debut de projet."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "nom": "Côte d'Azur Web",
+  "slug": "cote-azur-web",
+  "ville": "Nice",
+  "siteWeb": "https://www.cote-azur-web.fr",
+  "specialites": ["SEO", "Développement web", "Webdesign"],
+  "description": "Cote d'Azur Web est une agence digitale nicoise fondee en 2012, reconnue pour son expertise en referencement naturel, developpement web et webdesign. Situee dans le quartier du port de Nice, l'agence beneficie d'un cadre de travail inspire qui se reflete dans la creativite de ses realisations. Avec une equipe de dix-huit collaborateurs, Cote d'Azur Web s'est imposee comme l'une des agences web de reference sur la Cote d'Azur.\n\nLe referencement naturel est le coeur de metier de l'agence. Cote d'Azur Web a developpe une methodologie SEO proprietary qui combine analyse semantique avancee, optimisation technique poussee et strategie de contenu editoriale. L'agence accompagne aussi bien des commerces locaux que des entreprises nationales dans leur quete de visibilite sur les moteurs de recherche. Les resultats parlent d'eux-memes : en moyenne, les clients voient leur trafic organique augmenter de 150% dans les douze premiers mois de collaboration.\n\nEn developpement web, l'agence privilegie les solutions modernes et performantes. Les developpeurs de Cote d'Azur Web maitrisent les frameworks JavaScript les plus recents comme React et Next.js, ainsi que les technologies back-end comme Node.js et Python. Chaque projet est aborde avec une exigence forte en matiere de performance, d'accessibilite et de securite. Les sites livres obtiennent systematiquement des scores eleves sur Google PageSpeed Insights.\n\nLe pole webdesign de l'agence reunit des designers talentueux qui allient creativite et pragmatisme. Les interfaces concues par Cote d'Azur Web sont pensees pour offrir une experience utilisateur optimale tout en servant les objectifs commerciaux du client. La direction artistique s'adapte a chaque univers de marque, du luxe a la tech en passant par le tourisme, secteur particulierement present dans la region.\n\nCote d'Azur Web a egalement developpe une expertise specifique dans l'accompagnement des acteurs du tourisme et de l'hotellerie, un secteur cle de l'economie azureenne. L'agence a ainsi travaille avec de nombreux hotels, restaurants et offices de tourisme de la region, leur permettant de capter une clientele internationale grace a des strategies digitales multilingues. Avec plus de 300 projets realises et un portefeuille client diversifie, Cote d'Azur Web continue de grandir tout en maintenant un niveau de qualite et de proximite qui fait sa reputation.",
+  "noteGlobale": 4.4,
+  "avis": [
+    {
+      "auteur": "Philippe Rossi",
+      "date": "2025-12-01",
+      "note": 5,
+      "texte": "Excellente agence ! Cote d'Azur Web a entierement refait notre site d'hotel et mis en place une strategie SEO redoutable. En six mois, notre trafic organique a triple et nos reservations directes ont augmente de 60%. L'equipe est reactive, professionnelle et vraiment a l'ecoute. Le meilleur investissement que nous ayons fait."
+    },
+    {
+      "auteur": "Marie-Claire Duval",
+      "date": "2025-09-10",
+      "note": 5,
+      "texte": "Nous avons confie notre referencement a Cote d'Azur Web il y a un an et les resultats sont impressionnants. Nous apparaissons desormais en premiere page sur toutes nos requetes cibles. Les rapports mensuels sont clairs et l'equipe prend le temps d'expliquer chaque action. Tres satisfaite de cette collaboration."
+    },
+    {
+      "auteur": "Antoine Lefebvre",
+      "date": "2025-07-25",
+      "note": 4,
+      "texte": "Bon travail sur la creation de notre site vitrine. Le design est moderne et elegant, parfaitement adapte a notre image de marque. Le developpement a ete realise dans les temps. Je mets quatre etoiles car j'aurais aime plus de propositions creatives lors de la phase de maquettage."
+    },
+    {
+      "auteur": "Sandra Micheli",
+      "date": "2025-05-18",
+      "note": 4,
+      "texte": "Agence competente et fiable. La refonte de notre site e-commerce a ete bien menee avec un design soigne et une navigation fluide. Le referencement technique du site est excellent. Bon rapport qualite-prix pour la region. Je recommande sans hesitation."
+    },
+    {
+      "auteur": "Vincent Giordano",
+      "date": "2025-02-28",
+      "note": 5,
+      "texte": "Troisieme projet avec Cote d'Azur Web et toujours aussi satisfait. Cette fois, ils ont developpe une application web pour notre restaurant permettant la reservation en ligne et la commande a emporter. L'interface est intuitive et nos clients l'ont adoptee immediatement. Une equipe au top."
+    },
+    {
+      "auteur": "Helene Martini",
+      "date": "2024-11-05",
+      "note": 4,
+      "texte": "Cote d'Azur Web a pris en charge notre strategie de contenu SEO pour notre blog professionnel. Les articles sont bien rediges, pertinents et bien optimises. Notre visibilite s'est nettement amelioree sur nos thematiques cles. L'equipe editoriale est serieuse et respecte les delais de publication."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Cote d'Azur Web est-elle specialisee dans le secteur du tourisme ?",
+      "reponse": "Bien que l'agence travaille avec des clients de tous secteurs, elle a effectivement developpe une expertise forte dans le tourisme et l'hotellerie grace a sa localisation sur la Cote d'Azur. Elle a accompagne de nombreux hotels, restaurants et prestataires touristiques dans leur strategie digitale, y compris en multilangue."
+    },
+    {
+      "question": "Quels resultats SEO peut-on esperer avec Cote d'Azur Web ?",
+      "reponse": "Les resultats varient selon le secteur et la concurrence, mais en moyenne les clients constatent une augmentation de 150% de leur trafic organique dans les douze premiers mois. L'agence fournit des objectifs chiffres et realistes des le depart et propose un suivi mensuel detaille des performances."
+    },
+    {
+      "question": "Quelles technologies de developpement web l'agence utilise-t-elle ?",
+      "reponse": "Cote d'Azur Web travaille avec des technologies modernes : React, Next.js et Vue.js cote front-end, Node.js et Python cote back-end. Pour les CMS, l'agence utilise WordPress et des solutions headless. Le choix technologique est adapte aux besoins specifiques de chaque projet."
+    },
+    {
+      "question": "L'agence propose-t-elle des prestations de webdesign uniquement ?",
+      "reponse": "Oui, il est possible de faire appel a Cote d'Azur Web uniquement pour la partie design et direction artistique. L'agence peut livrer des maquettes Figma completes que vous pourrez faire developper en interne ou par un autre prestataire. Cette prestation inclut la creation de la charte graphique digitale."
+    },
+    {
+      "question": "Cote d'Azur Web travaille-t-elle avec des clients hors de la region ?",
+      "reponse": "Oui, l'agence a des clients dans toute la France et a l'international. Les outils de visioconference et de gestion de projet permettent un suivi efficace a distance. Toutefois, les clients locaux beneficient de reunions regulieres en presentiel dans les bureaux de l'agence a Nice."
+    }
+  ]
+}

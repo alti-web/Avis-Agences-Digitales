@@ -1,0 +1,40 @@
+---
+import StarRating from './StarRating.astro';
+
+interface Props {
+  auteur: string;
+  date: string;
+  note: number;
+  texte: string;
+  agence?: string;
+  agenceSlug?: string;
+}
+
+const { auteur, date, note, texte, agence, agenceSlug } = Astro.props;
+
+const formattedDate = new Date(date).toLocaleDateString('fr-FR', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+<div class="bg-white rounded-lg border border-gray-200 p-5">
+  <div class="flex items-start justify-between mb-3">
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-semibold text-sm">
+        {auteur.charAt(0).toUpperCase()}
+      </div>
+      <div>
+        <p class="font-medium text-gray-900">{auteur}</p>
+        <p class="text-xs text-gray-500">{formattedDate}</p>
+      </div>
+    </div>
+    <StarRating note={note} size="sm" showValue={false} />
+  </div>
+  <p class="text-sm text-gray-600 leading-relaxed">{texte}</p>
+  {agence && agenceSlug && (
+    <p class="mt-3 text-xs text-gray-500">
+      Avis sur <a href={`/avis/${agenceSlug}`} class="text-primary hover:underline">{agence}</a>
+    </p>
+  )}
+</div>

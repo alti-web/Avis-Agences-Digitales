@@ -1,0 +1,63 @@
+{
+  "nom": "Toulouse Web Pro",
+  "slug": "toulouse-web-pro",
+  "ville": "Toulouse",
+  "siteWeb": "https://www.toulouse-web-pro.fr",
+  "specialites": ["Développement web", "SEO", "Marketing digital"],
+  "description": "Toulouse Web Pro est une agence digitale implantee au coeur de la Ville Rose depuis 2014. Fondee par une equipe de passionnes du numerique, l'agence s'est rapidement imposee comme un acteur incontournable du paysage digital toulousain. Specialisee dans le developpement web, le referencement naturel et le marketing digital, Toulouse Web Pro accompagne les entreprises locales et nationales dans leur transformation numerique.\n\nL'equipe, composee d'une quinzaine de collaborateurs, reunit des competences variees : developpeurs front-end et back-end, experts SEO, chefs de projet et consultants en strategie digitale. Cette pluridisciplinarite permet a l'agence de proposer des solutions completes et sur mesure, adaptees aux besoins specifiques de chaque client. Que vous soyez une startup en phase de lancement ou une PME souhaitant renforcer sa presence en ligne, Toulouse Web Pro dispose des ressources necessaires pour mener a bien votre projet.\n\nEn matiere de developpement web, l'agence maitrise les technologies les plus recentes : React, Vue.js, Node.js, ainsi que les CMS comme WordPress et Shopify. Chaque site est concu avec une attention particuliere portee a la performance, l'accessibilite et le responsive design. L'objectif est de livrer des solutions robustes, evolutives et optimisees pour le referencement naturel des leur mise en ligne.\n\nCote SEO, Toulouse Web Pro deploie des strategies de referencement eprouvees, combinant audit technique, optimisation on-page, creation de contenu de qualite et netlinking. L'agence suit de pres les evolutions des algorithmes de Google pour garantir des resultats durables a ses clients. Les rapports de performance mensuels permettent un suivi transparent et une adaptation continue des actions mises en place.\n\nLe volet marketing digital complete l'offre avec des campagnes Google Ads, la gestion des reseaux sociaux, l'email marketing et l'analyse de donnees. Toulouse Web Pro s'appuie sur une approche data-driven pour maximiser le retour sur investissement de chaque euro depense. L'agence a accompagne plus de 200 entreprises depuis sa creation et affiche un taux de fidelisation client de 85%, temoignant de la qualite de ses prestations et de son engagement aupres de ses partenaires.",
+  "noteGlobale": 4.2,
+  "avis": [
+    {
+      "auteur": "Marc Delacroix",
+      "date": "2025-11-15",
+      "note": 5,
+      "texte": "Nous avons confie la refonte de notre site e-commerce a Toulouse Web Pro et le resultat a depasse nos attentes. L'equipe a ete tres a l'ecoute de nos besoins et a su proposer des solutions innovantes. Le nouveau site est rapide, esthetique et nos ventes en ligne ont augmente de 35% en trois mois. Je recommande vivement cette agence."
+    },
+    {
+      "auteur": "Sophie Bernaud",
+      "date": "2025-09-22",
+      "note": 4,
+      "texte": "Bonne experience globale avec Toulouse Web Pro pour notre strategie SEO. Les resultats sont arrives progressivement mais de maniere constante. Notre trafic organique a double en six mois. Seul bemol : les delais de reponse peuvent parfois etre un peu longs, mais la qualite du travail compense largement."
+    },
+    {
+      "auteur": "Jean-Pierre Moreau",
+      "date": "2025-07-08",
+      "note": 4,
+      "texte": "Agence serieuse et professionnelle. Ils ont developpe notre application web metier dans les delais impartis. Le suivi de projet etait rigoureux avec des points hebdomadaires. L'equipe technique est competente et reactive. Je retire une etoile car le budget initial a ete legerement depasse."
+    },
+    {
+      "auteur": "Caroline Fabre",
+      "date": "2025-04-30",
+      "note": 4,
+      "texte": "Toulouse Web Pro a gere nos campagnes Google Ads pendant un an. Les resultats etaient au rendez-vous avec un cout par acquisition divise par deux. L'equipe marketing est tres analytique et sait optimiser les campagnes au fil du temps. Collaboration agreable et transparente."
+    },
+    {
+      "auteur": "Thierry Gascon",
+      "date": "2025-01-12",
+      "note": 4,
+      "texte": "Nous avons fait appel a cette agence pour ameliorer notre referencement local. En quelques mois, notre cabinet d'expertise comptable est passe en premiere page sur les recherches cles. L'accompagnement est personnalise et les conseils pertinents. Tres satisfait du rapport qualite-prix."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels types de sites web Toulouse Web Pro developpe-t-elle ?",
+      "reponse": "Toulouse Web Pro developpe tous types de sites web : sites vitrine, sites e-commerce, applications web metier, plateformes SaaS et intranets. L'agence travaille avec les technologies modernes comme React, Vue.js et Node.js, ainsi qu'avec des CMS comme WordPress et Shopify, selon les besoins et le budget de chaque client."
+    },
+    {
+      "question": "Combien coute un projet de creation de site web chez Toulouse Web Pro ?",
+      "reponse": "Les tarifs varient en fonction de la complexite du projet. Un site vitrine demarre a partir de 3 000 euros, tandis qu'un site e-commerce complet peut aller de 8 000 a 25 000 euros. Toulouse Web Pro propose systematiquement un devis detaille et gratuit apres analyse de vos besoins specifiques."
+    },
+    {
+      "question": "Quels sont les delais de livraison pour un site web ?",
+      "reponse": "En moyenne, un site vitrine est livre en 4 a 6 semaines et un site e-commerce en 8 a 12 semaines. Les delais dependent de la complexite du projet, du volume de contenus a integrer et de la reactivite du client pour les validations. Un planning detaille est etabli en debut de projet."
+    },
+    {
+      "question": "Toulouse Web Pro propose-t-elle un accompagnement SEO apres la mise en ligne ?",
+      "reponse": "Oui, l'agence propose des forfaits d'accompagnement SEO mensuels incluant le suivi des positions, l'optimisation continue du contenu, le netlinking et des rapports de performance detailles. Ces forfaits sont modulables en fonction de vos objectifs et de votre budget."
+    },
+    {
+      "question": "L'agence travaille-t-elle uniquement avec des entreprises toulousaines ?",
+      "reponse": "Non, bien que basee a Toulouse, l'agence travaille avec des clients dans toute la France et meme a l'international. Les outils collaboratifs modernes permettent un suivi de projet efficace a distance. Neanmoins, les clients toulousains beneficient de reunions en presentiel dans les locaux de l'agence."
+    }
+  ]
+}

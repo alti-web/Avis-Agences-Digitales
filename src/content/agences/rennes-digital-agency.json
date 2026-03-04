@@ -1,0 +1,63 @@
+{
+  "nom": "Rennes Digital Agency",
+  "slug": "rennes-digital-agency",
+  "ville": "Rennes",
+  "siteWeb": "https://www.rennes-digital-agency.fr",
+  "specialites": ["Marketing digital", "Content marketing", "SEO"],
+  "description": "Rennes Digital Agency est une agence de marketing digital fondee en 2018, basee au coeur de Rennes. Specialisee dans le marketing de contenu, le SEO et la strategie digitale globale, l'agence aide les entreprises a construire une presence en ligne forte et perenne. Avec une equipe de dix collaborateurs passionnes par le contenu et la data, Rennes Digital Agency propose une approche holistique du marketing digital, ou chaque action est pensee pour servir une strategie d'ensemble coherente.\n\nLe content marketing est le pilier central de l'offre de l'agence. Rennes Digital Agency est convaincue que le contenu de qualite est le fondement de toute strategie digitale efficace. L'agence produit des articles de fond, des livres blancs, des etudes de cas, des infographies et des videos pour ses clients, en s'appuyant sur une connaissance approfondie de leurs secteurs d'activite. Chaque contenu est concu pour apporter une reelle valeur ajoutee au lecteur tout en servant les objectifs marketing et SEO du client.\n\nLa strategie SEO de Rennes Digital Agency est intimement liee a sa demarche de content marketing. Plutot que de se concentrer uniquement sur les aspects techniques du referencement, l'agence mise sur la creation de contenus a forte valeur ajoutee qui attirent naturellement des liens et des partages. Cette approche, plus exigeante en termes de production, genere des resultats durables et resistants aux evolutions des algorithmes de Google.\n\nEn complement, l'agence propose des services de marketing digital complets : gestion des reseaux sociaux, email marketing, marketing automation et analytics. L'equipe de Rennes Digital Agency maitrise les outils HubSpot, Mailchimp, Semrush et Google Analytics, et sait les combiner pour creer des ecosystemes marketing performants. La mesure des resultats est au coeur de la culture de l'agence, avec des KPI definis en amont et un suivi rigoureux des performances.\n\nRennes Digital Agency s'est fait une specialite de l'accompagnement des entreprises B2B, notamment dans les secteurs de la tech, de l'industrie et du conseil. L'agence comprend les cycles de vente longs et les processus de decision complexes propres au B2B et adapte ses strategies en consequence. L'inbound marketing, qui consiste a attirer les prospects grace a du contenu pertinent plutot qu'a les solliciter directement, est au coeur de sa methodologie. Avec un portefeuille de plus de 80 clients actifs, Rennes Digital Agency s'impose progressivement comme une reference en marketing de contenu dans le Grand Ouest.",
+  "noteGlobale": 4.0,
+  "avis": [
+    {
+      "auteur": "Arnaud Gueguen",
+      "date": "2025-10-28",
+      "note": 5,
+      "texte": "Rennes Digital Agency a transforme notre strategie de contenu B2B. Les articles et livres blancs produits par leur equipe sont d'une qualite remarquable et generent regulierement des leads qualifies. Notre pipeline commercial s'est considerablement etoffe grace a l'inbound marketing mis en place. Une agence qui comprend vraiment le B2B."
+    },
+    {
+      "auteur": "Virginie Tanguy",
+      "date": "2025-08-05",
+      "note": 4,
+      "texte": "Bonne experience avec Rennes Digital Agency pour notre strategie SEO basee sur le contenu. Les resultats sont progressifs mais constants. L'equipe editoriale produit des contenus de qualite qui se positionnent bien sur Google. Le suivi est serieux avec des points mensuels structures. Je recommande pour du SEO long terme."
+    },
+    {
+      "auteur": "Damien Perrot",
+      "date": "2025-05-19",
+      "note": 3,
+      "texte": "L'agence a gere nos reseaux sociaux pendant six mois. Le contenu etait de bonne qualite mais la croissance de notre communaute a ete plus lente que prevu. L'equipe est competente mais manque peut-etre d'un peu d'audace dans les formats proposes. Resultats corrects sans etre exceptionnels."
+    },
+    {
+      "auteur": "Marie-Anne Leblanc",
+      "date": "2025-02-14",
+      "note": 4,
+      "texte": "Nous avons fait appel a Rennes Digital Agency pour mettre en place une strategie d'email marketing et de marketing automation avec HubSpot. L'implementation a ete bien menee et les workflows automatises nous font gagner un temps precieux. L'equipe maitrise bien les outils et forme correctement nos equipes internes."
+    },
+    {
+      "auteur": "Olivier Bernier",
+      "date": "2024-12-03",
+      "note": 4,
+      "texte": "Agence serieuse avec une vraie expertise en content marketing. Les etudes de cas et articles produits pour notre cabinet de conseil ont ete tres bien recus par nos prospects. Le processus de validation est bien rode et l'equipe respecte notre ton de communication. Bon rapport qualite-prix."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelle est la difference entre le content marketing et le SEO chez Rennes Digital Agency ?",
+      "reponse": "Chez Rennes Digital Agency, le content marketing et le SEO sont intimement lies. Le content marketing consiste a creer du contenu de qualite pour attirer et engager une audience, tandis que le SEO optimise ce contenu pour qu'il soit visible sur les moteurs de recherche. L'agence combine les deux approches pour maximiser la visibilite et la conversion."
+    },
+    {
+      "question": "Rennes Digital Agency travaille-t-elle avec des entreprises B2C ?",
+      "reponse": "Bien que l'agence se soit specialisee dans le B2B, elle accompagne egalement des entreprises B2C dans leur strategie de contenu et de marketing digital. Les fondamentaux sont les memes, seuls les formats et les canaux de diffusion sont adaptes aux specificites du B2C. Environ 30% de la clientele de l'agence est en B2C."
+    },
+    {
+      "question": "Quels types de contenus Rennes Digital Agency produit-elle ?",
+      "reponse": "L'agence produit une large gamme de contenus : articles de blog, livres blancs, etudes de cas, infographies, newsletters, posts pour les reseaux sociaux, scripts video et podcasts. Chaque type de contenu est adapte a un objectif precis dans le parcours client, de la sensibilisation a la conversion."
+    },
+    {
+      "question": "Quels outils de marketing automation l'agence maitrise-t-elle ?",
+      "reponse": "Rennes Digital Agency est partenaire certifie HubSpot et maitrise egalement Mailchimp, ActiveCampaign et Brevo. L'agence aide ses clients a choisir l'outil le plus adapte a leurs besoins et a leur budget, puis assure l'implementation, la configuration des workflows et la formation des equipes."
+    },
+    {
+      "question": "Combien coute un accompagnement en content marketing ?",
+      "reponse": "Les forfaits de content marketing demarrent a 1 200 euros par mois pour une production de quatre articles optimises SEO. Un accompagnement complet incluant strategie editoriale, production multi-formats, gestion des reseaux sociaux et reporting se situe entre 2 500 et 5 000 euros par mois selon le volume de production et les objectifs."
+    }
+  ]
+}

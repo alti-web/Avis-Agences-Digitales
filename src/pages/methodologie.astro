@@ -1,0 +1,100 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const breadcrumbs = [
+  { label: 'Accueil', href: '/' },
+  { label: 'Méthodologie' },
+];
+---
+<BaseLayout
+  title="Méthodologie de notation — Avis Agences Digitales"
+  description="Découvrez notre méthodologie de notation des agences web : collecte d'avis, vérification, critères d'évaluation et système de notation transparent."
+  breadcrumbs={breadcrumbs}
+>
+  <section class="py-8 md:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-2xl md:text-4xl font-extrabold mb-8">Notre méthodologie de notation</h1>
+
+      <div class="space-y-8 text-gray-600 leading-relaxed">
+        <p class="text-lg">
+          Chez Avis-Agences-Digitales.fr, nous nous engageons à fournir des évaluations fiables et transparentes. Voici comment nous procédons pour garantir la qualité et l'impartialité de nos notations.
+        </p>
+
+        <div class="bg-gray-50 rounded-xl p-6 md:p-8">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">1. Collecte des avis</h2>
+          <p>
+            Les avis sont collectés auprès de clients ayant réellement collaboré avec l'agence évaluée. Chaque avis est soumis via notre formulaire de contact ou collecté directement auprès des entreprises clientes. Nous demandons systématiquement des informations vérifiables : nom de l'entreprise, type de projet réalisé, période de collaboration.
+          </p>
+        </div>
+
+        <div class="bg-gray-50 rounded-xl p-6 md:p-8">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">2. Vérification des avis</h2>
+          <p>
+            Chaque avis fait l'objet d'une vérification avant publication. Nous vérifions l'authenticité de l'auteur, la réalité de la collaboration avec l'agence et la cohérence du retour d'expérience. Les avis suspects, promotionnels ou diffamatoires sont systématiquement rejetés.
+          </p>
+        </div>
+
+        <div class="bg-gray-50 rounded-xl p-6 md:p-8">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">3. Critères d'évaluation</h2>
+          <p class="mb-4">Chaque avis évalue l'agence sur plusieurs dimensions :</p>
+          <ul class="space-y-2">
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-star shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+              <span><strong class="text-gray-900">Qualité des livrables</strong> : le résultat final répond-il aux attentes en termes de qualité technique et visuelle ?</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-star shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+              <span><strong class="text-gray-900">Respect des délais</strong> : le projet a-t-il été livré dans les temps convenus ?</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-star shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+              <span><strong class="text-gray-900">Communication</strong> : l'agence est-elle réactive et transparente dans ses échanges ?</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-star shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+              <span><strong class="text-gray-900">Rapport qualité-prix</strong> : le tarif est-il cohérent avec la qualité de la prestation ?</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-star shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+              <span><strong class="text-gray-900">Accompagnement</strong> : l'agence offre-t-elle un suivi et un support après la livraison ?</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 rounded-xl p-6 md:p-8">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">4. Calcul de la note globale</h2>
+          <p>
+            La note globale d'une agence est calculée en faisant la moyenne arithmétique de l'ensemble des notes individuelles. Cette note est mise à jour automatiquement à chaque nouvel avis publié. Un minimum de 3 avis est requis pour qu'une agence apparaisse dans nos classements.
+          </p>
+        </div>
+
+        <div class="bg-gray-50 rounded-xl p-6 md:p-8">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">5. Engagement E-E-A-T</h2>
+          <p>
+            Notre démarche s'inscrit dans les principes E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) recommandés par Google. Nous nous efforçons de fournir un contenu fiable, produit par des experts du secteur, et basé sur des données vérifiables. Chaque information publiée sur notre plateforme est sourcée et régulièrement mise à jour.
+          </p>
+        </div>
+
+        <div class="bg-primary/5 border border-primary/20 rounded-xl p-6 md:p-8">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">Vous souhaitez soumettre un avis ?</h2>
+          <p class="mb-4">
+            Vous avez collaboré avec une agence web et souhaitez partager votre retour d'expérience ? Votre avis est précieux et contribue à aider d'autres entreprises dans leur choix.
+          </p>
+          <a href="/contact" class="inline-block bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-2.5 rounded-lg transition-colors text-sm">
+            Soumettre un avis
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

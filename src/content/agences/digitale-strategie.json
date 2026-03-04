@@ -1,0 +1,75 @@
+{
+  "nom": "Digitale Stratégie",
+  "slug": "digitale-strategie",
+  "ville": "Paris",
+  "siteWeb": "https://www.digitale-strategie.fr",
+  "specialites": ["Marketing digital", "SEO", "Publicité en ligne"],
+  "description": "Digitale Stratégie est une agence de marketing digital basée dans le 9e arrondissement de Paris, fondée en 2017 par deux anciens cadres de grandes agences média. Spécialisée en stratégie digitale, référencement naturel et publicité en ligne, elle aide les entreprises à développer leur activité sur internet grâce à des campagnes performantes et une approche data-driven. L'agence compte aujourd'hui une quinzaine de collaborateurs experts en acquisition de trafic, en analyse de données et en optimisation des conversions.\n\nLa force de Digitale Stratégie réside dans sa capacité à élaborer des plans marketing sur mesure, adaptés aux objectifs et au budget de chaque client. Que ce soit pour une campagne Google Ads, une stratégie de contenu SEO ou une présence sur les réseaux sociaux, l'agence mobilise ses compétences pluridisciplinaires pour maximiser le retour sur investissement. Chaque action est mesurée, analysée et optimisée en continu grâce à des outils de tracking avancés et des tableaux de bord en temps réel.\n\nEn matière de SEO, Digitale Stratégie propose un accompagnement complet, de l'audit technique à la création de contenus optimisés, en passant par le maillage interne et la stratégie de backlinks. L'agence maîtrise également les campagnes publicitaires sur Google, Meta, LinkedIn et TikTok, avec une approche centrée sur la performance et la rentabilité. Les équipes certifiées Google Partner et Meta Business Partner garantissent une gestion experte des budgets publicitaires.\n\nDigitale Stratégie s'adresse aussi bien aux TPE-PME qu'aux grandes entreprises et aux e-commerçants. L'agence a notamment accompagné des marques dans les secteurs de la mode, de la beauté, de l'alimentaire et des services B2B. Sa philosophie repose sur la transparence, la pédagogie et l'engagement vers des résultats concrets. Chaque client dispose d'un consultant dédié et participe à des points de suivi réguliers pour ajuster la stratégie en fonction des performances observées et des évolutions du marché.",
+  "noteGlobale": 4.2,
+  "avis": [
+    {
+      "auteur": "Julien Moreau",
+      "date": "2025-10-28",
+      "note": 5,
+      "texte": "Digitale Stratégie gère nos campagnes Google Ads et notre SEO depuis huit mois. Les résultats sont impressionnants : notre coût par acquisition a baissé de 40 % et notre trafic organique a progressé de manière significative. L'équipe est transparente et les reportings sont très complets. Une agence sérieuse que je recommande."
+    },
+    {
+      "auteur": "Nathalie Petit",
+      "date": "2025-08-14",
+      "note": 4,
+      "texte": "Bonne expérience avec Digitale Stratégie pour le lancement de notre boutique en ligne. La stratégie marketing était pertinente et bien exécutée. Les campagnes publicitaires ont généré un trafic qualifié dès les premières semaines. Le suivi pourrait être un peu plus fréquent, mais la qualité est là."
+    },
+    {
+      "auteur": "Frédéric Lambert",
+      "date": "2025-06-20",
+      "note": 3,
+      "texte": "Prestation correcte mais sans éclat. Le SEO a progressé lentement et les résultats des campagnes Meta n'ont pas été à la hauteur de nos attentes initiales. L'équipe est compétente mais la communication pourrait être améliorée. Le rapport qualité-prix reste acceptable pour le marché parisien."
+    },
+    {
+      "auteur": "Caroline Dupuis",
+      "date": "2025-04-07",
+      "note": 5,
+      "texte": "Agence au top ! Digitale Stratégie a totalement repensé notre stratégie d'acquisition et les résultats parlent d'eux-mêmes. En six mois, nos leads qualifiés ont triplé. L'équipe est proactive, créative et toujours prête à tester de nouvelles approches. Un vrai partenaire pour notre croissance."
+    },
+    {
+      "auteur": "Philippe Martin",
+      "date": "2025-01-30",
+      "note": 4,
+      "texte": "Nous collaborons avec Digitale Stratégie pour notre référencement naturel et nos campagnes LinkedIn. Les consultants maîtrisent bien leur sujet et les recommandations sont toujours pertinentes. Quelques délais sur certains livrables, mais rien de bloquant. Globalement très satisfait de cette collaboration."
+    },
+    {
+      "auteur": "Isabelle Faure",
+      "date": "2024-11-12",
+      "note": 4,
+      "texte": "Digitale Stratégie nous accompagne dans notre stratégie de contenu et de publicité en ligne. L'approche est structurée et les résultats sont au rendez-vous. L'agence a su s'adapter à notre secteur d'activité très spécifique. Les échanges sont fluides et constructifs."
+    },
+    {
+      "auteur": "Alexandre Chen",
+      "date": "2024-09-05",
+      "note": 4,
+      "texte": "Très bon accompagnement pour le lancement de notre marque en ligne. La stratégie digitale proposée était cohérente et bien adaptée à notre cible. Les campagnes Google Ads ont rapidement généré du chiffre d'affaires. Je recommande Digitale Stratégie pour toute entreprise souhaitant structurer sa présence en ligne."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels canaux publicitaires Digitale Stratégie gère-t-elle ?",
+      "reponse": "L'agence gère les campagnes publicitaires sur Google Ads, Meta (Facebook et Instagram), LinkedIn Ads, TikTok Ads et Microsoft Advertising. Les équipes sont certifiées Google Partner et Meta Business Partner, garantissant une expertise reconnue sur ces plateformes."
+    },
+    {
+      "question": "Comment Digitale Stratégie mesure-t-elle la performance des campagnes ?",
+      "reponse": "L'agence utilise des outils de tracking avancés (Google Analytics 4, Google Tag Manager, outils propriétaires) pour mesurer chaque action marketing. Les clients reçoivent des tableaux de bord en temps réel et des rapports mensuels détaillés présentant les KPI clés : trafic, conversions, coût par acquisition et retour sur investissement."
+    },
+    {
+      "question": "Quel budget minimum faut-il prévoir pour une campagne publicitaire ?",
+      "reponse": "Le budget publicitaire minimum recommandé est de 1 500 euros par mois par plateforme, hors frais de gestion de l'agence. Ce montant permet d'obtenir suffisamment de données pour optimiser les campagnes. Les frais de gestion de l'agence sont définis en fonction du volume et de la complexité des campagnes."
+    },
+    {
+      "question": "Digitale Stratégie propose-t-elle des formations en marketing digital ?",
+      "reponse": "Oui, l'agence propose des formations sur mesure en SEO, Google Ads, réseaux sociaux et analytics. Ces formations s'adressent aux équipes marketing internes qui souhaitent monter en compétences. Elles peuvent se dérouler dans les locaux de l'agence, chez le client ou en visioconférence."
+    },
+    {
+      "question": "Quelle est la durée minimale d'engagement avec Digitale Stratégie ?",
+      "reponse": "L'agence propose des contrats à partir de trois mois pour les prestations SEO et de marketing digital. Pour les campagnes publicitaires, un engagement de six mois est recommandé afin de laisser le temps à l'algorithme d'optimiser les performances. Des missions ponctuelles d'audit ou de conseil sont également possibles sans engagement de durée."
+    }
+  ]
+}

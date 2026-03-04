@@ -1,0 +1,69 @@
+{
+  "nom": "NetBoost Agency",
+  "slug": "netboost-agency",
+  "ville": "Paris",
+  "siteWeb": "https://www.netboost-agency.fr",
+  "specialites": ["SEO", "Référencement local", "Content marketing"],
+  "description": "NetBoost Agency est une agence spécialisée en référencement naturel, référencement local et content marketing, fondée en 2019 et basée dans le 15e arrondissement de Paris. L'agence s'adresse principalement aux commerces de proximité, aux professions libérales et aux PME qui souhaitent améliorer leur visibilité locale sur Google et attirer davantage de clients dans leur zone de chalandise. Avec une équipe de huit consultants SEO et rédacteurs web, NetBoost Agency propose un accompagnement pragmatique et orienté résultats.\n\nLa spécialité de NetBoost Agency est le référencement local. L'agence maîtrise parfaitement les subtilités de Google Business Profile, la gestion des avis clients, l'optimisation des fiches d'établissement et le référencement géolocalisé. Chaque stratégie est élaborée en fonction du secteur d'activité du client, de sa zone géographique et de la concurrence locale. Les consultants utilisent des outils spécialisés pour analyser les positions locales et identifier les opportunités de progression.\n\nEn complément du référencement local, NetBoost Agency développe des stratégies de content marketing adaptées aux problématiques de chaque client. La production de contenus rédactionnels optimisés pour le SEO permet de renforcer l'autorité du site et d'attirer un trafic qualifié sur le long terme. L'agence propose également des audits SEO techniques, l'optimisation on-page et des stratégies de netlinking ciblées pour améliorer le positionnement global du site.\n\nNetBoost Agency se distingue par ses tarifs accessibles et son approche pédagogique. L'agence prend le temps d'expliquer ses recommandations et de former ses clients aux bonnes pratiques du référencement. Bien que jeune, l'agence a déjà accompagné plus de cent cinquante entreprises parisiennes et franciliennes. Les résultats varient selon les projets, certains clients ayant connu des progressions significatives tandis que d'autres estiment que les délais pour obtenir des résultats tangibles sont parfois longs. L'agence continue de structurer ses processus pour offrir une qualité de service toujours plus homogène.",
+  "noteGlobale": 3.8,
+  "avis": [
+    {
+      "auteur": "Stéphane Mercier",
+      "date": "2025-11-05",
+      "note": 4,
+      "texte": "NetBoost Agency a bien optimisé notre fiche Google Business Profile et notre visibilité locale s'est nettement améliorée. Nous apparaissons maintenant dans le top 3 du pack local pour nos mots-clés principaux. L'équipe est accessible et les explications sont claires. Bon rapport qualité-prix."
+    },
+    {
+      "auteur": "Marie-Claire Dubois",
+      "date": "2025-09-18",
+      "note": 3,
+      "texte": "Résultats mitigés pour notre cabinet d'avocats. Le référencement local a progressé mais le trafic organique n'a pas autant augmenté que promis. Les contenus produits sont corrects mais manquent parfois de profondeur. L'agence est réactive et de bonne volonté, mais l'expertise pourrait être plus pointue sur certains sujets."
+    },
+    {
+      "auteur": "David Lemoine",
+      "date": "2025-07-02",
+      "note": 5,
+      "texte": "Excellente prestation pour notre restaurant. Grâce à NetBoost Agency, notre fiche Google est optimisée, nous avons beaucoup plus d'avis positifs et notre visibilité locale a explosé. Le nombre de réservations via Google a augmenté de manière significative. Je recommande vivement pour les commerces locaux."
+    },
+    {
+      "auteur": "Pauline Renard",
+      "date": "2025-04-22",
+      "note": 3,
+      "texte": "Prestation honnête mais perfectible. La stratégie de contenu proposée était pertinente mais la mise en oeuvre a pris du temps. Les articles livrés nécessitaient souvent des corrections. Le suivi est correct et l'équipe fait des efforts pour s'améliorer. Les tarifs sont intéressants pour une agence parisienne."
+    },
+    {
+      "auteur": "Jean-Baptiste Collet",
+      "date": "2025-02-10",
+      "note": 4,
+      "texte": "Nous avons fait appel à NetBoost Agency pour améliorer le référencement local de nos trois points de vente à Paris. Les résultats sont progressifs mais bien réels. L'approche est méthodique et l'équipe prend le temps d'expliquer chaque action. Je suis satisfait de cette collaboration et nous la poursuivons."
+    },
+    {
+      "auteur": "Sandrine Vidal",
+      "date": "2024-11-28",
+      "note": 4,
+      "texte": "NetBoost Agency nous a aidés à structurer notre stratégie de content marketing. Les articles de blog produits sont bien optimisés et apportent un trafic régulier sur notre site. L'agence est à l'écoute et s'adapte bien à notre secteur d'activité. Quelques lenteurs sur les livraisons mais la qualité est correcte."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Qu'est-ce que le référencement local et pourquoi est-ce important ?",
+      "reponse": "Le référencement local consiste à optimiser la visibilité d'une entreprise dans les résultats de recherche géolocalisés de Google, notamment dans le pack local (les trois résultats affichés sur la carte). C'est essentiel pour les commerces et professions libérales qui souhaitent attirer des clients dans leur zone géographique."
+    },
+    {
+      "question": "Comment NetBoost Agency optimise-t-elle les fiches Google Business Profile ?",
+      "reponse": "L'agence procède à une optimisation complète de la fiche : vérification et mise à jour des informations, choix des catégories pertinentes, rédaction de la description, publication régulière de posts, gestion des photos et des avis clients. Un suivi mensuel des statistiques permet d'ajuster la stratégie en continu."
+    },
+    {
+      "question": "Quel type de contenus NetBoost Agency produit-elle ?",
+      "reponse": "L'agence produit des articles de blog optimisés SEO, des pages de service, des landing pages, des guides pratiques et des études de cas. Chaque contenu est rédigé par des rédacteurs spécialisés et optimisé selon une stratégie de mots-clés définie en amont avec le client."
+    },
+    {
+      "question": "Les tarifs de NetBoost Agency sont-ils adaptés aux petites entreprises ?",
+      "reponse": "Oui, l'agence propose des forfaits adaptés aux budgets des TPE et des indépendants, à partir de 500 euros par mois pour un accompagnement en référencement local. Des formules plus complètes incluant le SEO technique et le content marketing sont disponibles à partir de 1 200 euros par mois."
+    },
+    {
+      "question": "Combien de temps faut-il pour voir les premiers résultats en référencement local ?",
+      "reponse": "Les premiers résultats en référencement local sont généralement visibles entre un et trois mois, ce qui est plus rapide que le SEO classique. L'optimisation de la fiche Google Business Profile peut produire des effets dès les premières semaines, tandis que le positionnement organique local demande un peu plus de temps pour se consolider."
+    }
+  ]
+}

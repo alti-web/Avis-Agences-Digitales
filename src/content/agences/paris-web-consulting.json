@@ -1,0 +1,63 @@
+{
+  "nom": "Paris Web Consulting",
+  "slug": "paris-web-consulting",
+  "ville": "Paris",
+  "siteWeb": "https://paris-web-consulting.fr",
+  "specialites": ["Développement web", "E-commerce", "Marketing digital"],
+  "description": "Paris Web Consulting est une agence digitale parisienne fondée en 2013, spécialisée dans le développement web sur mesure et la création de solutions e-commerce performantes. Implantée dans le quartier de l'Opéra, l'agence accompagne les entreprises de toutes tailles dans leur transformation numérique.\n\nForte d'une équipe de 25 collaborateurs expérimentés, Paris Web Consulting réunit des développeurs full-stack, des experts e-commerce, des spécialistes en marketing digital et des chefs de projet certifiés PMP. Cette diversité de compétences permet à l'agence de proposer un accompagnement à 360° à ses clients.\n\nL'expertise e-commerce de Paris Web Consulting est particulièrement reconnue. L'agence maîtrise les principales plateformes du marché : Shopify, WooCommerce, PrestaShop et Magento. Elle accompagne ses clients depuis l'étude de marché jusqu'à l'optimisation continue des taux de conversion, en passant par la mise en place de stratégies omnicanales efficaces.\n\nEn matière de développement web, l'agence privilégie les technologies modernes et scalables. React, Next.js, Node.js et Laravel constituent le socle technique de la majorité des projets. Chaque solution est conçue pour être performante, sécurisée et évolutive, répondant ainsi aux exigences croissantes du marché digital.\n\nParis Web Consulting se distingue également par son approche data-driven du marketing digital. L'agence utilise des outils d'analyse avancés pour mesurer précisément le retour sur investissement de chaque action et optimiser en continu les performances des campagnes. Cette rigueur analytique séduit particulièrement les clients soucieux de rentabiliser leur investissement digital.\n\nAvec plus de 400 projets menés à bien et un taux de satisfaction client de 94%, Paris Web Consulting s'est imposée comme une référence incontournable du paysage digital parisien.",
+  "noteGlobale": 4.4,
+  "avis": [
+    {
+      "auteur": "Stéphane Leduc",
+      "date": "2025-01-20",
+      "note": 5,
+      "texte": "Nous avons confié la refonte complète de notre site e-commerce à Paris Web Consulting et le résultat est impressionnant. L'équipe a su comprendre nos enjeux business et proposer une solution technique parfaitement adaptée. Le nouveau site est plus rapide, plus ergonomique et surtout nos ventes ont augmenté de 35% en trois mois. La gestion de projet a été exemplaire avec un respect total des délais annoncés."
+    },
+    {
+      "auteur": "Marina Kovac",
+      "date": "2024-11-05",
+      "note": 4,
+      "texte": "Bonne expérience globale avec Paris Web Consulting pour la création de notre marketplace B2B. L'équipe technique est compétente et les développeurs maîtrisent bien leur stack. Un petit bémol sur les délais qui ont été légèrement dépassés en raison de demandes supplémentaires, mais le résultat final est à la hauteur de nos attentes."
+    },
+    {
+      "auteur": "Jean-François Martin",
+      "date": "2024-09-12",
+      "note": 5,
+      "texte": "Excellente agence qui nous accompagne depuis maintenant deux ans sur notre stratégie digitale globale. Développement web, marketing, publicité en ligne : ils gèrent tout avec professionnalisme. L'équipe est réactive, force de proposition et toujours à l'écoute. Les résultats sont au rendez-vous avec une croissance continue de notre chiffre d'affaires en ligne."
+    },
+    {
+      "auteur": "Céline Beaumont",
+      "date": "2024-07-28",
+      "note": 4,
+      "texte": "Paris Web Consulting a développé notre application web de gestion des commandes. Le projet était complexe avec de nombreuses intégrations à réaliser. L'agence a su relever le défi avec brio. La communication aurait pu être un peu plus fluide en phase de développement, mais le résultat technique est solide et l'application fonctionne parfaitement."
+    },
+    {
+      "auteur": "Damien Rochette",
+      "date": "2024-05-15",
+      "note": 5,
+      "texte": "Super collaboration avec Paris Web Consulting pour la mise en place de notre stratégie de marketing digital. Campagnes Google Ads, SEO, email marketing : tout est géré de manière professionnelle avec des reportings clairs et réguliers. Notre coût d'acquisition client a diminué de 40% en six mois. Je recommande vivement cette agence."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelles plateformes e-commerce Paris Web Consulting maîtrise-t-elle ?",
+      "reponse": "Paris Web Consulting est experte sur les principales plateformes e-commerce du marché : Shopify, WooCommerce, PrestaShop et Magento. Le choix de la plateforme se fait en fonction des besoins spécifiques de chaque projet, du volume de produits et du budget disponible."
+    },
+    {
+      "question": "Quel est le budget moyen pour un projet e-commerce ?",
+      "reponse": "Le budget varie considérablement selon la complexité du projet. Un site e-commerce Shopify clé en main démarre autour de 5 000 €, tandis qu'une marketplace sur mesure peut atteindre 50 000 € ou plus. Nous établissons un devis détaillé après une phase d'analyse approfondie de vos besoins."
+    },
+    {
+      "question": "Proposez-vous un suivi après la mise en ligne ?",
+      "reponse": "Oui, nous proposons plusieurs formules de maintenance et d'accompagnement post-lancement. De la maintenance technique de base aux contrats d'accompagnement incluant l'optimisation continue, le marketing et le support utilisateur, nous adaptons notre offre à vos besoins et votre budget."
+    },
+    {
+      "question": "Combien de temps dure un projet type ?",
+      "reponse": "Un site vitrine se réalise en 4 à 6 semaines. Un projet e-commerce standard nécessite 8 à 12 semaines. Les projets sur mesure complexes comme les marketplaces ou les applications web peuvent s'étendre sur 3 à 6 mois selon leur envergure."
+    },
+    {
+      "question": "Travaillez-vous uniquement avec des clients parisiens ?",
+      "reponse": "Non, bien que notre siège soit à Paris, nous travaillons avec des clients dans toute la France et à l'international. Nos outils de gestion de projet et de visioconférence nous permettent de collaborer efficacement à distance tout en maintenant une communication de qualité."
+    }
+  ]
+}

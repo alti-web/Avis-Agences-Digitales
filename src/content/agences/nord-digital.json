@@ -1,0 +1,63 @@
+{
+  "nom": "Nord Digital",
+  "slug": "nord-digital",
+  "ville": "Lille",
+  "siteWeb": "https://www.nord-digital.fr",
+  "specialites": ["SEO", "Développement web", "E-commerce"],
+  "description": "Nord Digital est une agence digitale lilloise créée en 2014 par une équipe de passionnés du web et du commerce en ligne. Installée dans le quartier d'Euratechnologies, le pôle d'excellence numérique de la métropole lilloise, l'agence s'est spécialisée dans trois domaines complémentaires : le référencement naturel, le développement web sur mesure et la création de boutiques e-commerce performantes. Avec une équipe de plus de vingt collaborateurs, Nord Digital accompagne aussi bien les TPE et PME régionales que des enseignes nationales dans leur transformation digitale.\n\nL'expertise technique de l'agence se manifeste à travers la maîtrise de nombreux frameworks et CMS : Shopify, PrestaShop, WooCommerce pour l'e-commerce, ainsi que WordPress, Symfony et Laravel pour les projets sur mesure. Chaque solution est choisie en fonction des besoins spécifiques du client, de son budget et de ses objectifs de croissance. Nord Digital accorde une importance particulière à la performance technique de ses réalisations : temps de chargement optimisés, architecture SEO-friendly, sécurité renforcée et scalabilité des infrastructures.\n\nLe pôle SEO de l'agence est reconnu pour son approche méthodique et orientée résultats. Les consultants SEO de Nord Digital combinent audit technique approfondi, stratégie de contenu ciblée et campagnes de netlinking qualitatif pour positionner durablement leurs clients sur les requêtes stratégiques de leur marché. L'agence a notamment accompagné avec succès plusieurs acteurs de la grande distribution et du textile dans le Nord de la France.\n\nNord Digital se distingue également par sa capacité à gérer des projets e-commerce complexes, incluant la gestion de catalogues volumineux, l'intégration avec les systèmes d'information existants (ERP, PIM, CRM) et l'optimisation des tunnels de conversion. L'agence propose un suivi complet post-lancement avec des audits réguliers de performance et des recommandations d'amélioration continue. Certifiée Google Partner, Nord Digital est un acteur incontournable du paysage digital des Hauts-de-France.",
+  "noteGlobale": 4.4,
+  "avis": [
+    {
+      "auteur": "Sébastien Lefebvre",
+      "date": "2025-12-03",
+      "note": 5,
+      "texte": "Nord Digital a développé notre boutique en ligne PrestaShop et les résultats sont impressionnants. Le site est rapide, bien référencé et le parcours d'achat est fluide. Notre chiffre d'affaires en ligne a doublé en huit mois. L'équipe est très compétente techniquement et toujours disponible pour répondre à nos questions. Je recommande sans hésitation."
+    },
+    {
+      "auteur": "Aurélie Vanderstraeten",
+      "date": "2025-09-14",
+      "note": 4,
+      "texte": "Nous avons confié notre stratégie SEO à Nord Digital il y a un an. Les résultats sont au rendez-vous avec une augmentation de 60 % du trafic organique et un positionnement en première page sur nos principaux mots-clés. Les reportings sont clairs et détaillés. Seul petit regret : les échanges se font principalement par email, j'aurais apprécié davantage de réunions en présentiel."
+    },
+    {
+      "auteur": "Maxime Carpentier",
+      "date": "2025-06-28",
+      "note": 5,
+      "texte": "Excellente agence pour la création de sites e-commerce. Nord Digital a su intégrer notre boutique Shopify avec notre ERP de manière transparente. Le projet a été livré dans les temps et dans le budget. Le support après lancement est réactif et efficace. Une vraie relation de confiance s'est installée avec leur équipe."
+    },
+    {
+      "auteur": "Sandrine Morel",
+      "date": "2025-03-19",
+      "note": 4,
+      "texte": "Bonne prestation pour la refonte de notre site corporate. Le nouveau design est professionnel et moderne. Les performances techniques sont au rendez-vous avec un score PageSpeed excellent. L'accompagnement SEO qui a suivi la mise en ligne a permis de maintenir nos positions tout en améliorant notre trafic. Équipe sérieuse et investie."
+    },
+    {
+      "auteur": "François Delerue",
+      "date": "2024-11-05",
+      "note": 4,
+      "texte": "Nord Digital gère le référencement de notre réseau de magasins depuis deux ans. Le SEO local est maîtrisé et chacun de nos points de vente remonte bien dans les résultats Google Maps et organiques. L'agence est force de proposition et anticipe les évolutions de l'algorithme. Collaboration solide et pérenne."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelles plateformes e-commerce Nord Digital maîtrise-t-elle ?",
+      "reponse": "Nord Digital travaille avec les principales plateformes e-commerce du marché : Shopify, PrestaShop, WooCommerce et Magento. Le choix de la plateforme est déterminé en fonction du volume de produits, des fonctionnalités requises, du budget et des objectifs de croissance du client."
+    },
+    {
+      "question": "Nord Digital peut-elle intégrer un site e-commerce avec un ERP existant ?",
+      "reponse": "Oui, l'intégration avec les systèmes d'information existants est l'une des spécialités de Nord Digital. L'agence réalise des connecteurs sur mesure avec les principaux ERP du marché (Sage, SAP, Cegid, etc.) ainsi qu'avec les outils PIM et CRM pour automatiser la gestion des stocks, des commandes et de la relation client."
+    },
+    {
+      "question": "Quel est le processus de création d'un site e-commerce chez Nord Digital ?",
+      "reponse": "Le processus comprend plusieurs étapes : analyse des besoins et étude de marché, conception UX et design graphique, développement technique et intégration, recette fonctionnelle, formation des équipes client et mise en production. Un accompagnement post-lancement est systématiquement proposé pour optimiser les performances."
+    },
+    {
+      "question": "Nord Digital propose-t-elle du SEO local pour les commerces ?",
+      "reponse": "Oui, le SEO local est une spécialité de l'agence. Nord Digital optimise les fiches Google Business Profile, met en place des stratégies de citations locales, gère les avis clients et optimise les pages locales pour permettre aux commerces d'apparaître dans les résultats de proximité et sur Google Maps."
+    },
+    {
+      "question": "Quelle est la zone d'intervention de Nord Digital ?",
+      "reponse": "Bien que basée à Lille, Nord Digital intervient sur l'ensemble du territoire français. La majorité de ses clients se situe dans les Hauts-de-France, mais l'agence accompagne également des entreprises à Paris, en Belgique et dans d'autres régions grâce à des outils de collaboration à distance performants."
+    }
+  ]
+}

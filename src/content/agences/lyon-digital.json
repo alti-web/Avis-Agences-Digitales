@@ -1,0 +1,63 @@
+{
+  "nom": "Lyon Digital",
+  "slug": "lyon-digital",
+  "ville": "Lyon",
+  "siteWeb": "https://www.lyon-digital.fr",
+  "specialites": ["Développement web", "SEO"],
+  "description": "Lyon Digital est une agence digitale fondée en 2015 dans le quartier de la Part-Dieu, au coeur du dynamisme économique lyonnais. Spécialisée dans le développement web et le référencement naturel, l'agence accompagne les entreprises de toutes tailles dans leur transformation numérique avec une approche sur mesure et orientée résultats.\n\nL'équipe de Lyon Digital se compose de développeurs expérimentés maîtrisant les technologies modernes telles que React, Next.js, Vue.js et les architectures headless. Leur expertise technique leur permet de concevoir des sites web performants, accessibles et parfaitement optimisés pour les moteurs de recherche dès la phase de développement. Cette synergie entre développement et SEO constitue l'un des principaux atouts de l'agence.\n\nEn matière de référencement naturel, Lyon Digital propose un accompagnement complet incluant l'audit technique, la stratégie de contenu, l'optimisation on-page et le netlinking. L'agence s'appuie sur des outils professionnels comme Semrush, Screaming Frog et Google Search Console pour analyser les performances et ajuster les stratégies en continu. Chaque client bénéficie d'un reporting mensuel détaillé et transparent.\n\nLyon Digital a su bâtir une solide réputation auprès des PME et ETI lyonnaises, notamment dans les secteurs de l'industrie, de la santé et du commerce de détail. L'agence privilégie les relations de long terme avec ses clients et met un point d'honneur à comprendre les enjeux spécifiques de chaque secteur d'activité avant de proposer des solutions adaptées.\n\nParmi les réalisations notables de l'agence, on peut citer la refonte complète du site e-commerce d'un acteur majeur de la gastronomie lyonnaise, ayant généré une augmentation de 45 % du trafic organique en six mois, ainsi que le développement d'une plateforme de réservation en ligne pour un réseau de cliniques vétérinaires de la région Auvergne-Rhône-Alpes.\n\nLyon Digital se distingue également par son engagement en faveur de l'éco-conception web. L'agence sensibilise ses clients aux bonnes pratiques du numérique responsable et intègre systématiquement des critères de performance environnementale dans ses projets. Cette démarche responsable séduit de plus en plus d'entreprises soucieuses de réduire leur empreinte carbone numérique.",
+  "noteGlobale": 4.3,
+  "avis": [
+    {
+      "auteur": "Thomas Renaud",
+      "date": "2025-11-15",
+      "note": 5,
+      "texte": "Nous avons confié la refonte de notre site institutionnel à Lyon Digital et le résultat est largement au-dessus de nos attentes. L'équipe a su comprendre nos besoins dès le premier rendez-vous et la communication tout au long du projet a été exemplaire. Notre positionnement Google s'est nettement amélioré dans les semaines qui ont suivi la mise en ligne. Je recommande vivement cette agence."
+    },
+    {
+      "auteur": "Marie-Claire Fontaine",
+      "date": "2025-09-22",
+      "note": 4,
+      "texte": "Bonne expérience avec Lyon Digital pour notre stratégie SEO. Les résultats sont au rendez-vous avec une progression significative sur nos mots-clés principaux. Seul bémol, les délais ont été un peu plus longs que prévu initialement, mais la qualité du travail compense largement. Les reportings mensuels sont clairs et bien structurés."
+    },
+    {
+      "auteur": "Philippe Garnier",
+      "date": "2025-07-10",
+      "note": 4,
+      "texte": "Lyon Digital a développé notre application web métier dans les temps et le budget imparti. L'équipe technique est compétente et réactive. Le suivi post-livraison est sérieux. Nous continuons à travailler avec eux pour les évolutions et la maintenance. Une agence fiable sur laquelle on peut compter."
+    },
+    {
+      "auteur": "Sophie Bertrand",
+      "date": "2025-05-03",
+      "note": 5,
+      "texte": "Excellente collaboration avec Lyon Digital pour le référencement de notre site e-commerce. En moins de quatre mois, nous avons vu notre trafic organique doubler sur les requêtes les plus stratégiques. L'équipe est pédagogue et prend le temps d'expliquer chaque action mise en place. Un vrai partenaire de confiance pour notre croissance digitale."
+    },
+    {
+      "auteur": "Laurent Dubois",
+      "date": "2025-02-18",
+      "note": 3,
+      "texte": "Le travail de développement est de bonne qualité, mais la partie SEO a mis du temps à donner des résultats concrets. Il a fallu presque six mois pour constater une vraie amélioration. La communication aurait pu être plus proactive de leur côté. Cela reste correct dans l'ensemble, mais il y a une marge de progression."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels types de sites web Lyon Digital développe-t-elle ?",
+      "reponse": "Lyon Digital développe tous types de sites web : sites vitrine, sites e-commerce, applications web métier, plateformes de réservation et portails collaboratifs. L'agence travaille avec les technologies modernes comme React, Next.js et Vue.js pour garantir des performances optimales et une expérience utilisateur fluide."
+    },
+    {
+      "question": "Combien coûte une prestation SEO chez Lyon Digital ?",
+      "reponse": "Les tarifs SEO de Lyon Digital varient en fonction de la taille du site, du niveau de concurrence sur le secteur et des objectifs fixés. Les forfaits mensuels démarrent généralement à partir de 800 euros HT par mois pour un accompagnement complet incluant audit, optimisations techniques et stratégie de contenu."
+    },
+    {
+      "question": "Lyon Digital travaille-t-elle uniquement avec des entreprises lyonnaises ?",
+      "reponse": "Non, bien que l'agence soit basée à Lyon et qu'une grande partie de sa clientèle soit locale, Lyon Digital accompagne des entreprises dans toute la France. Les échanges se font aussi bien en présentiel qu'en visioconférence, ce qui permet de collaborer efficacement quelle que soit la localisation du client."
+    },
+    {
+      "question": "Quel est le délai moyen pour la création d'un site web ?",
+      "reponse": "Le délai de réalisation dépend de la complexité du projet. Un site vitrine est généralement livré en 4 à 6 semaines, tandis qu'un site e-commerce ou une application web métier peut nécessiter 2 à 4 mois de développement. Chaque projet fait l'objet d'un planning détaillé communiqué dès le démarrage."
+    },
+    {
+      "question": "Lyon Digital propose-t-elle un suivi après la mise en ligne ?",
+      "reponse": "Oui, Lyon Digital propose des contrats de maintenance et de suivi post-livraison. Ces contrats incluent les mises à jour techniques, la correction de bugs, le monitoring des performances et un support réactif. L'agence recommande vivement ce type d'accompagnement pour garantir la pérennité et la sécurité des sites livrés."
+    }
+  ]
+}

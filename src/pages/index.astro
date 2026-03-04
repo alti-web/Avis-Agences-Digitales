@@ -1,0 +1,164 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AgencyCard from '../components/AgencyCard.astro';
+import ReviewCard from '../components/ReviewCard.astro';
+import { getCollection } from 'astro:content';
+
+const allAgences = await getCollection('agences');
+const agences = allAgences.map(a => a.data).sort((a, b) => b.noteGlobale - a.noteGlobale);
+
+const villes = [...new Set(agences.map(a => a.ville))].sort();
+const specialites = [...new Set(agences.flatMap(a => a.specialites))].sort();
+
+const derniersAvis = agences
+  .flatMap(a => a.avis.map(avis => ({ ...avis, agence: a.nom, agenceSlug: a.slug })))
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, 6);
+---
+<BaseLayout
+  title="Avis et comparatif des agences web en France — Avis Agences Digitales"
+  description="Consultez les avis clients vérifiés sur les meilleures agences web et SEO en France. Comparez les notes, retours d'expérience et trouvez l'agence idéale pour votre projet."
+>
+  <!-- Hero -->
+  <section class="bg-primary text-white py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-3xl md:text-5xl font-extrabold mb-6">Avis et comparatif des agences web en France</h1>
+      <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+        Trouvez l'agence web idéale grâce aux avis clients vérifiés. Comparez les meilleures agences SEO, développement web et marketing digital de France.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#agences" class="bg-star hover:bg-amber-600 text-gray-900 font-semibold px-8 py-3 rounded-lg transition-colors">
+          Voir les agences
+        </a>
+        <a href="/methodologie" class="border border-white/30 hover:bg-white/10 px-8 py-3 rounded-lg transition-colors">
+          Notre méthodologie
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section class="py-12 md:py-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="prose prose-lg max-w-none text-gray-600 space-y-4">
+        <p>
+          Bienvenue sur <strong class="text-gray-800">Avis-Agences-Digitales.fr</strong>, la plateforme de référence pour consulter et comparer les avis clients sur les agences web et SEO en France. Notre mission est simple : vous aider à faire le meilleur choix pour votre projet digital en vous donnant accès à des retours d'expérience authentiques et détaillés.
+        </p>
+        <p>
+          Choisir une agence web est une décision cruciale pour votre entreprise. Que vous ayez besoin d'un site vitrine, d'une boutique e-commerce, d'une stratégie SEO ou d'une campagne de marketing digital, il est essentiel de s'appuyer sur les retours d'autres clients pour évaluer la qualité des prestations proposées. C'est exactement ce que nous vous offrons.
+        </p>
+        <p>
+          Notre annuaire recense les agences web les plus réputées dans les principales villes de France : Paris, Lyon, Marseille, Bordeaux, Lille, Nantes, Toulouse, Nice, Strasbourg, Rennes et Grenoble. Chaque fiche agence comprend une note globale basée sur les avis clients, une description détaillée des services proposés, ainsi qu'une liste complète des retours d'expérience individuels.
+        </p>
+        <p>
+          Nous croyons en la transparence et en l'objectivité. Notre <a href="/methodologie" class="text-primary hover:underline font-medium">méthodologie de notation</a> est rigoureuse et impartiale, garantissant que chaque avis publié reflète une expérience réelle. Explorez nos fiches agences, comparez les notes et les spécialités, et trouvez le partenaire digital qui correspond parfaitement à vos besoins et à votre budget.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filters + Agencies Grid -->
+  <section id="agences" class="py-12 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">Les agences les mieux notées</h2>
+
+      <!-- Filters -->
+      <div class="flex flex-wrap gap-4 mb-8 justify-center">
+        <div>
+          <label for="filter-ville" class="sr-only">Filtrer par ville</label>
+          <select id="filter-ville" class="border border-gray-300 rounded-lg px-4 py-2 text-sm bg-white focus:ring-2 focus:ring-primary focus:border-primary">
+            <option value="">Toutes les villes</option>
+            {villes.map(v => <option value={v}>{v}</option>)}
+          </select>
+        </div>
+        <div>
+          <label for="filter-specialite" class="sr-only">Filtrer par spécialité</label>
+          <select id="filter-specialite" class="border border-gray-300 rounded-lg px-4 py-2 text-sm bg-white focus:ring-2 focus:ring-primary focus:border-primary">
+            <option value="">Toutes les spécialités</option>
+            {specialites.map(s => <option value={s}>{s}</option>)}
+          </select>
+        </div>
+      </div>
+
+      <!-- Grid -->
+      <div id="agences-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {agences.map(agence => (
+          <div
+            class="agency-item"
+            data-ville={agence.ville}
+            data-specialites={agence.specialites.join(',')}
+          >
+            <AgencyCard
+              nom={agence.nom}
+              slug={agence.slug}
+              ville={agence.ville}
+              specialites={agence.specialites}
+              noteGlobale={agence.noteGlobale}
+              nombreAvis={agence.avis.length}
+              description={agence.description}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Derniers avis -->
+  <section class="py-12 md:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">Derniers avis publiés</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {derniersAvis.map(avis => (
+          <ReviewCard
+            auteur={avis.auteur}
+            date={avis.date}
+            note={avis.note}
+            texte={avis.texte}
+            agence={avis.agence}
+            agenceSlug={avis.agenceSlug}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Villes -->
+  <section class="py-12 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">Explorer par ville</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        {villes.map(ville => {
+          const count = agences.filter(a => a.ville === ville).length;
+          const villeSlug = ville.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+          return (
+            <a href={`/agences-web/${villeSlug}`}
+               class="bg-white rounded-lg border border-gray-200 hover:border-primary hover:shadow-md p-4 text-center transition-all">
+              <p class="font-semibold text-gray-900">{ville}</p>
+              <p class="text-sm text-gray-500">{count} agence{count > 1 ? 's' : ''}</p>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  const filterVille = document.getElementById('filter-ville') as HTMLSelectElement;
+  const filterSpec = document.getElementById('filter-specialite') as HTMLSelectElement;
+  const items = document.querySelectorAll('.agency-item');
+
+  function applyFilters() {
+    const ville = filterVille.value;
+    const spec = filterSpec.value;
+    items.forEach(item => {
+      const el = item as HTMLElement;
+      const matchVille = !ville || el.dataset.ville === ville;
+      const matchSpec = !spec || (el.dataset.specialites?.split(',') || []).includes(spec);
+      el.style.display = matchVille && matchSpec ? '' : 'none';
+    });
+  }
+
+  filterVille?.addEventListener('change', applyFilters);
+  filterSpec?.addEventListener('change', applyFilters);
+</script>

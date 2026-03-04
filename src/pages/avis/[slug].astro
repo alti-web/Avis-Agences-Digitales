@@ -1,0 +1,189 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StarRating from '../../components/StarRating.astro';
+import ReviewCard from '../../components/ReviewCard.astro';
+import AgencyCard from '../../components/AgencyCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const agences = await getCollection('agences');
+  return agences.map(agence => ({
+    params: { slug: agence.data.slug },
+    props: { agence: agence.data },
+  }));
+}
+
+const { agence } = Astro.props;
+const allAgences = await getCollection('agences');
+const similaires = allAgences
+  .map(a => a.data)
+  .filter(a => a.slug !== agence.slug)
+  .filter(a => a.specialites.some(s => agence.specialites.includes(s)))
+  .sort((a, b) => b.noteGlobale - a.noteGlobale)
+  .slice(0, 3);
+
+const siteUrl = 'https://avis-agences-digitales.fr';
+const pageUrl = `${siteUrl}/avis/${agence.slug}`;
+
+const schemaJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": agence.nom,
+  "url": agence.siteWeb,
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": agence.ville,
+    "addressCountry": "FR"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": agence.noteGlobale.toString(),
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": agence.avis.length.toString()
+  },
+  "review": agence.avis.map(avis => ({
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": avis.auteur
+    },
+    "datePublished": avis.date,
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": avis.note.toString(),
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "reviewBody": avis.texte
+  }))
+};
+
+const breadcrumbs = [
+  { label: 'Accueil', href: '/' },
+  { label: agence.ville, href: `/agences-web/${agence.ville.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}` },
+  { label: agence.nom },
+];
+---
+<BaseLayout
+  title={`Avis ${agence.nom} — Note ${agence.noteGlobale}/5 — Retours clients vérifiés`}
+  description={`Découvrez les avis clients sur ${agence.nom} à ${agence.ville}. Note : ${agence.noteGlobale}/5 basée sur ${agence.avis.length} avis vérifiés. ${agence.specialites.join(', ')}.`}
+  breadcrumbs={breadcrumbs}
+  canonicalUrl={pageUrl}
+>
+  <Fragment slot="default">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaJsonLd)} />
+  </Fragment>
+
+  <!-- Header agence -->
+  <section class="py-8 md:py-12 border-b border-gray-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-start gap-6">
+        <div class="w-20 h-20 bg-primary rounded-xl flex items-center justify-center text-white text-2xl font-bold shrink-0">
+          {agence.nom.charAt(0)}
+        </div>
+        <div class="flex-1">
+          <h1 class="text-2xl md:text-4xl font-extrabold mb-2">Avis {agence.nom}</h1>
+          <div class="flex flex-wrap items-center gap-4 mb-4">
+            <StarRating note={agence.noteGlobale} size="lg" />
+            <span class="text-gray-500">({agence.avis.length} avis)</span>
+          </div>
+          <div class="flex flex-wrap items-center gap-4 text-sm text-gray-600 mb-4">
+            <span class="flex items-center gap-1">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              {agence.ville}
+            </span>
+            <a href={agence.siteWeb} target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primary hover:underline">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+              {agence.siteWeb.replace('https://', '')}
+            </a>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            {agence.specialites.map(spec => (
+              <span class="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full font-medium">{spec}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Description -->
+  <section class="py-8 md:py-12">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-xl md:text-2xl font-bold mb-4">À propos de {agence.nom}</h2>
+      <div class="text-gray-600 leading-relaxed space-y-4">
+        {agence.description.split('\n\n').map(p => <p>{p}</p>)}
+      </div>
+    </div>
+  </section>
+
+  <!-- Avis -->
+  <section class="py-8 md:py-12 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-xl md:text-2xl font-bold mb-6">
+        Avis clients ({agence.avis.length})
+      </h2>
+      <div class="space-y-4">
+        {agence.avis.map(avis => (
+          <ReviewCard
+            auteur={avis.auteur}
+            date={avis.date}
+            note={avis.note}
+            texte={avis.texte}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  {agence.faq.length > 0 && (
+    <section class="py-8 md:py-12">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl md:text-2xl font-bold mb-6">Questions fréquentes sur {agence.nom}</h2>
+        <div class="space-y-4">
+          {agence.faq.map((item, i) => (
+            <details class="bg-white border border-gray-200 rounded-lg group" open={i === 0}>
+              <summary class="px-6 py-4 cursor-pointer font-medium text-gray-900 hover:text-primary transition-colors flex items-center justify-between">
+                {item.question}
+                <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div class="px-6 pb-4 text-gray-600 text-sm leading-relaxed">
+                {item.reponse}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Agences similaires -->
+  {similaires.length > 0 && (
+    <section class="py-8 md:py-12 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl md:text-2xl font-bold mb-6">Agences similaires</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {similaires.map(a => (
+            <AgencyCard
+              nom={a.nom}
+              slug={a.slug}
+              ville={a.ville}
+              specialites={a.specialites}
+              noteGlobale={a.noteGlobale}
+              nombreAvis={a.avis.length}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>
