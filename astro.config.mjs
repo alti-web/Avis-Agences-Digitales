@@ -4,7 +4,8 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://avis-agences-digitales.fr',
+  site: 'https://alti-web.github.io',
+  base: '/Avis-Agences-Digitales',
   trailingSlash: 'never',
   integrations: [sitemap()],
   vite: {
