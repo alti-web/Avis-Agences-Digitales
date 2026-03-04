@@ -3,6 +3,7 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
+import { url } from '../utils/base';
 
 interface Props {
   title: string;
@@ -13,7 +14,7 @@ interface Props {
 }
 
 const { title, description, ogImage, breadcrumbs, canonicalUrl } = Astro.props;
-const siteUrl = 'https://avis-agences-digitales.fr';
+const siteUrl = 'https://alti-web.github.io/Avis-Agences-Digitales';
 const currentUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).href;
 const ogImg = ogImage || `${siteUrl}/images/og-default.jpg`;
 ---
@@ -46,7 +47,7 @@ const ogImg = ogImage || `${siteUrl}/images/og-default.jpg`;
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
 
   {breadcrumbs && breadcrumbs.length > 0 && (
     <script type="application/ld+json" set:html={JSON.stringify({

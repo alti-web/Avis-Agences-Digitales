@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import AgencyCard from '../components/AgencyCard.astro';
 import ReviewCard from '../components/ReviewCard.astro';
 import { getCollection } from 'astro:content';
+import { url } from '../utils/base';
 
 const allAgences = await getCollection('agences');
 const agences = allAgences.map(a => a.data).sort((a, b) => b.noteGlobale - a.noteGlobale);
@@ -30,7 +31,7 @@ const derniersAvis = agences
         <a href="#agences" class="bg-star hover:bg-amber-600 text-gray-900 font-semibold px-8 py-3 rounded-lg transition-colors">
           Voir les agences
         </a>
-        <a href="/methodologie" class="border border-white/30 hover:bg-white/10 px-8 py-3 rounded-lg transition-colors">
+        <a href={url('/methodologie')} class="border border-white/30 hover:bg-white/10 px-8 py-3 rounded-lg transition-colors">
           Notre méthodologie
         </a>
       </div>
@@ -51,7 +52,7 @@ const derniersAvis = agences
           Notre annuaire recense les agences web les plus réputées dans les principales villes de France : Paris, Lyon, Marseille, Bordeaux, Lille, Nantes, Toulouse, Nice, Strasbourg, Rennes et Grenoble. Chaque fiche agence comprend une note globale basée sur les avis clients, une description détaillée des services proposés, ainsi qu'une liste complète des retours d'expérience individuels.
         </p>
         <p>
-          Nous croyons en la transparence et en l'objectivité. Notre <a href="/methodologie" class="text-primary hover:underline font-medium">méthodologie de notation</a> est rigoureuse et impartiale, garantissant que chaque avis publié reflète une expérience réelle. Explorez nos fiches agences, comparez les notes et les spécialités, et trouvez le partenaire digital qui correspond parfaitement à vos besoins et à votre budget.
+          Nous croyons en la transparence et en l'objectivité. Notre <a href={url('/methodologie')} class="text-primary hover:underline font-medium">méthodologie de notation</a> est rigoureuse et impartiale, garantissant que chaque avis publié reflète une expérience réelle. Explorez nos fiches agences, comparez les notes et les spécialités, et trouvez le partenaire digital qui correspond parfaitement à vos besoins et à votre budget.
         </p>
       </div>
     </div>
@@ -131,7 +132,7 @@ const derniersAvis = agences
           const count = agences.filter(a => a.ville === ville).length;
           const villeSlug = ville.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
           return (
-            <a href={`/agences-web/${villeSlug}`}
+            <a href={url(`/agences-web/${villeSlug}`)}
                class="bg-white rounded-lg border border-gray-200 hover:border-primary hover:shadow-md p-4 text-center transition-all">
               <p class="font-semibold text-gray-900">{ville}</p>
               <p class="text-sm text-gray-500">{count} agence{count > 1 ? 's' : ''}</p>

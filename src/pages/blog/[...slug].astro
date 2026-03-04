@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
+import { url } from '../../utils/base';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -14,8 +15,8 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 
 const breadcrumbs = [
-  { label: 'Accueil', href: '/' },
-  { label: 'Blog', href: '/blog' },
+  { label: 'Accueil', href: url('/') },
+  { label: 'Blog', href: url('/blog') },
   { label: post.data.title },
 ];
 ---
@@ -36,7 +37,7 @@ const breadcrumbs = [
         <Content />
       </div>
       <footer class="mt-12 pt-8 border-t border-gray-200">
-        <a href="/blog" class="text-primary font-medium hover:underline">&larr; Retour au blog</a>
+        <a href={url('/blog')} class="text-primary font-medium hover:underline">&larr; Retour au blog</a>
       </footer>
     </div>
   </article>

@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AgencyCard from '../../components/AgencyCard.astro';
 import { getCollection } from 'astro:content';
+import { url } from '../../utils/base';
 
 const villeTextes: Record<string, string> = {
   paris: "Paris, capitale de la France et centre névralgique de l'économie numérique, abrite un écosystème digital parmi les plus dynamiques d'Europe. Les agences web parisiennes se distinguent par leur capacité à combiner créativité et expertise technique pour répondre aux besoins des entreprises de toutes tailles. Que vous soyez une startup du Marais, une PME de La Défense ou une grande entreprise des Champs-Élysées, vous trouverez à Paris des agences capables de porter vos projets web les plus ambitieux. Le marché parisien est particulièrement compétitif, ce qui pousse les agences à maintenir un niveau d'excellence constant. Les spécialités les plus demandées incluent le développement sur mesure, le SEO technique, le webdesign UX/UI et les stratégies de marketing digital multi-canal.",
@@ -32,7 +33,7 @@ const villeSlug = ville.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/
 const texteVille = villeTextes[villeSlug] || '';
 
 const breadcrumbs = [
-  { label: 'Accueil', href: '/' },
+  { label: 'Accueil', href: url('/') },
   { label: `Agences web ${ville}` },
 ];
 ---

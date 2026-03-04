@@ -1,5 +1,6 @@
 ---
 import StarRating from './StarRating.astro';
+import { url } from '../utils/base';
 
 interface Props {
   auteur: string;
@@ -34,7 +35,7 @@ const formattedDate = new Date(date).toLocaleDateString('fr-FR', {
   <p class="text-sm text-gray-600 leading-relaxed">{texte}</p>
   {agence && agenceSlug && (
     <p class="mt-3 text-xs text-gray-500">
-      Avis sur <a href={`/avis/${agenceSlug}`} class="text-primary hover:underline">{agence}</a>
+      Avis sur <a href={url(`/avis/${agenceSlug}`)} class="text-primary hover:underline">{agence}</a>
     </p>
   )}
 </div>

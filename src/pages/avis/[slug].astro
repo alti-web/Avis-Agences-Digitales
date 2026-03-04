@@ -4,6 +4,7 @@ import StarRating from '../../components/StarRating.astro';
 import ReviewCard from '../../components/ReviewCard.astro';
 import AgencyCard from '../../components/AgencyCard.astro';
 import { getCollection } from 'astro:content';
+import { url } from '../../utils/base';
 
 export async function getStaticPaths() {
   const agences = await getCollection('agences');
@@ -22,7 +23,7 @@ const similaires = allAgences
   .sort((a, b) => b.noteGlobale - a.noteGlobale)
   .slice(0, 3);
 
-const siteUrl = 'https://avis-agences-digitales.fr';
+const siteUrl = 'https://alti-web.github.io/Avis-Agences-Digitales';
 const pageUrl = `${siteUrl}/avis/${agence.slug}`;
 
 const schemaJsonLd = {
@@ -60,8 +61,8 @@ const schemaJsonLd = {
 };
 
 const breadcrumbs = [
-  { label: 'Accueil', href: '/' },
-  { label: agence.ville, href: `/agences-web/${agence.ville.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}` },
+  { label: 'Accueil', href: url('/') },
+  { label: agence.ville, href: url(`/agences-web/${agence.ville.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`) },
   { label: agence.nom },
 ];
 ---

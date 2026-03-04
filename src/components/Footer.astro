@@ -1,4 +1,5 @@
 ---
+import { url } from '../utils/base';
 const currentYear = new Date().getFullYear();
 ---
 <footer class="bg-gray-900 text-gray-400 mt-16">
@@ -13,28 +14,28 @@ const currentYear = new Date().getFullYear();
       <div>
         <h4 class="text-white font-semibold mb-4">Navigation</h4>
         <ul class="space-y-2 text-sm">
-          <li><a href="/" class="hover:text-white transition-colors">Accueil</a></li>
-          <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
-          <li><a href="/methodologie" class="hover:text-white transition-colors">Méthodologie</a></li>
-          <li><a href="/a-propos" class="hover:text-white transition-colors">À propos</a></li>
-          <li><a href="/contact" class="hover:text-white transition-colors">Contact</a></li>
+          <li><a href={url('/')} class="hover:text-white transition-colors">Accueil</a></li>
+          <li><a href={url('/blog')} class="hover:text-white transition-colors">Blog</a></li>
+          <li><a href={url('/methodologie')} class="hover:text-white transition-colors">Méthodologie</a></li>
+          <li><a href={url('/a-propos')} class="hover:text-white transition-colors">À propos</a></li>
+          <li><a href={url('/contact')} class="hover:text-white transition-colors">Contact</a></li>
         </ul>
       </div>
       <div>
         <h4 class="text-white font-semibold mb-4">Villes populaires</h4>
         <ul class="space-y-2 text-sm">
-          <li><a href="/agences-web/paris" class="hover:text-white transition-colors">Agences web Paris</a></li>
-          <li><a href="/agences-web/lyon" class="hover:text-white transition-colors">Agences web Lyon</a></li>
-          <li><a href="/agences-web/marseille" class="hover:text-white transition-colors">Agences web Marseille</a></li>
-          <li><a href="/agences-web/bordeaux" class="hover:text-white transition-colors">Agences web Bordeaux</a></li>
-          <li><a href="/agences-web/grenoble" class="hover:text-white transition-colors">Agences web Grenoble</a></li>
+          <li><a href={url('/agences-web/paris')} class="hover:text-white transition-colors">Agences web Paris</a></li>
+          <li><a href={url('/agences-web/lyon')} class="hover:text-white transition-colors">Agences web Lyon</a></li>
+          <li><a href={url('/agences-web/marseille')} class="hover:text-white transition-colors">Agences web Marseille</a></li>
+          <li><a href={url('/agences-web/bordeaux')} class="hover:text-white transition-colors">Agences web Bordeaux</a></li>
+          <li><a href={url('/agences-web/grenoble')} class="hover:text-white transition-colors">Agences web Grenoble</a></li>
         </ul>
       </div>
       <div>
         <h4 class="text-white font-semibold mb-4">Informations</h4>
         <ul class="space-y-2 text-sm">
-          <li><a href="/mentions-legales" class="hover:text-white transition-colors">Mentions légales</a></li>
-          <li><a href="/contact" class="hover:text-white transition-colors">Nous contacter</a></li>
+          <li><a href={url('/mentions-legales')} class="hover:text-white transition-colors">Mentions légales</a></li>
+          <li><a href={url('/contact')} class="hover:text-white transition-colors">Nous contacter</a></li>
         </ul>
       </div>
     </div>

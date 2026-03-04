@@ -1,8 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { url } from '../utils/base';
 
 const breadcrumbs = [
-  { label: 'Accueil', href: '/' },
+  { label: 'Accueil', href: url('/') },
   { label: 'Méthodologie' },
 ];
 ---
@@ -90,7 +91,7 @@ const breadcrumbs = [
           <p class="mb-4">
             Vous avez collaboré avec une agence web et souhaitez partager votre retour d'expérience ? Votre avis est précieux et contribue à aider d'autres entreprises dans leur choix.
           </p>
-          <a href="/contact" class="inline-block bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-2.5 rounded-lg transition-colors text-sm">
+          <a href={url('/contact')} class="inline-block bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-2.5 rounded-lg transition-colors text-sm">
             Soumettre un avis
           </a>
         </div>
