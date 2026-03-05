@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import StarRating from '../../components/StarRating.astro';
 import ReviewCard from '../../components/ReviewCard.astro';
 import AgencyCard from '../../components/AgencyCard.astro';
+import ReviewFormModal from '../../components/ReviewFormModal.astro';
 import { getCollection } from 'astro:content';
 import { url } from '../../utils/base';
 
@@ -23,10 +24,10 @@ const similaires = allAgences
   .sort((a, b) => b.noteGlobale - a.noteGlobale)
   .slice(0, 3);
 
-const siteUrl = 'https://alti-web.github.io/Avis-Agences-Digitales';
+const siteUrl = 'https://avis-agences-digitales.fr';
 const pageUrl = `${siteUrl}/avis/${agence.slug}`;
 
-const schemaJsonLd = {
+const localBusinessSchema: Record<string, unknown> = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": agence.nom,
@@ -60,6 +61,23 @@ const schemaJsonLd = {
   }))
 };
 
+const schemas: Record<string, unknown>[] = [localBusinessSchema];
+
+if (agence.faq.length > 0) {
+  schemas.push({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": agence.faq.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.reponse
+      }
+    }))
+  });
+}
+
 const breadcrumbs = [
   { label: 'Accueil', href: url('/') },
   { label: agence.ville, href: url(`/agences-web/${agence.ville.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`) },
@@ -71,11 +89,8 @@ const breadcrumbs = [
   description={`Découvrez les avis clients sur ${agence.nom} à ${agence.ville}. Note : ${agence.noteGlobale}/5 basée sur ${agence.avis.length} avis vérifiés. ${agence.specialites.join(', ')}.`}
   breadcrumbs={breadcrumbs}
   canonicalUrl={pageUrl}
+  schemas={schemas}
 >
-  <Fragment slot="default">
-    <script type="application/ld+json" set:html={JSON.stringify(schemaJsonLd)} />
-  </Fragment>
-
   <!-- Header agence -->
   <section class="py-8 md:py-12 border-b border-gray-200">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -127,9 +142,17 @@ const breadcrumbs = [
   <!-- Avis -->
   <section class="py-8 md:py-12 bg-gray-50">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-xl md:text-2xl font-bold mb-6">
-        Avis clients ({agence.avis.length})
-      </h2>
+      <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+        <h2 class="text-xl md:text-2xl font-bold">
+          Avis clients ({agence.avis.length})
+        </h2>
+        <button id="open-review-modal" class="bg-primary hover:bg-primary-dark text-white font-semibold px-5 py-2.5 rounded-lg transition-colors text-sm flex items-center gap-2">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+          </svg>
+          Laisser un avis
+        </button>
+      </div>
       <div class="space-y-4">
         {agence.avis.map(avis => (
           <ReviewCard
@@ -187,4 +210,6 @@ const breadcrumbs = [
       </div>
     </section>
   )}
+
+  <ReviewFormModal agenceNom={agence.nom} />
 </BaseLayout>

@@ -14,6 +14,32 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 
+const siteUrl = 'https://avis-agences-digitales.fr';
+const slug = post.id.replace(/\.md$/, '');
+const pageUrl = `${siteUrl}/blog/${slug}`;
+
+const schemas: Record<string, unknown>[] = [{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": post.data.title,
+  "description": post.data.description,
+  "datePublished": post.data.date,
+  "author": {
+    "@type": "Person",
+    "name": post.data.author
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Avis Agences Digitales",
+    "url": siteUrl
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": pageUrl
+  },
+  "inLanguage": "fr-FR"
+}];
+
 const breadcrumbs = [
   { label: 'Accueil', href: url('/') },
   { label: 'Blog', href: url('/blog') },
@@ -24,6 +50,8 @@ const breadcrumbs = [
   title={`${post.data.title} — Avis Agences Digitales`}
   description={post.data.description}
   breadcrumbs={breadcrumbs}
+  canonicalUrl={pageUrl}
+  schemas={schemas}
 >
   <article class="py-8 md:py-12">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">

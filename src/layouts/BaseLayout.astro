@@ -11,12 +11,37 @@ interface Props {
   ogImage?: string;
   breadcrumbs?: { label: string; href?: string }[];
   canonicalUrl?: string;
+  schemas?: Record<string, unknown>[];
 }
 
-const { title, description, ogImage, breadcrumbs, canonicalUrl } = Astro.props;
-const siteUrl = 'https://alti-web.github.io/Avis-Agences-Digitales';
+const { title, description, ogImage, breadcrumbs, canonicalUrl, schemas } = Astro.props;
+const siteUrl = 'https://avis-agences-digitales.fr';
 const currentUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).href;
 const ogImg = ogImage || `${siteUrl}/images/og-default.jpg`;
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Avis Agences Digitales",
+  "url": siteUrl,
+  "description": "Plateforme de référence pour les avis clients vérifiés sur les agences web et SEO en France.",
+  "inLanguage": "fr-FR",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Avis Agences Digitales",
+    "url": siteUrl
+  }
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Avis Agences Digitales",
+  "url": siteUrl,
+  "description": "Plateforme indépendante d'avis clients vérifiés sur les agences web et SEO en France.",
+  "foundingDate": "2024",
+  "sameAs": []
+};
 ---
 <!DOCTYPE html>
 <html lang="fr">
@@ -49,6 +74,11 @@ const ogImg = ogImage || `${siteUrl}/images/og-default.jpg`;
 
   <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
 
+  <!-- Schema.org : WebSite + Organization -->
+  <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+
+  <!-- Schema.org : BreadcrumbList -->
   {breadcrumbs && breadcrumbs.length > 0 && (
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
@@ -61,6 +91,13 @@ const ogImg = ogImage || `${siteUrl}/images/og-default.jpg`;
       }))
     })} />
   )}
+
+  <!-- Schema.org : page-specific -->
+  {schemas && schemas.map(schema => (
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  ))}
+
+  <slot name="head" />
 </head>
 <body class="min-h-screen flex flex-col">
   <Header />

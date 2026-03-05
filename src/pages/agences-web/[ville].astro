@@ -32,6 +32,23 @@ const agencesSorted = agencesVille.sort((a, b) => b.noteGlobale - a.noteGlobale)
 const villeSlug = ville.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 const texteVille = villeTextes[villeSlug] || '';
 
+const siteUrl = 'https://avis-agences-digitales.fr';
+
+const schemas: Record<string, unknown>[] = [{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": `Meilleures agences web à ${ville}`,
+  "description": `Classement des agences web et SEO les mieux notées à ${ville} selon les avis clients vérifiés.`,
+  "itemListOrder": "https://schema.org/ItemListOrderDescending",
+  "numberOfItems": agencesSorted.length,
+  "itemListElement": agencesSorted.map((agence, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": agence.nom,
+    "url": `${siteUrl}/avis/${agence.slug}`
+  }))
+}];
+
 const breadcrumbs = [
   { label: 'Accueil', href: url('/') },
   { label: `Agences web ${ville}` },
@@ -41,6 +58,7 @@ const breadcrumbs = [
   title={`Meilleures agences web à ${ville} — Avis et comparatif`}
   description={`Découvrez les meilleures agences web à ${ville}. Comparez les avis clients, les notes et les spécialités des ${agencesSorted.length} agences référencées.`}
   breadcrumbs={breadcrumbs}
+  schemas={schemas}
 >
   <section class="py-8 md:py-12">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

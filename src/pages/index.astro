@@ -15,10 +15,28 @@ const derniersAvis = agences
   .flatMap(a => a.avis.map(avis => ({ ...avis, agence: a.nom, agenceSlug: a.slug })))
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   .slice(0, 6);
+
+const siteUrl = 'https://avis-agences-digitales.fr';
+
+const schemas = [{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Meilleures agences web en France",
+  "description": "Classement des agences web et SEO les mieux notées en France selon les avis clients vérifiés.",
+  "itemListOrder": "https://schema.org/ItemListOrderDescending",
+  "numberOfItems": agences.length,
+  "itemListElement": agences.map((agence, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": agence.nom,
+    "url": `${siteUrl}/avis/${agence.slug}`
+  }))
+}];
 ---
 <BaseLayout
   title="Avis et comparatif des agences web en France — Avis Agences Digitales"
   description="Consultez les avis clients vérifiés sur les meilleures agences web et SEO en France. Comparez les notes, retours d'expérience et trouvez l'agence idéale pour votre projet."
+  schemas={schemas}
 >
   <!-- Hero -->
   <section class="bg-primary text-white py-16 md:py-24">
