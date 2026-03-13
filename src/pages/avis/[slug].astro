@@ -32,6 +32,8 @@ const localBusinessSchema: Record<string, unknown> = {
   "@type": "LocalBusiness",
   "name": agence.nom,
   "url": agence.siteWeb,
+  "description": agence.description.split('\n\n')[0],
+  "image": `${siteUrl}/images/og-default.jpg`,
   "address": {
     "@type": "PostalAddress",
     "addressLocality": agence.ville,
