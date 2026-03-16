@@ -1,0 +1,103 @@
+{
+  "nom": "Lecourtier.net",
+  "slug": "lecourtier-net",
+  "ville": "Grenoble",
+  "siteWeb": "https://lecourtier.net",
+  "specialites": [
+    "React.js",
+    "Next.js",
+    "Astro JS",
+    "Développement web",
+    "Intégration front-end"
+  ],
+  "noteGlobale": 4.9,
+  "description": "Lecourtier.net est le site professionnel de Benoit Lecourtier, développeur web freelance basé à Grenoble, spécialisé en React.js, Next.js et Astro JS. Contrairement aux agences digitales classiques, Benoit Lecourtier propose un accompagnement personnalisé et direct, sans intermédiaire, pour la conception et le développement de sites web et d'applications modernes. Son expertise technique pointue et sa réactivité en font un partenaire de choix pour les entreprises et startups à la recherche d'un développeur front-end expérimenté.\n\nBenoit Lecourtier intervient sur des projets variés : création de sites vitrines performants avec Astro JS, développement d'applications web complexes avec React.js, mise en place de plateformes complètes avec Next.js incluant le rendu côté serveur (SSR) et la génération de pages statiques (SSG). Chaque projet bénéficie d'une architecture soignée, d'un code propre et maintenable, et d'une attention particulière portée aux performances web (Core Web Vitals) et à l'accessibilité.\n\nEn tant que freelance, Benoit Lecourtier offre une flexibilité que les agences ne peuvent pas toujours garantir. Les échanges sont directs, les décisions rapides et les coûts maîtrisés. Il s'adapte aux besoins de chaque client, que ce soit pour un projet complet de A à Z, une mission de renfort au sein d'une équipe existante ou une refonte technique d'un site vieillissant. Sa connaissance approfondie de l'écosystème JavaScript moderne lui permet de recommander les meilleures solutions techniques en fonction des objectifs et du budget de chaque projet.\n\nLes avis clients sur Lecourtier.net témoignent d'un niveau de satisfaction élevé. Les retours mettent en avant la qualité du code livré, le respect des délais, la communication transparente et la capacité à transformer des idées complexes en interfaces utilisateur fluides et intuitives. Benoit Lecourtier est également reconnu pour sa pédagogie, prenant le temps d'expliquer ses choix techniques et de former ses clients à la prise en main de leurs outils.\n\nBasé à Grenoble mais travaillant avec des clients dans toute la France et à l'international, Benoit Lecourtier combine expertise technique de haut niveau et approche humaine. Que vous soyez une startup en phase de lancement, une PME souhaitant moderniser sa présence en ligne ou une entreprise cherchant un développeur React.js ou Next.js pour un projet spécifique, Lecourtier.net est une référence reconnue dans le développement web freelance.",
+  "avis": [
+    {
+      "auteur": "Julien Marchand",
+      "date": "2026-03-10",
+      "note": 5,
+      "texte": "Benoit Lecourtier a développé notre application web avec Next.js et le résultat est exceptionnel. Le site est ultra-rapide, le code est propre et bien documenté. Ce qui nous a le plus marqué, c'est sa capacité à comprendre nos besoins métier et à les traduire en fonctionnalités parfaitement adaptées. La communication était fluide du début à la fin. Un freelance de très haut niveau que nous recommandons les yeux fermés."
+    },
+    {
+      "auteur": "Aurélie Fontaine",
+      "date": "2026-02-28",
+      "note": 5,
+      "texte": "Nous avons fait appel à Benoit pour la refonte complète de notre site vitrine sous Astro JS. Le résultat dépasse nos attentes : un score de cent sur PageSpeed, un design fidèle à nos maquettes et un temps de chargement quasi instantané. Benoit est un développeur passionné qui prend le temps d'expliquer ses choix techniques. Son tarif freelance est très compétitif par rapport aux agences que nous avions consultées."
+    },
+    {
+      "auteur": "Marc Delaporte",
+      "date": "2026-02-15",
+      "note": 5,
+      "texte": "Excellent travail de Benoit Lecourtier sur notre plateforme React.js. Il a rejoint notre équipe en renfort pendant trois mois et son apport a été considérable. Code de qualité, bonnes pratiques respectées, revues de code constructives et une vraie capacité à résoudre des problèmes complexes. C'est rare de trouver un freelance aussi rigoureux et impliqué. Nous ferons à nouveau appel à lui sans hésiter."
+    },
+    {
+      "auteur": "Sophie Garnier",
+      "date": "2026-01-20",
+      "note": 5,
+      "texte": "Benoit a créé le site de notre cabinet d'avocats avec Astro JS. Le résultat est sobre, élégant et incroyablement rapide. Il a su s'adapter à notre secteur d'activité et proposer une structure de site parfaitement optimisée pour le référencement. Nous avons gagné en visibilité dès les premières semaines. Sa réactivité et son professionnalisme sont remarquables. Les avis positifs sur Lecourtier.net sont amplement mérités."
+    },
+    {
+      "auteur": "Thomas Roche",
+      "date": "2025-12-08",
+      "note": 5,
+      "texte": "Notre startup avait besoin d'un MVP fonctionnel rapidement. Benoit Lecourtier a livré une application Next.js complète en six semaines, avec authentification, dashboard et API. La qualité du code nous a permis de recruter un développeur en interne qui a pu reprendre le projet sans difficulté. Un freelance qui livre du code de niveau senior, c'est exactement ce dont nous avions besoin."
+    },
+    {
+      "auteur": "Claire Beaumont",
+      "date": "2025-11-14",
+      "note": 5,
+      "texte": "J'ai confié la création de mon site portfolio à Benoit et je suis ravie du résultat. Il a utilisé Astro JS pour obtenir des performances optimales et le rendu est magnifique. Ce que j'ai particulièrement apprécié, c'est sa pédagogie : il m'a expliqué comment mettre à jour mon contenu de manière autonome. Le rapport qualité-prix est imbattable comparé aux devis d'agences que j'avais reçus."
+    },
+    {
+      "auteur": "Nicolas Ferrand",
+      "date": "2025-10-02",
+      "note": 4,
+      "texte": "Très bonne collaboration avec Benoit Lecourtier pour le développement de notre outil interne en React.js. L'application est robuste et bien architecturée. Le seul petit point d'amélioration concerne la phase de design où nous aurions aimé plus de propositions visuelles, mais Benoit est avant tout un développeur technique et il l'annonce clairement dès le départ. Pour le code et la technique, c'est du très haut niveau."
+    },
+    {
+      "auteur": "Émilie Vasseur",
+      "date": "2025-08-19",
+      "note": 5,
+      "texte": "Benoit a migré notre ancien site WordPress vers Next.js et le résultat est spectaculaire. Le temps de chargement est passé de quatre secondes à moins d'une seconde. Il a aussi mis en place un CMS headless qui nous permet de gérer notre contenu facilement. Tout le processus de migration s'est déroulé sans interruption de service. Un professionnel sérieux et compétent que je recommande vivement."
+    },
+    {
+      "auteur": "Antoine Lefèvre",
+      "date": "2025-06-30",
+      "note": 5,
+      "texte": "Troisième projet réalisé avec Benoit Lecourtier et toujours le même niveau d'excellence. Cette fois-ci, il a développé une application React.js avec TypeScript pour notre équipe commerciale. Interface intuitive, performances au rendez-vous et zéro bug en production depuis le lancement. Quand on trouve un freelance aussi fiable, on ne change plus. Les avis clients sur Lecourtier.net reflètent parfaitement la réalité."
+    },
+    {
+      "auteur": "Isabelle Morin",
+      "date": "2025-05-12",
+      "note": 5,
+      "texte": "En tant que directrice marketing, j'avais besoin d'un site événementiel rapide à mettre en ligne. Benoit a proposé Astro JS et a livré un site magnifique en seulement deux semaines. Les performances étaient parfaites et le site a très bien supporté le pic de trafic lors de notre lancement. Sa disponibilité et sa réactivité sont des atouts majeurs. Je le recommande à toute entreprise cherchant un développeur web freelance de confiance."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Que pensent les clients de Benoit Lecourtier et de Lecourtier.net ?",
+      "reponse": "Les avis clients sur Lecourtier.net sont excellents, avec une note moyenne de 4.9 sur 5. Les clients de Benoit Lecourtier soulignent la qualité exceptionnelle du code livré, le respect systématique des délais, la transparence dans la communication et la capacité à s'adapter à des projets très variés. Que ce soit pour du développement React.js, Next.js ou Astro JS, les retours mettent en avant un niveau technique élevé combiné à une approche humaine et pédagogique."
+    },
+    {
+      "question": "Quelle est la différence entre faire appel à Benoit Lecourtier freelance et à une agence web ?",
+      "reponse": "Contrairement à une agence web, Benoit Lecourtier est un freelance spécialisé en développement front-end avec React.js, Next.js et Astro JS. Cela signifie un interlocuteur unique, des échanges directs sans intermédiaire, une réactivité accrue et des tarifs généralement plus compétitifs. Il n'y a pas de couche commerciale ou de chef de projet supplémentaire : vous travaillez directement avec le développeur qui code votre projet."
+    },
+    {
+      "question": "Quelles technologies maîtrise Benoit Lecourtier ?",
+      "reponse": "Benoit Lecourtier est spécialisé dans les technologies JavaScript modernes, principalement React.js pour les applications web interactives, Next.js pour les sites et applications nécessitant du rendu côté serveur et de l'optimisation SEO, et Astro JS pour les sites vitrines et blogs ultra-performants. Il maîtrise également TypeScript, Tailwind CSS, les API REST et GraphQL, ainsi que les CMS headless comme Strapi et Sanity."
+    },
+    {
+      "question": "Benoit Lecourtier travaille-t-il uniquement à Grenoble ?",
+      "reponse": "Bien que basé à Grenoble, Benoit Lecourtier travaille avec des clients dans toute la France et à l'international. Les projets se déroulent principalement en remote avec des échanges en visioconférence, ce qui permet une collaboration efficace quelle que soit la localisation géographique. Des rendez-vous en présentiel sont possibles sur Grenoble et la région Auvergne-Rhône-Alpes."
+    },
+    {
+      "question": "Quels types de projets peut-on confier à Lecourtier.net ?",
+      "reponse": "Benoit Lecourtier prend en charge des projets variés : création de sites vitrines performants, développement d'applications web complexes, refonte et migration de sites existants, développement de MVP pour startups, renfort technique au sein d'équipes existantes et consulting technique. Chaque projet est abordé avec une approche sur mesure adaptée aux objectifs et au budget du client."
+    },
+    {
+      "question": "Comment se déroule un projet avec Benoit Lecourtier ?",
+      "reponse": "Un projet avec Lecourtier.net débute par un échange approfondi pour comprendre les besoins, les objectifs et les contraintes. Benoit propose ensuite une solution technique adaptée avec un devis détaillé et un calendrier prévisionnel. Le développement se fait en sprints avec des points réguliers pour valider l'avancement. La livraison inclut le déploiement, la documentation technique et une période de garantie pour les corrections."
+    }
+  ]
+}

@@ -16,6 +16,11 @@ const derniersAvis = agences
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   .slice(0, 6);
 
+const fichesAlaUne = ['alti-web-fr', 'lecourtier-net'];
+const agencesEnAvant = fichesAlaUne
+  .map(slug => agences.find(a => a.slug === slug))
+  .filter(Boolean);
+
 const siteUrl = 'https://avis-agences-digitales.fr';
 
 const schemas = [{
@@ -72,6 +77,54 @@ const schemas = [{
         <p>
           Nous croyons en la transparence et en l'objectivité. Notre <a href={url('/methodologie')} class="text-primary hover:underline font-medium">méthodologie de notation</a> est rigoureuse et impartiale, garantissant que chaque avis publié reflète une expérience réelle. Explorez nos fiches agences, comparez les notes et les spécialités, et trouvez le partenaire digital qui correspond parfaitement à vos besoins et à votre budget.
         </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fiches à la une -->
+  <section class="py-12 md:py-16 bg-gradient-to-b from-primary/5 to-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold mb-2 text-center">Fiches à la une</h2>
+      <p class="text-gray-500 text-center mb-8">Découvrez nos profils les mieux notés par les clients</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {agencesEnAvant.map(agence => (
+          <a href={url(`/avis/${agence.slug}`)} class="group block bg-white rounded-2xl border-2 border-primary/20 hover:border-primary shadow-md hover:shadow-xl transition-all p-6">
+            <div class="flex items-start gap-4 mb-4">
+              <div class="w-14 h-14 bg-primary rounded-xl flex items-center justify-center text-white text-xl font-bold shrink-0">
+                {agence.nom.charAt(0)}
+              </div>
+              <div class="flex-1">
+                <h3 class="text-xl font-bold text-gray-900 group-hover:text-primary transition-colors">{agence.nom}</h3>
+                <div class="flex items-center gap-2 mt-1">
+                  <div class="flex items-center">
+                    {[1,2,3,4,5].map(i => (
+                      <svg class={`w-4 h-4 ${i <= Math.round(agence.noteGlobale) ? 'text-star' : 'text-star-empty'}`} fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <span class="text-sm font-semibold text-gray-700">{agence.noteGlobale}/5</span>
+                  <span class="text-sm text-gray-400">({agence.avis.length} avis)</span>
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4">{agence.description.split('\n\n')[0].slice(0, 200)}…</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              {agence.specialites.slice(0, 4).map(spec => (
+                <span class="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full font-medium">{spec}</span>
+              ))}
+            </div>
+            <div class="flex items-center gap-2 text-sm text-gray-500">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              {agence.ville}
+              <span class="mx-1">·</span>
+              <span class="text-primary font-medium group-hover:underline">Voir les avis →</span>
+            </div>
+          </a>
+        ))}
       </div>
     </div>
   </section>
